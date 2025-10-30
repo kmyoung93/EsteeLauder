@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.common-frame{
+    margin: auto auto;
+    margin-top: 6rem;
+    max-width: 1720px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+ol{
+    list-style: none;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    color: #818181;
+}
+ol li{
+    position: relative;
+}
+ol li::after{
+    /* 화살표 */
+    content: "";
+    position: absolute;
+    top: 25%;
+    right: -100%;
+    background: url("../img/lucide_chevron-right.svg") no-repeat center / contain;
+    width: 24px;
+    height: 24px;    
+}
+ol li:last-child::after{
+    /* 마지막 li에는 화살표 표시X */
+    content: none;
+}
+ol li.act{
+    color: #000;
+}
+ol li span{
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    
+}
+ol li strong{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.sign-form{
+    margin: 0 auto;
+    width: 850px;
+    margin-top: 3rem;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 3rem;
+    border: none;
+}
+.sign-form h3{
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.25rem;
+}
+.form-grop{
+    display: flex;
+    gap: 1rem;
+    text-align: left;
+}
+form{
+    /* text-align: right; */
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.text{
+    font-size: 1rem;
+    font-weight: 700;
+    width: 270px;
+}
+input[type="text"], input[type="password"]{
+    width: 200px;
+    height: 1.5rem;
+}
+.user-phon input[type="text"], .birth input[type="text"]{
+    width: 4rem;
+    height: 1.5rem;
+}
+
+.radio-form{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+.form-grop .grop-hor{
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grop-ver{
+    gap: 1rem;
+    display: flex;
+    flex-direction:column;
+}
+.form-grop .password{
+    gap: 0.5rem;
+}
+.form-grop .password p{
+    font-size: 0.8rem;
+    color: #818181;
+}
+.form-grop .grop-ver .grop-hor .address-box,
+.form-grop .grop-ver .address-box{
+    width: 400px
+}
+.btn-check {
+    background-color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 125px;
+    color: #fff;
+    cursor: pointer;
+}
+#user-mon, #user-day{
+    width: 30px;
+    margin-left: 1rem;
+}
+.email-selext{
+    font-size: 1rem;
+    height: 1.5rem;
+}
+.next-step a{
+    width: 425px;
+    height: 57px;
+    background-color: #000;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  5rem auto 6rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
