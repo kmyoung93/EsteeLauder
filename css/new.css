@@ -1,0 +1,72 @@
+html{
+    font-size: var(--basic-size-pc);
+}
+
+.common-frame{
+    margin: 3rem 5rem 12rem 5rem;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 3rem;
+}
+
+.product a{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%; 
+}
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.product .title{
+    margin-top: 1rem;
+}
+
+.product-img{
+    width: 100%;
+    aspect-ratio: 560/645;
+}
+
+.product-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-color{display: flex; gap: 0.75rem;}
+
+.product-color span{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #8E1117;
+    border-radius: 20px;
+}
+
+.title section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-like-heart{
+    height: 1.2rem;
+}
+
+.ename{
+    margin-bottom: .5rem;
+
+}
+
+.price{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+

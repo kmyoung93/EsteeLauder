@@ -1,0 +1,108 @@
+:root{
+    /* basic size 1rem */
+    --basic-font-pc:20px;
+    --basic-font-tab:18px;
+    --basic-font-mobile:14px;
+
+    /* color variation */
+    --bakee-brown-main-100:#FDE1C5;
+    --bakee-brown-main-200:#F9C898; 
+    --bakee-brown-main-300:#F2B170; 
+    --bakee-brown-main-400:#E99D50; 
+    --bakee-brown-main-500:#DD8B38; 
+    --bakee-brown-main-600:#CD7A27; 
+    --bakee-brown-main-700:#B8691B;        
+    --bakee-brown-main-800:#A05913;
+    --bakee-brown-main-900:#874A0E;  
+
+    --font-strong:700;
+    --font-normal:400;
+
+    /* line-height */
+    --text-line-height:140%;
+    --base-line-height:120%;
+
+    /* spacing */
+    --space-normal:1rem;
+    --space-x-small:0.5rem;
+    --space-2x-small:0.25rem;
+    --space-x-large:2rem;
+    --space-2x-large:3rem;
+    --space-3x-large:12rem;
+
+    /* semantic color */
+    --color-inactive:#777;
+}
+html{
+    font-family: 'Pretendard', sans-serif;
+    line-height: var(--base-line-height);
+}
+
+h1{
+    font-size: 1.6rem;
+    font-weight: var(--font-strong);
+}
+h2{
+    font-size: 1.4rem;
+    font-weight: var(--font-strong);
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: var(--font-strong);
+}
+h4{
+    font-size: 1rem;
+    font-weight: var(--font-strong);
+}
+p{
+    font-size: 1rem;
+    line-height: var(--text-line-height);
+}
+.b2{
+    font-size: 0.9rem;
+}
+.detail{
+    font-size: 0.8rem;
+}
+
+.pf{font-family: "Playfair Display", serif;}
+
+.common_frame{
+    margin: 0 5rem;
+}
+
+.slider-container {
+  overflow-x: auto;
+  /* 슬라이드처럼 멈춤 */
+  /* scroll-snap-type: x mandatory;  */
+  -webkit-overflow-scrolling: touch; /* iOS 부드러운 스크롤 */
+  white-space: nowrap;
+  display: flex;
+  width: 62%;
+  scrollbar-width: none;
+ -ms-overflow-style: none;
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-track{
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    gap: 8px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.slider-track::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-track span {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
