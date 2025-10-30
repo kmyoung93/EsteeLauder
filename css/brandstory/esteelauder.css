@@ -1,0 +1,227 @@
+/* ==================== 기본 스타일 ==================== */
+html{
+    font-size: var(--basic-font-pc);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ==================== 공통 프레임 ==================== */
+.common-frame {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.dtu{
+    transform:translateY(60px);
+    transition:all 1.3s ease 0s;
+    opacity: 0;
+}
+.dtu.on{
+    transform:translateY(0px);
+    opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    html{
+        font-size:var(--basic-font-tab);
+    }
+    .common-frame {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size:var(--basic-font-mobile);
+    }
+    .common-frame {
+        padding: 0 20px;
+    }
+}
+
+/* ==================== 메인 타이틀 ==================== */
+.main-title {
+    text-align: center;
+    padding: 16rem 0;
+    margin-bottom: var(--space-2x-large);
+    background: url("../../resource/barndstory/eye.jpg") no-repeat 50% 50% / cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.main-title h1 {
+    font-size: 3rem;
+    margin-bottom: var(--space-x-large);
+    color: var(--color-text-primary);
+}
+
+.main-title p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+.main-title {
+    /* padding: var(--space-2x-large) 0 var(--space-x-large); */
+    margin-bottom: var(--space-x-large);
+}
+    
+    .main-title h1 {
+        font-size: 2rem;
+    }
+}
+
+/* ==================== 인트로 섹션 ==================== */
+.bs-intro {
+    padding: var(--space-2x-large) 0;
+    margin-bottom: var(--space-2x-large);
+}
+
+.bs-intro .common-frame {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.bs-intro section {
+    flex: 1;
+}
+.bs-intro .intro-txt p{
+    margin-bottom: var(--space-normal);
+}
+
+@media (max-width: 768px) {
+    .bs-intro {
+        padding: var(--space-x-large) 0;
+        margin-bottom: var(--space-x-large);
+    }
+    
+    .bs-intro .common-frame {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+/* ==================== 타이틀 섹션 ==================== */
+.title {
+    padding: var(--space-2x-large) 0;
+    margin-bottom: var(--space-2x-large);
+}
+
+.title .common-frame {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.title section {
+    flex: 1;
+}
+
+.title figure {
+    flex: 1;
+    margin: 0;
+}
+
+.title figure img {
+    width: 100%;
+    border-radius: var(--space-2x-small);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 역방향 레이아웃 */
+.title.opp .common-frame {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .title {
+        padding: var(--space-x-large) 0;
+        margin-bottom: var(--space-x-large);
+    }
+    
+    .title .common-frame,
+    .title.opp .common-frame {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+/* ==================== 타이포그래피 ==================== */
+.subheading {
+    font-size: 0.85rem;
+    color: var(--color-text-tertiary);
+    /* margin-bottom: var(--space-normal); */
+    letter-spacing: 0.05rem;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: var(--space-x-large);
+    line-height: 1.4;
+    color: var(--color-text-primary);
+}
+
+h3 {
+    font-size: 2.5rem;
+    margin-bottom: var(--space-x-large);
+    color: var(--color-text-primary);
+}
+
+.bs-intro-txt p,
+.title-txt p {
+    font-size: 0.9rem;
+    line-height: 1.9;
+    margin-bottom: var(--space-normal);
+    color: var(--color-text-secondary);
+}
+
+.bs-intro-txt p:last-child,
+.title-txt p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .title h2 {
+        font-size: 1.4rem;
+        margin-bottom: var(--space-x-large);
+    }
+    
+    h3 {
+        font-size: 1.8rem;
+    }
+    
+    .subheading {
+        font-size: 0.8rem;
+    }
+}
+
+/* ==================== 마지막 섹션 ==================== */
+
+@media (max-width: 768px) {
+    .last {
+        padding: var(--space-2x-large) 0;
+        margin-bottom: var(--space-x-large);
+    }
+}

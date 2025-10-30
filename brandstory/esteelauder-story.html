@@ -22,25 +22,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Libertinus+Serif+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/font.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/system.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/new.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/system.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/brandstory/esteelauder.css">
+
+    <script src="../js/brandstory/observer.js"></script>
 </head>
 <body>
     <header>
         <div class="header-wrap">
             <!-- 로고 -->
             <div class="logo">
-                <a href="./index.html"><img src="./resource/logo.svg" alt="Estee Lauder - 메인메뉴로 바로가기"></a>
+                <a href="../index.html"><img src="../resource/logo.svg" alt="Estee Lauder - 메인메뉴로 바로가기"></a>
             </div>
 
             <!-- GNB (메인 메뉴) -->
             <nav>
                 <ul class="gnb">
-                    <li><a href="./new.html">신제품</a></li>
+                    <li><a href="../new.html">신제품</a></li>
                     <li><a href="#">베스트셀러</a></li>
                     
                     <!-- 스킨케어 -->
@@ -49,7 +51,7 @@
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
-                                    <img src="./resource/header/skin_care_menu.png" alt="스킨케어 제품">
+                                    <img src="../resource/header/skin_care_menu.png" alt="스킨케어 제품">
                                 </div>
                                 <div class="menu-area">
                                     <ul class="menu-column">
@@ -71,7 +73,7 @@
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
-                                    <img src="./resource/header/make_up_menu.png" alt="메이크업 제품">
+                                    <img src="../resource/header/make_up_menu.png" alt="메이크업 제품">
                                 </div>
                                 <div class="menu-area">
                                     <ul class="menu-column">
@@ -120,7 +122,7 @@
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
-                                    <img src="./resource/header/perfume_menu.png" alt="향수 제품">
+                                    <img src="../resource/header/perfume_menu.png" alt="향수 제품">
                                 </div>
                                 <div class="menu-area">
                                     <ul class="menu-column">
@@ -155,7 +157,7 @@
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
-                                    <img src="./" alt="브랜드스토리">
+                                    <img src="../resource/header/brandstory_menu.png" alt="브랜드스토리">
                                 </div>
                                 <div class="menu-area">
                                     <ul class="menu-column">
@@ -181,7 +183,7 @@
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
-                                    <img src="./resource/header/my_page_menu.png" alt="마이페이지">
+                                    <img src="../resource/header/my_page_menu.png" alt="마이페이지">
                                 </div>
                                 <div class="menu-area">
                                     <ul class="menu-column">
@@ -207,42 +209,110 @@
     </header>
     
     <main>
-        <h1>
-            ESTEE LAUDER STORY
-        </h1>
-        <div class="birth">
-            <section>
-                <h3>아름다움은 타고나는 것이 아니라 만들어지는 것</h3>
-                <h2>아름다움의 탄생</h2>
-            </section>
-            <section>
-                <p>에스티 로더의 이야기는 한 여성의 신념에서 시작되었습니다.</p>
-                <p>아름다움은 타고나는 것이 아니라, 누구나 가꿀 수 있는 가능성이라는 믿음.</p>
-                <p>젊은 시절, 화학자였던 삼촌의 연구실에서 향과 질감의 섬세한 세계를 배운 에스티 로더는 자신만의 방식으로 ‘아름다움’을 정의하기 시작했습니다.</p>
-                <p>1946년, 그녀는 단 네 가지 스킨케어 제품으로 브랜드의 첫걸음을 내딛었습니다.</p>
-                <p>그녀에게 아름다움이란 단순한 외모의 문제가 아니라, 자신을 표현하는 가장 진실된 언어였습니다.</p>
-            </section>
+       <div class="main-title">
+            <h1 class="pf">Beauty is an Attitude.</h1>
+            <p>에스티 로더의 아름다움은 완성된 형태가 아닙니다.<br>
+            그것은 자신을 믿는 용기, 그리고 매일 조금 더 빛나는 자신으로 향하는 여정입니다.<br>
+            그 여정의 이름이 바로, Estée Lauder입니다.
+            </p>
+        </div>  
+        <!-- 아름다움의 탄생 구간 -->
+        <div class="bs-intro dtu">
+            <div class="common-frame">
+                <section>
+                    <p class="subheading">아름다움은 타고나는 것이 아니라 만들어지는 것</p>
+                    <h2>아름다움의 탄생</h2>
+                </section>
+                <section class="intro-txt">
+                    <p>에스티 로더의 이야기는 한 여성의 신념에서 시작되었습니다.</p>
+                    <p>아름다움은 타고나는 것이 아니라, 누구나 가꿀 수 있는 가능성이라는 믿음.</p>
+                    <p>젊은 시절, 화학자였던 삼촌의 연구실에서 향과 질감의  섬세한 세계를 배운 에스티 로더는 자신만의 방식으로 ‘아름다움’을 정의하기 시작했습니다.</p>
+                    <p>1946년, 그녀는 단 네 가지 스킨케어 제품으로 브랜드의 첫걸음을 내딛었습니다.</p>
+                    <p>그녀에게 아름다움이란 단순한 외모의 문제가 아니라, 자신을 표현하는 가장 진실된 언어였습니다.</p>
+                </section>
+            </div>
         </div>
-        <div class="how-to">
-
+         <!-- 아름다워질 수 있는 방법 구간 -->
+        <div class="title dtu">
+            <div class="common-frame">
+                <section class="a">
+                    <p class="subheading">아름다움은 타고나는 것이 아니라 만들어지는 것</p>
+                    <h2>아름다워질 수 있는 방법</h2>
+                    <div class="title-txt">
+                        <p>에스티 로더는 모든 여성이 아름다워질 수 있다고 믿었습니다.</p>
+                        <p>그 믿음은 단순한 말이 아니라, 고객이 직접 체험할 수 있는 경험으로 이어졌습니다.</p>
+                        <p>그녀는 제품을 손수 발라주며 아름다움의 변화를 보여주는 ‘Touch and Talk’ 방식을 고안했고, 세상에 없던 ‘샘플 증정’ 문화를 만들어냈습니다.</p>
+                        <p>에스티 로더의 제품은 품질과 감각, 그리고 자신감으로 이어지는 과학이자 예술이었습니다.</p>
+                        <p>그녀의 철학은 지금도 이어져, 에스티 로더는 ‘모든 사람에게 자신만의 아름다움을 발견할 수 있는 방법’을 제안합니다.</p>
+                    </div>
+                </section>
+                <figure class="b">
+                    <img src="../resource/barndstory/makeup.jpg" alt="에스티로더여사가 손님을 화장해주고 있는 모습">
+                </figure>
+            </div>
         </div>
-        <div class="start">
-
+         <!-- 아름다움의 시작 구간 -->
+        <div class="title opp dtu">
+            <div class="common-frame">
+                <section>
+                    <p class="subheading">진정한 변화는 스스로의 선택에서 시작된다</p>
+                    <h2>아름다움의 시작</h2>
+                     <div class="title-txt">
+                        <p>1948년, 뉴욕의 Saks Fifth Avenue에 입점하며 에스티 로더는 세상과 첫 인사를 나눴습니다.</p>
+                        <p>그리고 1953년, 하나의 향이 전 세계 여성의 일상을 바꿨습니다.</p>
+                        <p>‘Youth-Dew’  향수이자 바디오일로 사용 가능한 혁신적인 제품은 여성들에게 스스로를 위해 향수를 구매하는 새로운 문화를 열었습니다.</p>
+                        <p>그 순간, ‘아름다움의 시작’은 개인의 선택에서 비롯된다는 에스티 로더의 철학이 세상에 뿌리내렸습니다.</p>   
+                    </div>
+                </section>
+                <figure>
+                    <img src="../resource/barndstory/burial.jpg" alt="에스티로더 매장 앞에서 사람들이 줄서 있는 모습">
+                </figure>
+            </div>
         </div>
-        <div class="mrs-estee">
-
+         <!-- 멈추지 않는 도약 구간 -->
+        <div class="title dtu">
+            <div class="common-frame">
+                <section>
+                    <p class="subheading">멈추지 않는 열정이 브랜드를 완성한다</p>
+                    <h2>멈추지 않는 도약</h2>
+                        <section class="title-txt">
+                            <p>클리니크, 라 메르, 맥, 조 말론 등 수많은 브랜드를 통해 다양한 아름다움을 선보이며, 그녀의 이름은 이제 전 세계 150여 개국에서 빛나고 있습니다.</p>
+                            <p>끊임없는 연구와 혁신, 그리고 지속 가능한 아름다움을 향한 노력은 에스티 로더를 단순한 화장품 브랜드가 아닌, ‘아름다움의 역사’ 그 자체로 만들었습니다.</p>
+                            <p>그녀의 브랜드는 언제나 새로운 도전을 멈추지 않습니다.</p>
+                            <p>시간이 흘러도 에스티 로더의 여정은 멈추지 않았습니다.</p>
+                        </section>
+                </section>                
+                <figure>
+                    <img src="../resource/barndstory/magazine.jpg" alt="에스티로더 잡지 모습">
+                </figure>
+            </div>
         </div>
-        <div class="attitude">
-
-        </div>
+         <!-- 영원히 전설로 남을 에스티 로더 여사 구간 -->
+        <div class="title opp dtu">
+            <div class="common-frame">
+                <section>
+                    <p class="subheading">시간이 흘러도, 철학은 여전히 살아 있다</p>
+                    <h2>영원히 전설로 남을 에스티 로더 여사</h2>
+                        <section class="title-txt">
+                            <p>그녀의 신념 “모든 여성은 아름다워질 수 있다.”는 지금도 브랜드의 중심에 살아 숨 쉽니다.</p>
+                            <p>고객과 직접 대화하고, 손끝으로 전한 진심은 시대를 넘어 ‘전설’이 되었습니다.</p>
+                            <p>그녀는 타임지가 선정한 20세기 가장 영향력 있는 비즈니스 리더 중 한 명으로 남았고,그 정신은 오늘날에도 에스티 로더의 모든 제품과 철학 속에 이어지고 있습니다.</p>
+                            <p>에스티 로더 여사는 한 시대의 상징이자, 아름다움의 언어를 새롭게 정의한 인물이었습니다.</p>
+                        </section>
+                </section>
+                <figure>
+                    <img src="../resource/barndstory/Mrs. Estee Lauder.jpg" alt="에스티로더 여사의 모습">
+                </figure>
+            </div>
+        </div> 
     </main>
 
     <footer>
         <div class="footer-common-frame">
             <div class="footer-top">
                 <div class="footer-logo">
-                    <a href="./index.html">
-                        <img src="./resource/logo.svg" alt="Estee lauder - 메인페이지로 바로가기">
+                    <a href="../index.html">
+                        <img src="../resource/logo.svg" alt="Estee lauder - 메인페이지로 바로가기">
                     </a>
                     <p>이엘씨에이한국(유) 대표 Jean-Alexandre Havard, 서울시 강남구 강남대로 382(역삼동) 메리츠 타워 9층, 06232. 사업자등록번호: 211-81-71889</p>
                     <p>고객관리지원팀 1644-3728 | 호스팅서비스 사업자: ㈜엘지유플러스 | 통신판매업신고: 강남 15737호</p>
