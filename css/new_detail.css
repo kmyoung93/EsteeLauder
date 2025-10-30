@@ -1,0 +1,42 @@
+.review_wrap{
+    display: none;
+}
+
+.product_detail{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+}
+
+.detail_desc{
+    margin-right: 5rem;
+}
+
+.product_title{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+
+.color span{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.slider-track{
+    margin-bottom: .5rem;
+}
+
+#option{
+    width: 100%;
+}
