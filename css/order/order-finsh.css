@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.common-frame{
+    margin: auto auto;
+    margin-top: 6rem;
+    max-width: 1720px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+ol{
+    list-style: none;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    color: #818181;
+}
+ol li{
+    position: relative;
+}
+ol li::after{
+    /* 화살표 */
+    content: "";
+    position: absolute;
+    top: 25%;
+    right: -100%;
+    background: url("../img/lucide_chevron-right.svg") no-repeat center / contain;
+    width: 24px;
+    height: 24px;    
+}
+ol li:last-child::after{
+    /* 마지막 li에는 화살표 표시X */
+    content: none;
+}
+ol li.act{
+    color: #000;
+}
+ol li span{
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    
+}
+ol li strong{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+h2{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    text-align: center  ;
+}
+.oreder-list{
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+.product{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.product .product-details{
+    text-align: left;
+}
+.product .product-details .product-name{
+    padding-bottom: 1rem;
+}
+.price{
+    font-weight: 700;
+}
+tbody tr td span{
+    color: blue;
+}
+thead{
+    border-bottom: 1px solid #000;
+}
+table{
+    border-top: 3px solid #000;
+}
+thead th{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #818181;
+}
+tbody td{
+    padding: 2rem 0;
+    border-bottom: 1px solid #818181;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    height: 60px;
+    width: 270px;
+    margin-top: 6rem;
+    text-decoration: none;
+}

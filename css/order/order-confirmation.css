@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.common-frame{
+    margin: 0 5rem;
+    margin-top: 4rem;
+}
+.common-frame h1{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.oreder-list{
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+.product{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.product .product-details{
+    text-align: left;
+}
+.product .product-details .product-name{
+    padding-bottom: 1rem;
+}
+.price{
+    font-weight: 700;
+}
+span{
+    color: blue;
+}
+thead{
+    border-bottom: 1px solid #000;
+}
+table{
+    border-top: 3px solid #000;
+}
+thead th{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #818181;
+}
+tbody td{
+    padding: 2rem 0;
+    border-bottom: 1px solid #818181;
+}
