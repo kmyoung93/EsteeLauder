@@ -1,24 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
+html{
+    font-size: var(--basic-size-pc);
 }
-.common-frame{
-    margin: 0 5rem;
-    margin-top: 6rem;
-    max-width: 1720px;
-    width: 100%;
-}
+/* .common_frame{
+    padding-top: 6rem;
+} */
 h1{
     text-align: center;
+    margin-top: var(--space-4x-large);
 }
 ol{
     list-style: none;
-    margin-top: 4rem;
+    margin-top: var(--space-2x-large);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15rem;
-    color: #818181;
+    color: var(--color-inactive);
 }
 ol li{
     position: relative;
@@ -29,9 +26,9 @@ ol li::after{
     position: absolute;
     top: 25%;
     right: -100%;
-    background: url("../img/lucide_chevron-right.svg") no-repeat center / contain;
-    width: 24px;
-    height: 24px;    
+    background: url("../../resource/signup/lucide_chevron-right.svg") no-repeat center / contain;
+    width: 1.25rem;
+    height: 1.25rem;    
 }
 ol li:last-child::after{
     /* 마지막 li에는 화살표 표시X */
@@ -50,10 +47,9 @@ ol li strong{
     font-weight: 700;
 }
 h2 span{
-    color: #0E2687;
+    color: var(--mood-in-blue-main-900);
 }
-.box-text{
-    width: 100%;
+.box-txt{
     height: 529px;
     border: 1px solid #000;
     margin-top: 1rem;
@@ -71,11 +67,12 @@ h2 span{
     vertical-align: middle;
 }
 .tos form{
+    margin: 0;
     text-align: right;
     margin-top: 1rem;
     font-size: 1rem;
 }
-.common-frame>form{
+.common_frame>form{
     text-align: center;
     font-size: 1.25rem;
     margin-top: 6rem;
