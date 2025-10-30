@@ -1,5 +1,22 @@
+html{
+    font-size: var(--basic-font-pc);
+}
+
 .review_wrap{
-    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1.55fr;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.modal{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.review{
+    background-color: #fff;
 }
 
 .product_detail{
@@ -7,10 +24,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 7rem;
+    margin-right: 5rem;
 }
 
 .detail_desc{
-    margin-right: 5rem;
+    width: 559px;
+    position: fixed;
+    right: 246px;
+    top: 110px;
 }
 
 .product_title{
@@ -39,4 +60,91 @@
 
 #option{
     width: 100%;
+    height: 45px;
+    margin-bottom: 1rem;
+}
+
+#option span{  /*셀렉박스의 내부 스팬은 어케하는지?*/
+    width: 25px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    background-color: rosybrown;
+}
+
+.btn_shop{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+
+.btn_shop a{
+    display: block;
+    width: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.pay{
+    padding: 15px 260px;
+    background-color: #000;
+    color: #fff;
+    font-weight: var(--font-strong);
+}
+
+.cart{
+    padding: 15px 245px;
+    font-weight: var(--font-strong);
+}
+
+.product_info{
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.product_info h4{
+    margin-bottom: .5rem;
+}
+
+.product_info ol{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product_info span{
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    text-decoration: underline;
+}
+
+.ingre-list li{
+    padding: 12px 0;
+    max-height: 20px;
+    border-bottom: 1px solid #000;
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.ingre-list li.on{
+    max-height: 300px;
+}
+
+
+.ingre-drop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingre-popup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.drop-desc{
+    padding: 10px 0;
 }
