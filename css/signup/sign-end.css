@@ -1,19 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.common-frame{
-    margin: auto auto;
-    margin-top: 6rem;
-    max-width: 1720px;
-    width: 100%;
+html{
+    font-size: var(--basic-size-pc);
 }
 h1{
     text-align: center;
+    margin-top: var(--space-4x-large);
 }
 ol{
     list-style: none;
-    margin-top: 4rem;
+    margin-top: var(--space-2x-large);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,9 +21,9 @@ ol li::after{
     /* 화살표 */
     content: "";
     position: absolute;
-    top: 25%;
+    top: 0;
     right: -100%;
-    background: url("../img/lucide_chevron-right.svg") no-repeat center / contain;
+    background: url("../../resource/signup/lucide_chevron-right.svg") no-repeat center / contain;
     width: 24px;
     height: 24px;    
 }
@@ -41,7 +35,7 @@ ol li.act{
     color: #000;
 }
 ol li span{
-    margin-right: 1rem;
+    margin-right: var(--space-normal);
     font-size: 0.9rem;
     
 }
@@ -50,17 +44,19 @@ ol li strong{
     font-weight: 700;
 }
 
-h1{
+.common_frame .txt{
     margin-top: 6rem;
     text-align: center;
-    white-space: pre-line;
+}
+.txt1{
+    margin-top: var(--space-2x-small);
 }
 .button{
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: var(--space-3x-large);
     font-weight: 700;
-    gap: 1rem;
+    gap: var(--space-normal);
     align-items: center;
 }
 .but-login a{

@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
         
-        window.location.href = "../nonMemberOrder/non-member-order-inquiry.html";
+        window.location.href = "../order/order-confirmation.html";
     });
 });

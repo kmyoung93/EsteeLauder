@@ -24,7 +24,7 @@ ol li::after{
     /* 화살표 */
     content: "";
     position: absolute;
-    top: 25%;
+    top: 0;
     right: -100%;
     background: url("../../resource/signup/lucide_chevron-right.svg") no-repeat center / contain;
     width: 1.25rem;

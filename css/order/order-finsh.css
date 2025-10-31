@@ -1,12 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.common-frame{
-    margin: auto auto;
-    margin-top: 6rem;
-    max-width: 1720px;
-    width: 100%;
+html{
+    font-size: var(--basic-size-pc);
 }
 h1{
     text-align: center;
