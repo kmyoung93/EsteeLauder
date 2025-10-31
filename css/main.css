@@ -39,11 +39,6 @@ html{
     text-decoration: underline;
 }
 
-.common_frame{
-    margin: 0 5rem;
-    width: auto;
-}
-
 .bestseller{
     margin-top: var(--space-3x-large);
     & h1{

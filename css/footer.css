@@ -1,6 +1,4 @@
-html{
-    font-size: var(--basic-size-pc);
-}
+
 
 footer{
     background-color: #000;
@@ -13,9 +11,10 @@ footer{
 }
 
 .footer-top{
-    margin: 0 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .footer-logo{
@@ -98,4 +97,27 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1440px){
+    .footer-gnb>ul{
+        margin-top: 1.35rem;
+        display: flex;
+        gap: 1rem;
+    }
+    .footer-logo {
+        width: 780px;
+    }
+}
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 393px){
+
 }

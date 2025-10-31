@@ -1,0 +1,19 @@
+@media (max-width: 1440px){
+    header{display: none;}
+    .header-smart{
+        display: block;
+        background-color: #000;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 10000;
+        padding: 1rem 0;
+    }
+
+    .hds {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+}

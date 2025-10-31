@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/new_detail.js"></script>
 </head>
 <body>
     <div class="review_wrap">
@@ -43,7 +44,7 @@
                     <img src="./resource/svg/material-symbols_close.svg" alt="리뷰페이지 닫기">
                 </figure>
             </div>
-            <h1>REVIEW</h1>
+            <h1 class="pf">REVIEW</h1>
             <ul class="review_list">
                 <li>
                     <div class="id">
@@ -341,17 +342,57 @@
                         <span></span>
                     </section>
                 </div>
-                <form action="#">
-                    <select id="option">
-                        <option value="melon"><span></span>390 멜티드 멜론</option>
-                        <option value="tengerine"><span></span>890 멜티드 탠저린</option>
-                        <option value="blush"><span></span>128 멜티드 블러쉬</option>
-                        <option value="rose"><span></span>156 멜티드 로즈</option>
-                        <option value="mauve"><span></span>513 멜티드 모브</option>
-                        <option value="garnet"><span></span>655 멜티드 가넷</option>
-                        <option value="maple"><span></span>185 멜티드 메이플</option>
-                    </select>
-                </form>
+                <div class="select-color">
+                    <!-- <ul class="option">
+                        <li><span></span>390 멜티드 멜론</li>
+                        <li><span></span>890 멜티드 탠저린</li>
+                        <li><span></span>128 멜티드 블러쉬</li>
+                        <li><span></span>156 멜티드 로즈</li>
+                        <li><span></span>513 멜티드 모브</li>
+                        <li><span></span>655 멜티드 가넷</li>
+                        <li><span></span>185 멜티드 메이플</li>
+                    </ul> -->
+                    <form action="/submit" method="POST">
+                    <!-- 실제 전송될 값 (숨김) -->
+                    <input type="hidden" name="category" id="categoryValue" required>
+                    
+                    <!-- 커스텀 셀렉트 -->
+                    <div class="custom-select">
+                        <div class="select-display" id="selectDisplay">
+                        카테고리 선택
+                        </div>
+                        <ul class="select-options" id="selectOptions">
+                            <li data-value="design">
+                                <span class="icon"></span>
+                                <span class="text">390 멜티드 멜론</span>
+                            </li>
+                            <li data-value="dev">
+                                <span class="icon"></span>
+                                <span class="text">890 멜티드 탠저린</span>
+                            </li>
+                            <li data-value="marketing">
+                                <span class="icon"></span>
+                                <span class="text">128 멜티드 블러쉬</span>
+                            </li><li data-value="marketing">
+                                <span class="icon"></span>
+                                <span class="text">156 멜티드 로즈</span>
+                            </li><li data-value="marketing">
+                                <span class="icon"></span>
+                                <span class="text">513 멜티드 모브</span>
+                            </li><li data-value="marketing">
+                                <span class="icon"></span>
+                                <span class="text">655 멜티드 가넷</span>
+                            </li><li data-value="marketing">
+                                <span class="icon"></span>
+                                <span class="text">185 멜티드 메이플</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- <button type="submit">제출</button> -->
+                    </form>
+
+                </div>
                 <div class="btn_shop">
                     <a href="#" class="pay">결제</a>
                     <a href="#" class="cart">장바구니</a>
@@ -383,7 +424,7 @@
                     <ul class="ingre-list">
                         <li>
                             <div class="ingre-drop">성분
-                                <span>
+                                <span class="drop-btn">
                                     <img src="./resource/svg/ic_outline-plus.svg" alt="성분 더보기">
                                 </span>
                             </div>
@@ -395,14 +436,14 @@
                         </li>
                         <li>
                             <div class="ingre-popup">후기
-                                <span>
+                                <span class="popup-btn">
                                     <img src="./resource/svg/mingcute_down-fill.svg" alt="후기 더보기">
                                 </span>
                             </div>
                         </li>
                         <li>
                             <div class="ingre-drop">사용방법
-                                <span>
+                                <span class="drop-btn">
                                     <img src="./resource/svg/ic_outline-plus.svg" alt="사용방법 더보기">
                                 </span>
                             </div>
@@ -414,7 +455,7 @@
                         </li>
                         <li>
                             <div class="ingre-drop">사용시 주의사항
-                                <span>
+                                <span class="drop-btn">
                                     <img src="./resource/svg/ic_outline-plus.svg" alt="사용방법 더보기">
                                 </span>
                             </div>
