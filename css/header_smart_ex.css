@@ -1,0 +1,14 @@
+.header_smart{
+    width: 100%;
+    background-color: #000;
+}
+
+.header_smart .common_frame{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2.6rem;
+}
+
+.logo_smart img{
+    height: 1.5rem;
+}

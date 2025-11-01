@@ -1,6 +1,6 @@
 @media (max-width: 1440px){
     header{display: none;}
-    .header-smart{
+    .header_smart{
         display: block;
         background-color: #000;
         position: fixed;
