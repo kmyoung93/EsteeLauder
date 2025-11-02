@@ -1,0 +1,31 @@
+html{
+    font-size: var(--basic-size-pc);
+}
+.common_frame h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: var(--space-4x-large);
+    font-size: 2.5rem;
+}
+table{
+    width: 100%;
+    margin-top: var(--space-3x-large);
+    border-top: 3px solid #000;
+    border-bottom: 1px solid #000;
+}
+tr{
+    height: 68px;
+    border: 1px solid rebeccapurple;
+    text-align: center;
+}
+.pagination-community{
+    margin-top: var(--space-x-large);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-normal);
+}
+img{
+    width: 1.25rem;
+    height: 1.25rem;
+}

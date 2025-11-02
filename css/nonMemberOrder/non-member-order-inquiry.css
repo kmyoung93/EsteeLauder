@@ -1,7 +1,7 @@
 html{
     font-size: var(--basic-size-pc);
 }
-.common-frame{
+.common_frame{
     margin: 0 var(--space-3x-large);
     margin-top: 6rem;
 }
@@ -12,14 +12,22 @@ html{
 }
 h1{
     text-align: center;
+    margin: 0 auto;
     width: 100%;
     border-bottom: 5px solid #000;
     padding: var(--space-normal);
     margin-top: var(--space-4x-large);
+    box-sizing: border-box;
 }
 form{
     width: 100%;
     border: none;
+}
+.order-box{
+    text-align: center;
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
 }
 #order-number{
     width: 100%;
@@ -38,6 +46,10 @@ fieldset{
     margin-top: var(--space-large);
     border: none;
 }
+.order-box p{
+    font-size: 0.8rem;
+    margin-top: var(--space-x-small);
+}
 .btn-1{
     display: flex;
     justify-content: center;
@@ -50,4 +62,24 @@ fieldset{
     width: 100%;
     margin-top: 2rem;
     text-decoration: none;
+}
+@media (max-width:1024px) {
+    html{
+    font-size: var(--basic-size-tap);
+    }
+    .common_frame{
+        margin: 0 auto; 
+        padding: 0 3rem;
+        /* 나중에 수정 */
+    }
+}
+@media (max-width:768px) {
+    html {
+        font-size: var(--basic-size-mobile);
+    }
+    .common_frame{
+        margin: 0 auto;
+        padding: 0 1rem;
+        /* 나중에 수정 */
+    }
 }
