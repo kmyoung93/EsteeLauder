@@ -30,7 +30,7 @@ html{
     justify-content: center;
     align-items: center;
 }
-.tab span{
+.tab div{
     display: flex;
     width: 225px;
     height: 70px;
@@ -96,7 +96,8 @@ html{
     gap: var(--space-large);
     margin-top: var(--space-2x-large);
 }
-.tab2 span{
+.tab2 em{
+    font-style: inherit;
     color: var(--mood-in-blue-main-900);
 }
 .tab2 .txt h3{
@@ -200,7 +201,7 @@ html{
         margin: 0 auto;
         padding: 0 1rem;
     } 
-    .tab span{
+    .tab em{
         border: none;
         padding-bottom: var(--space-2x-small);
         background-color: none;

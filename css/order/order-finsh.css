@@ -1,3 +1,9 @@
+@media (min-width:1920px) {
+    body{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
 html{
     font-size: var(--basic-size-pc);
 }
@@ -104,9 +110,15 @@ tbody td{
     margin-top: 6rem;
     text-decoration: none;
 }
+@media (max-width: 1460px){
+
+}
 @media (max-width:1024px) {
     html{
         font-size: var(--basic-size-tap);
+    }
+    .common_frame {
+        margin: 0 3rem;
     }
 }
 @media (max-width: 768px) {

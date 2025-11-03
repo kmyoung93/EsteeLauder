@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // 1. 탭 메뉴 기능
-    const tabButtons = document.querySelectorAll('.tab span');
+    const tabButtons = document.querySelectorAll('.tab div');
     const tabContents = document.querySelectorAll('.tab-descs > div');
     
     tabButtons.forEach((button, index) => {

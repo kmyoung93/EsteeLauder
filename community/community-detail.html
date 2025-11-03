@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESTEE LAUDER - community</title>
-    <!-- 검색 최적화 소스코드(SEO) -->
+        <!-- 검색 최적화 소스코드(SEO) -->
     <meta name="description" content="에스티 로더 공식 온라인 스토어. 어드밴스드 나이트 리페어, 더블웨어 파운데이션 등 프리미엄 스킨케어와 메이크업 제품을 만나보세요.">
     <meta name="keywords" content="에스티로더, 에스티 로더, Estee Lauder, 어드밴스드 나이트 리페어, 더블웨어, 스킨케어, 메이크업, 화장품, 럭셔리 뷰티, 안티에이징">
     <meta name="author" content="Estée Lauder">
@@ -28,11 +28,10 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
 
+    <link rel="stylesheet" href="../css/community/community-detail.css">
 
-    <link rel="stylesheet" href="../css/community/community.css">
     <script src="../js/community/post.js"></script>
-    <script src="../js/community/community-list.js"></script>
-
+    <script src="../js/community/community-post.js"></script>
 </head>
 <body>
     <header>
@@ -208,26 +207,48 @@
                 <li><a href="../lnb/order.html">주문조회</a></li>
             </ul>
         </div>
-    </header>  
+    </header> 
     <main>
         <div class="common_frame">
             <h1 class="pf">community</h1>
-            <table class="community-list">
-                <thead>
-                    <tr>
-                        <th>NO</th>
-                        <th class="title_date">제목</th>
-                        <th class="date">날짜</th>
-                        <th>조회수</th>
-                    </tr>
-                </thead>
-                <tbody class="community-list">
-                </tbody>
-            </table>
-            <div class="pagination-community">
-                <div class="btn-pre"><a href="#"><img src="../resource/community/btn_pre.svg" alt="이전페이지 버튼"></a></div>
-                <p>1</p>
-                <div class="btn-next"><a href="#"><img src="../resource/community/btn_next.svg" alt="다음페이지 버튼"></a></div>
+            <div class="post-wrap">
+                <div class="post"></div>
+                    <h3 class="post-title">[Exclusive Online Event] 최대 30% OFF, 에스티 로더 온라인 단독 세일</h3>
+                    <div class="post-detail">
+                        <div class="post-no">2</div>
+                        <div class="post-date">2025-08-26 </div>
+                        <div class="post-view">9458</div>
+                    </div>
+                    <div class="post-txt">
+                        <figure class="post-img"><img src="../resource/community/online_sale.jpg" alt=""></figure>
+                        <div class=".post-content"></div>
+                    </div>
+                <div class="post-list">
+                    <div class="post-pre">
+                        <a href="#">
+                            <div>
+                                <div class="post-pre-icon"></div>
+                                <div class="post-pre-text">이전</div>
+                            </div>
+                            <div class="post-pre-no">1</div>
+                            <div class="post-pre-title">제목</div>
+                            <div class="post-pre-date">날짜</div>
+                            <div class="post-pre-view">조회수</div>
+                        </a>
+                    </div>
+                    <div class="post-next">
+                        <a href="#">
+                            <div>
+                                <div class="post-next-icon"></div>
+                                <div class="post-next-text">다음</div>
+                            </div>
+                            <div class="post-next-no">3</div>
+                            <div class="post-next-title">제목</div>
+                            <div class="post-next-date">날짜</div>
+                            <div class="post-next-view">조회수</div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
