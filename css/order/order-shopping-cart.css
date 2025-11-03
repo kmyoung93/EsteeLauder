@@ -21,8 +21,7 @@ main {
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
 }
-/* 주문 단계 표시 */
-ol {
+ol{
     margin: 0 auto;
     max-width: 850px;
     list-style: none;
@@ -39,17 +38,16 @@ ol li.arrow {
     width: 1.25rem;
     height: 1.25rem;
     background: url("../../resource/signup/lucide_chevron-right.svg") no-repeat center / contain;
+    flex-wrap: nowrap;
 }
-ol li.act {
+ol li.act{
     color: #000;
 }
-ol li span {
+ol li span{
     margin-right: 1rem;
     font-size: 0.9rem;
-    display: block;
-    margin-bottom: 0.5rem;
 }
-ol li strong {
+ol li strong{
     font-size: 1.25rem;
     font-weight: 700;
 }
@@ -67,6 +65,9 @@ ol li strong {
 }
 thead {
     border-bottom: 1px solid #000;
+}
+thead th{
+    white-space: nowrap;
 }
 thead th {
     padding: 1.5rem 1rem;
@@ -103,10 +104,6 @@ input[type="checkbox"].product-checkbox {
 .product-details {
     flex: 1;
 }
-.roduct-name p:first-child {
-    font-size: 0.9rem;
-    margin-bottom: 0.3rem;
-}
 .product-name p:last-child {
     margin-bottom: 0.8rem;
 }
@@ -139,25 +136,21 @@ tbody td:last-child figure img {
     min-width: 320px; /* 최소 너비만 지정 */
     max-width: 400px; /* 최대 너비 제한 */
     position: sticky;
-    top: 2rem;
+    top: 6rem;
     height: fit-content;
     background: #fff;
     padding: 2rem;
-    border-radius: 4px;
     flex-shrink: 0;
 }
-
 .pay > h1 {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #000;
     text-align: center;
 }
-
 .pay .product-details {
     margin-bottom: 1.5rem;
 }
-
 .pay .product-details > div {
     display: flex;
     justify-content: space-between;
@@ -165,19 +158,16 @@ tbody td:last-child figure img {
     margin-bottom: 1rem;
     gap: 1rem; /* 최소 간격 설정 */
 }
-
 .pay .product-details p {
-    color: #666;
     font-weight: 500;
-    white-space: nowrap; /* 텍스트 줄바꿈 방지 */
-    flex-shrink: 0; /* 라벨은 줄어들지 않음 */
+    white-space: nowrap;
+    flex-shrink: 0; 
 }
-
 .pay .product-details div > div {
     font-weight: 600;
     text-align: right;
-    white-space: nowrap; /* 금액 줄바꿈 방지 */
-    min-width: fit-content; /* 내용만큼만 차지 */
+    white-space: nowrap;
+    min-width: fit-content;
 }
 .total {
     display: flex;
@@ -188,10 +178,6 @@ tbody td:last-child figure img {
     border-bottom: 2px solid #000;
     margin-bottom: 1.5rem;
     gap: 1rem; /* 최소 간격 */
-}
-.total h1 {
-    font-size: 1.3rem;
-    font-weight: 700;
 }
 .product-totla {
     color: #000;
@@ -221,14 +207,14 @@ tbody td:last-child figure img {
 
 }
 @media (max-width: 1320px){
-    thead th {
+    /* thead th {
     padding: 1.5rem 0.5rem;
-    }
+    } */
 }
 @media (max-width: 1280px){
-    thead th {
+    /* thead th {
     padding: 0.5rem 0.5rem;
-    }
+    } */
 }
 @media (max-width: 1024px) {
     html{
@@ -246,6 +232,7 @@ tbody td:last-child figure img {
         min-width: unset; /* min-width 제거 */
         max-width: unset;
         padding: 0;
+        margin-top: 6rem;
     }
     .pay .btn {
         display: flex;
@@ -389,17 +376,11 @@ tbody td:last-child figure img {
         position: static;
         margin-top: 1.5rem;
     }    
-    .pay > h1 {
-        font-size: 1.3rem;
-    }
-    
     .pay .btn {
         flex-direction: row-reverse;
         gap: 0.8rem;
     }
-    
     .btn > div {
         padding: 0.9rem;
-        font-size: 0.95rem;
     }
 }
