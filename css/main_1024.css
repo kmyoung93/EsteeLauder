@@ -1,0 +1,6 @@
+@media (max-width: 1024px){
+    .hero-banner {
+        width: 100%;
+        height: 80vh;
+    }
+}
