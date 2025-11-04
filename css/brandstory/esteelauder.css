@@ -79,6 +79,9 @@ img {
     max-width: 800px;
     margin: 0 auto;
 }
+.title.common-frame section{
+    padding-left: 100px;
+}
 
 @media (max-width: 768px) {
 .main-title {
@@ -105,9 +108,6 @@ img {
 
 .bs-intro section {
     flex: 1;
-}
-.bs-intro .intro-txt p{
-    margin-bottom: var(--space-normal);
 }
 
 @media (max-width: 768px) {
@@ -189,7 +189,7 @@ h3 {
     color: var(--color-text-primary);
 }
 
-.bs-intro-txt p,
+.intro-txt p,
 .title-txt p {
     font-size: 0.9rem;
     line-height: 1.9;
@@ -197,7 +197,7 @@ h3 {
     color: var(--color-text-secondary);
 }
 
-.bs-intro-txt p:last-child,
+.intro-txt p:last-child,
 .title-txt p:last-child {
     margin-bottom: 0;
 }
@@ -223,5 +223,87 @@ h3 {
     .last {
         padding: var(--space-2x-large) 0;
         margin-bottom: var(--space-x-large);
+    }
+}
+
+/* ==================== 반응형 - 320px (초소형 모바일) ==================== */
+@media (max-width: 320px) {
+    .common-frame {
+        padding: 0 var(--space-x-small);
+    }
+    
+    .main-title {
+        padding: 8rem 0;
+        margin-bottom: var(--space-normal);
+        background-attachment: scroll;
+    }
+    
+    .main-title h1 {
+        font-size: 1.6rem;
+        margin-bottom: var(--space-normal);
+    }
+    
+    .main-title p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+    }
+    
+    .title.common-frame section {
+        padding-left: 0;
+    }
+    
+    .bs-intro {
+        padding: var(--space-normal) 0;
+        margin-bottom: var(--space-normal);
+    }
+    
+    .intro .common-frame {
+        gap: 0;
+    }
+    
+    .title {
+        padding: var(--space-normal) 0;
+        margin-bottom: var(--space-normal);
+    }
+    
+    .title .common-frame,
+    .title.opp .common-frame {
+        gap: var(--space-x-small);
+    }
+    
+    .title figure img {
+        border-radius: var(--space-x-small);
+    }
+    
+    .subheading {
+        font-size: 0.75rem;
+        letter-spacing: 0.03rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: var(--space-normal);
+    }
+    
+    .title h2 {
+        font-size: 1.2rem;
+        margin-bottom: var(--space-normal);
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+        margin-bottom: var(--space-normal);
+    }
+    
+    .intro-txt p,
+    .title-txt p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        margin-bottom: var(--space-x-small);
+    }
+    
+    .last {
+        padding: var(--space-normal) 0;
+        margin-bottom: var(--space-normal);
     }
 }

@@ -1,0 +1,429 @@
+/* ==================== 기본 스타일 ==================== */
+html {
+    font-size: var(--basic-font-pc);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ==================== 공통 프레임 ==================== */
+.common-frame {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: var(--basic-font-tab);
+    }
+    
+    .common-frame {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: var(--basic-font-mobile);
+    }
+    
+    .common-frame {
+        padding: 0 20px;
+    }
+}
+
+/* ==================== 메인 컨테이너 ==================== */
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+/* ==================== ELF 타이틀 섹션 ==================== */
+.elf-title {
+    text-align: center;
+    padding: var(--space-3x-large) 0;
+}
+
+.elf-title h1 {
+    font-size: 5rem;
+    margin-bottom: var(--space-x-large);
+    color: var(--color-text-primary);
+}
+
+.elf-title h2 {
+    font-size: 1.6rem;
+    margin-bottom: var(--space-2x-large);
+    color: var(--color-text-primary);
+}
+
+.elf-title p {
+    font-size: 1rem;
+    line-height: 1.9;
+    margin-bottom: var(--space-normal);
+    color: var(--color-text-secondary);
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elf-title p:last-child {
+    margin-bottom: 0;
+}
+
+/* ==================== Way 섹션 ==================== */
+.way {
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+.way .common-frame {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: var(--space-2x-large);
+    align-items: flex-start;
+}
+
+.way section {
+    flex: 1;
+}
+
+.way figure {
+    flex: 1;
+    margin: 0;
+}
+
+.way figure img {
+    width: 100%;
+    border-radius: var(--space-2x-small);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.way h3 {
+    font-size: 1.8rem;
+    margin-bottom: var(--space-2x-large);
+    color: var(--color-text-primary);
+}
+
+.way p {
+    font-size: 1rem;
+    line-height: 1.9;
+    margin-bottom: var(--space-normal);
+    color: var(--color-text-secondary);
+}
+
+.way p:last-child {
+    margin-bottom: 0;
+}
+
+/* ==================== Doing 섹션 ==================== */
+.doing {
+    padding: 0;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.doing h3 {
+    font-size: 1.8rem;
+    margin-bottom: var(--space-2x-large);
+    color: var(--color-text-primary);
+    margin-top: 6rem;
+}
+
+.doing p {
+    font-size: 1rem;
+    line-height: 1.9;
+    color: var(--color-text-secondary);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ==================== Fund Cards 섹션 ==================== */
+.fund-cards {
+    padding: 0;
+    margin-bottom: 6rem;
+}
+
+.fund-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: var(--space-normal);
+}
+
+/* 카드 아이템 */
+.fund-item {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--space-2x-small);
+    cursor: pointer;
+}
+
+/* 이미지 기본 상태 */
+.fund-img {
+    width: 100%;
+    aspect-ratio: 559.67 / 997; /* PC: (1719-40)/3 / 997 */
+}
+
+.fund-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.fund-item:hover .fund-img img {
+    transform: scale(1.1);
+}
+
+/* 오버레이 기본 상태 (숨김) */
+.fund-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    padding: var(--space-x-large);
+    transition:
+        background 0.35s ease,
+        opacity 0.35s ease,
+        transform 0.35s ease,
+        visibility 0s linear 0.35s;
+}
+
+/* 호버 / 포커스 시 활성화 */
+.fund-item:hover .fund-overlay,
+.fund-item:focus-within .fund-overlay {
+    background: rgba(0, 0, 0, 0.45);
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition:
+        background 0.35s ease,
+        opacity 0.35s ease,
+        transform 0.35s ease,
+        visibility 0s;
+}
+
+/* 오버레이 텍스트 */
+.fund-overlay h4 {
+    font-size: 1.5rem;
+    margin-bottom: var(--space-normal);
+    line-height: 1.3;
+}
+
+.fund-overlay p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.fund-caption {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    color: var(--color-text-tertiary);
+    text-align: center;
+}
+
+/* 터치기기에서는 항상 표시 */
+@media (hover: none) {
+    .fund-overlay {
+        background: rgba(0, 0, 0, 0.35);
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        transition: none;
+    }
+}
+
+/* ==================== VV Program 섹션 ==================== */
+.vv-program {
+    padding: 0;
+    margin-bottom: 4.9rem;
+    text-align: center;
+}
+
+.vv-program h3 {
+    font-size: 1.8rem;
+    margin-bottom: var(--space-x-large);
+    color: var(--color-text-primary);
+}
+
+.vv-program p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: var(--space-normal);
+    color: var(--color-text-secondary);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==================== 반응형 - ELF 페이지 ==================== */
+@media (max-width: 1024px) {
+    .elf-title h1 {
+        font-size: 2.8rem;
+    }
+    
+    .elf-title h2 {
+        font-size: 1.6rem;
+    }
+    
+    .way h3,
+    .doing h3,
+    .vv-program h3 {
+        font-size: 1.6rem;
+    }
+    
+    .fund-img {
+        aspect-ratio: 303.97 / 317.3; /* Tab: (951.9-40)/3 / 317.3 */
+    }
+}
+
+@media (max-width: 768px) {  
+    .elf-title h1 {
+        font-size: 2.1rem;
+    }  
+    
+    .way .common-frame {
+        flex-direction: column;
+        gap: var(--space-normal);
+    }
+    
+    .fund-list {
+        flex-direction: column;
+        gap: var(--space-normal);
+    }
+    
+    .fund-img {
+        aspect-ratio: 16 / 9;
+    }
+    
+    .fund-overlay {
+        padding: var(--space-normal);
+    }
+}
+/* ==================== 반응형 - 320px (초소형 모바일) ==================== */
+@media (max-width: 320px) {
+    .common-frame {
+        padding: 0 var(--space-x-small);
+    }
+    
+    .elf-title {
+        padding: var(--space-x-large) 0;
+    }
+    
+    .elf-title h1 {
+        font-size: 1.6rem;
+    }
+    
+    .way {
+        margin-bottom: var(--space-x-large);
+    }
+    
+    .way .common-frame {
+        gap: var(--space-x-small);
+    }
+    
+    .way h3 {
+        font-size: 1.2rem;
+        margin-bottom: var(--space-normal);
+        order: -1;
+    }
+    
+    .way figure {
+        order: 0;
+    }
+    
+    .way section {
+        order: 1;
+    }
+    
+    .way p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        margin-bottom: var(--space-x-small);
+    }
+    
+    .doing {
+        margin-bottom: var(--space-2x-large);
+    }
+    
+    .doing h3 {
+        font-size: 1.2rem;
+        margin-bottom: var(--space-normal);
+    }
+    
+    .doing p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+    }
+    
+    .fund-cards {
+        margin-bottom: var(--space-2x-large);
+    }
+    
+    .fund-list {
+        gap: var(--space-x-small);
+    }
+    
+    .fund-overlay {
+        padding: var(--space-x-small);
+    }
+    
+    .fund-overlay h4 {
+        font-size: 1rem;
+        margin-bottom: var(--space-x-small);
+    }
+    
+    .fund-overlay p {
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+    
+    .fund-caption {
+        font-size: 0.7rem;
+    }
+    
+    .vv-program {
+        margin-bottom: var(--space-2x-large);
+    }
+    
+    .vv-program h3 {
+        font-size: 1.2rem;
+        margin-bottom: var(--space-normal);
+    }
+    
+    .vv-program p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+        margin-bottom: var(--space-x-small);
+    }
+}
