@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESTEE LAUDER - 장바구니</title>
+    <title>ESTEE LAUDER - 주문서 작성</title>
     <!-- 검색 최적화 소스코드(SEO) -->
     <meta name="description" content="에스티 로더 공식 온라인 스토어. 어드밴스드 나이트 리페어, 더블웨어 파운데이션 등 프리미엄 스킨케어와 메이크업 제품을 만나보세요.">
     <meta name="keywords" content="에스티로더, 에스티 로더, Estee Lauder, 어드밴스드 나이트 리페어, 더블웨어, 스킨케어, 메이크업, 화장품, 럭셔리 뷰티, 안티에이징">
@@ -28,8 +28,8 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
 
-    <link rel="stylesheet" href="../css/order/order-shopping-cart.css">
-    <script src="../js/order/order-shopping-cart.js"></script>
+    <link rel="stylesheet" href="../css/order/order-form.css">
+
 
 </head>
 <body>
@@ -211,238 +211,152 @@
         <div class="common_frame">
             <h1 class="pf">order</h1>
             <ol>
-                <li class="act"><em>step1</em><strong>장바구니</strong></li>
+                <li><span>step1</span><strong>장바구니</strong></li>
                 <li class="arrow"></li>
-                <li><em>step2</em><strong>주문서 작성</strong></li>
+                <li class="act"><span>step2</span><strong>주문서 작성</strong></li>
                 <li class="arrow"></li>
-                <li><em>step3</em><strong>주문완료</strong></li>
+                <li><span>step3</span><strong>주문완료</strong></li>
             </ol>
-            <div class="order-content-wrapper">
-                <table class="oreder-list">
-                    <thead>
-                        <tr>
-                            <th>선택</th>
-                            <th>상품정보</th>
-                            <th>수량</th>
-                            <th>판매가</th>
-                            <th>삭제</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <form action="">
-                                    <fieldset>
-                                        <input type="checkbox" class="product-checkbox">
-                                    </fieldset>
-                                </form>
-                            </td>
-                            <td>
-                                <div class="product">
-                                    <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
-                                    <div class="product-details">
-                                        <div class="product-name">
-                                            <p>Double Wear</p>
-                                            <p>더블웨어 세컨 스킨 블러 쿠션</p>
+                <div class="order-content-wrapper">
+                    <div class="order-form">
+                        <table class="oreder-list">
+                            <thead>
+                                <tr>
+                                    <th>상품정보</th>
+                                    <th>수량</th>
+                                    <th>판매가</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="product">
+                                            <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
+                                            <div class="product-details">
+                                                <div class="product-name">
+                                                    <p>Double Wear</p>
+                                                    <p>더블웨어 세컨 스킨 블러 쿠션</p>
+                                                </div>
+                                                <p class="color-info">색상: 1W2 샌드</p>
+                                                <p class="quantity-info">수량: 1</p>
+                                                <h4 class="price">₩234,000</h4>
+                                            </div>
                                         </div>
-                                        <p class="color-info">색상: 1W2 샌드</p>
-                                        <p class="quantity-info">수량: 1</p>
-                                        <h4 class="price">₩234,000</h4>
+                                    </td>
+                                    <td class="quantity-col">1</td>
+                                    <td class="price-col"><h4>₩103,000</h4></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="oreder-information">
+                            <form action="">
+                                <h1>주문자 정보 입력</h1>
+                                <fieldset>
+                                    <div class="form-grop">
+                                        <label for="order-name" class="text"><h4>주문자 이름<em>(필수)</em></h4></label>
+                                        <input type="text" id="order-name" name="order-name" required>
                                     </div>
-                                </div>
-                            </td>
-                            <td class="quantity-col">1</td>
-                            <td class="price-col"><h4>₩103,000</h4></td>
-                            <td><figure><img src="../resource/order/shopping-cart/x_icon.svg" alt="제품 삭제"></figure></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <form action="">
-                                    <fieldset>
-                                        <input type="checkbox" class="product-checkbox">
-                                    </fieldset>
-                                </form>
-                            </td>
-                            <td>
-                                <div class="product">
-                                    <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
-                                    <div class="product-details">
-                                        <div class="product-name">
-                                            <p>Double Wear</p>
-                                            <p>더블웨어 세컨 스킨 블러 쿠션</p>
+                                    <div class="form-grop">
+                                        <label for="order-phon" class="text"><h4>전화번호<em>(필수)</em></h4></label>
+                                        <div class="grop-hor">
+                                            <div class="user-phon">
+                                                <input type="number" id="user-phon1" name="user-phon1" maxlength="3" required>
+                                                <span>-</span>
+                                                <input type="number" id="user-phon2" name="user-phon2" maxlength="5" required>
+                                                <span>-</span>
+                                                <input type="number" id="user-phon3" name="user-phon3" maxlength="4" required>
+                                            </div>
                                         </div>
-                                        <p class="color-info">색상: 1W2 샌드</p>
-                                        <p class="quantity-info">수량: 1</p>
-                                        <h4 class="price">₩234,000</h4>
                                     </div>
-                                </div>
-                            </td>
-                            <td class="quantity-col">1</td>
-                            <td class="price-col"><h4>₩103,000</h4></td>
-                            <td><figure><img src="../resource/order/shopping-cart/x_icon.svg" alt="제품 삭제"></figure></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <form action="">
-                                    <fieldset>
-                                        <input type="checkbox" class="product-checkbox">
-                                    </fieldset>
-                                </form>
-                            </td>
-                            <td>
-                                <div class="product">
-                                    <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
-                                    <div class="product-details">
-                                        <div class="product-name">
-                                            <p>Double Wear</p>
-                                            <p>더블웨어 세컨 스킨 블러 쿠션</p>
+                                    <div class="form-grop">
+                                        <label for="order-email" class="text"><h4>이메일</h4></label>
+                                        <div class="email-input">
+                                            <input type="text" id="order-email-id" name="order-email-id" required>
+                                            <span>@</span>
+                                            <input type="text" name="order-email-domain" required>
+                                            <select name="email-selext" class="email-selext" required>
+                                                <option value="직접 입력">직접 입력</option>
+                                                <option value="naver.com">naver.com</option>
+                                                <option value="gmail.com">gmail .com</option>
+                                                <option value="daum.com">daum.com</option>
+                                            </select>
                                         </div>
-                                        <p class="color-info">색상: 1W2 샌드</p>
-                                        <p class="quantity-info">수량: 1</p>
-                                        <h4 class="price">₩234,000</h4>
                                     </div>
-                                </div>
-                            </td>
-                            <td class="quantity-col">1</td>
-                            <td class="price-col"><h4>₩103,000</h4></td>
-                            <td><figure><img src="../resource/order/shopping-cart/x_icon.svg" alt="제품 삭제"></figure></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <form action="">
-                                    <fieldset>
-                                        <input type="checkbox" class="product-checkbox">
-                                    </fieldset>
-                                </form>
-                            </td>
-                            <td>
-                                <div class="product">
-                                    <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
-                                    <div class="product-details">
-                                        <div class="product-name">
-                                            <p>Double Wear</p>
-                                            <p>더블웨어 세컨 스킨 블러 쿠션</p>
-                                        </div>
-                                        <p class="color-info">색상: 1W2 샌드</p>
-                                        <p class="quantity-info">수량: 1</p>
-                                        <h4 class="price">₩234,000</h4>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="quantity-col">1</td>
-                            <td class="price-col"><h4>₩103,000</h4></td>
-                            <td><figure><img src="../resource/order/shopping-cart/x_icon.svg" alt="제품 삭제"></figure></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <form action="">
-                                    <fieldset>
-                                        <input type="checkbox" class="product-checkbox">
-                                    </fieldset>
-                                </form>
-                            </td>
-                            <td>
-                                <div class="product">
-                                    <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
-                                    <div class="product-details">
-                                        <div class="product-name">
-                                            <p>Double Wear</p>
-                                            <p>더블웨어 세컨 스킨 블러 쿠션</p>
-                                        </div>
-                                        <p class="color-info">색상: 1W2 샌드</p>
-                                        <p class="quantity-info">수량: 1</p>
-                                        <h4 class="price">₩234,000</h4>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="quantity-col">1</td>
-                            <td class="price-col"><h4>₩103,000</h4></td>
-                            <td><figure><img src="../resource/order/shopping-cart/x_icon.svg" alt="제품 삭제"></figure></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <form action="">
-                                    <fieldset>
-                                        <input type="checkbox" class="product-checkbox">
-                                    </fieldset>
-                                </form>
-                            </td>
-                            <td>
-                                <div class="product">
-                                    <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
-                                    <div class="product-details">
-                                        <div class="product-name">
-                                            <p>Double Wear</p>
-                                            <p>더블웨어 세컨 스킨 블러 쿠션</p>
-                                        </div>
-                                        <p class="color-info">색상: 1W2 샌드</p>
-                                        <p class="quantity-info">수량: 1</p>
-                                        <h4 class="price">₩234,000</h4>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="quantity-col">1</td>
-                            <td class="price-col"><h4>₩103,000</h4></td>
-                            <td><figure><img src="../resource/order/shopping-cart/x_icon.svg" alt="제품 삭제"></figure></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <form action="">
-                                    <fieldset>
-                                        <input type="checkbox" class="product-checkbox">
-                                    </fieldset>
-                                </form>
-                            </td>
-                            <td>
-                                <div class="product">
-                                    <figure><img src="../resource/order/order-finsh/Revitalizing Supreme.jpg" alt="evitalizing Supreme+ 리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림 이미지"></figure>
-                                    <div class="product-details">
-                                        <div class="product-name">
-                                            <p>Double Wear</p>
-                                            <p>더블웨어 세컨 스킨 블러 쿠션</p>
-                                        </div>
-                                        <p class="color-info">색상: 1W2 샌드</p>
-                                        <p class="quantity-info">수량: 1</p>
-                                        <h4 class="price">₩234,000</h4>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="quantity-col">1</td>
-                            <td class="price-col"><h4>₩103,000</h4></td>
-                            <td><figure><img src="../resource/order/shopping-cart/x_icon.svg" alt="제품 삭제"></figure></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="pay">
-                    <h1>결제 예상 금액</h1>
-                    <div class="product-details">
-                        <div class="selct">
-                            <p>선택한 제품 수 :</p>
-                            <div class="product-cont">0</div>
+                                </fieldset>
+                            </form>
                         </div>
-                        <div class="payment">
-                            <p>결제 금액 :</p>
-                            <div class="product-payment">₩ 0</div>
+                        <div class="oreder-address">
+                            <form action="">
+                                <h1>배송지 정보 입력</h1>
+                                <fieldset>
+                                    <div class="form-grop">
+                                        <label for="order-address" class="text"><h4>주소</h4></label>
+                                        <div class="grop-ver">
+                                            <div class="grop-hor">
+                                                <input type="text" id="order-address" name="order-address" class="address-box" readonly>
+                                                <button type="button" class="btn-check address-check">주소찾기</button>
+                                            </div>
+                                            <input type="text" name="order-address-detail" class="address-box address-box-detail" placeholder="상세주소" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-grop">
+                                        <label for="delivery-request" class="text"><h4>배송 요청사항</h4></label>
+                                        <select name="delivery-request" class="delivery-request" required>
+                                            <option value="직접 입력">배송요청사항 없음</option>
+                                            <option value="naver.com">문앞에 놔주세요</option>
+                                            <option value="gmail.com">배송 전 연락바랍니다</option>
+                                            <option value="daum.com">직접 작성</option>
+                                        </select>
+                                    </div>
+                                </fieldset>
+                            </form>
                         </div>
-                        <div class="discount">
-                            <p>할인 금액 :</p>
-                            <div class="product-discount">₩ 0</div>
-                        </div>
-                        <div class="delivery">
-                            <p>배송비 :</p>
-                            <div class="product-delivery">₩ 0</div>
+                        <div class="oreder-payment">
+                            <form action="">
+                                <h1>결제 정보</h1>
+                                <fieldset>
+                                    <div class="form-grop">
+                                        <label for="order-payment" class="text"><h4>결제 방법 선택</h4></label>
+                                        <div class="order-select">
+                                            <label for=""><input type="radio" name="payment" value="" class="order-payment" required>신용카드</label>
+                                            <label for=""><input type="radio" name="payment" value="" class="order-payment" required>실시간 계좌이체</label>
+                                            <label for=""><input type="radio" name="payment" value="" class="order-payment" required>가상계좌</label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
                         </div>
                     </div>
-                    <div class="total">
-                        <h1>합계 :</h1>
-                        <h1 class="product-totla">₩ 0</h1>
-                    </div>
-                    <div class="btn">
-                        <div class="btn-1">결제</div>
-                        <div class="btn-2">취소</div>
+                    <div class="pay">
+                        <h1>결제 예상 금액</h1>
+                        <div class="product-details">
+                            <div class="selct">
+                                <p>선택한 제품 수 :</p>
+                                <div class="product-cont">0</div>
+                            </div>
+                            <div class="payment">
+                                <p>결제 금액 :</p>
+                                <div class="product-payment">₩ 0</div>
+                            </div>
+                            <div class="discount">
+                                <p>할인 금액 :</p>
+                                <div class="product-discount">₩ 0</div>
+                            </div>
+                            <div class="delivery">
+                                <p>배송비 :</p>
+                                <div class="product-delivery">₩ 0</div>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <h1>합계 :</h1>
+                            <h1 class="product-totla">₩ 0</h1>
+                        </div>
+                        <div class="btn">
+                            <div class="btn-1">결제</div>
+                            <div class="btn-2">취소</div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </main>
     <footer>
@@ -510,6 +424,6 @@
             <div class="footer-bottom">
                 <p>본 페이지는 취업용도의 포트폴리오 홈페이지입니다.</p>
             </div>
-    </footer>     
+    </footer>    
 </body>
 </html>

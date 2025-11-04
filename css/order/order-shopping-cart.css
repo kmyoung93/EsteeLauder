@@ -4,12 +4,9 @@
         margin: 0 auto;
     }
 }
-
 html{
     font-size: var(--basic-size-pc);
 }
-
-/* 메인 레이아웃 */
 main {
     min-height: calc(100vh - 200px);
     padding: 2rem 0;
@@ -43,7 +40,8 @@ ol li.arrow {
 ol li.act{
     color: #000;
 }
-ol li span{
+ol li em{
+    font-style: inherit;
     margin-right: 1rem;
     font-size: 0.9rem;
 }
@@ -132,9 +130,9 @@ tbody td:last-child figure img {
     height: 100%;
 }
 .pay {
-    width: 28%; /* 고정 px 대신 비율 사용 */
-    min-width: 320px; /* 최소 너비만 지정 */
-    max-width: 400px; /* 최대 너비 제한 */
+    width: 28%;
+    min-width: 320px;
+    max-width: 400px;
     position: sticky;
     top: 6rem;
     height: fit-content;
@@ -156,7 +154,7 @@ tbody td:last-child figure img {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
-    gap: 1rem; /* 최소 간격 설정 */
+    gap: 1rem;
 }
 .pay .product-details p {
     font-weight: 500;
@@ -204,19 +202,6 @@ tbody td:last-child figure img {
     border: 2px solid #000;
 }
 @media (max-width: 1460px){
-
-}
-@media (max-width: 1320px){
-    /* thead th {
-    padding: 1.5rem 0.5rem;
-    } */
-}
-@media (max-width: 1280px){
-    /* thead th {
-    padding: 0.5rem 0.5rem;
-    } */
-}
-@media (max-width: 1024px) {
     html{
         font-size: var(--basic-size-tap);
     }
@@ -239,6 +224,19 @@ tbody td:last-child figure img {
         gap: 1rem;
         flex-direction: row-reverse;
     }
+
+}
+@media (max-width: 1320px){
+    /* thead th {
+    padding: 1.5rem 0.5rem;
+    } */
+}
+@media (max-width: 1280px){
+    /* thead th {
+    padding: 0.5rem 0.5rem;
+    } */
+}
+@media (max-width: 1024px) {
 }
 @media (max-width: 768px) {
     html {

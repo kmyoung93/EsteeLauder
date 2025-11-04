@@ -73,9 +73,13 @@ p{
 .common_frame{
     margin: 0 5rem;
 }
+em{
+    font-style: inherit;
+    color: var(--mood-in-blue-main-900);
+}
 
 .slider-container {
-  overflow-x: auto;
+    overflow-x: auto;
   /* 슬라이드처럼 멈춤 */
   /* scroll-snap-type: x mandatory;  */
   -webkit-overflow-scrolling: touch; /* iOS 부드러운 스크롤 */
@@ -83,11 +87,11 @@ p{
   display: flex;
   width: 62%;
   scrollbar-width: none;
- -ms-overflow-style: none;
+  -ms-overflow-style: none;
 }
 
 .slider-container::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .slider-track{
@@ -100,12 +104,12 @@ p{
 }
 
 .slider-track::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .slider-track span {
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }

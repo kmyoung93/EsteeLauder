@@ -209,11 +209,11 @@
         <div class="common_frame">
             <h1>회원가입</h1>
             <ol>
-                <li class="act"><span>step1</span><strong>약관 동의</strong></li>
+                <li class="act"><em>step1</em><strong>약관 동의</strong></li>
                 <li class="arrow"></li>
-                <li><span>step2</span><strong>정보 입력</strong></li>
+                <li><em>step2</em><strong>정보 입력</strong></li>
                 <li class="arrow"></li>
-                <li><span>step3</span><strong>가입 완료</strong></li>
+                <li><em>step3</em><strong>가입 완료</strong></li>
             </ol>
             <form action="" class="sign-form">
                 <h3>입력 정보</h3>
@@ -243,9 +243,9 @@
                 <div class="form-grop">
                     <label for="user-birth" class="text">생년월일</label>
                     <div class="birth">
-                        <input type="text" id="user-year" name="user-birth" maxlength="4" required>년
-                        <input type="text" id="user-mon" name="user-birth" maxlength="2" required>월
-                        <input type="text" id="user-day" name="user-birth" 
+                        <input type="number" id="user-year" name="user-birth" maxlength="4" required>년
+                        <input type="number" id="user-mon" name="user-birth" maxlength="2" required>월
+                        <input type="number" id="user-day" name="user-birth" 
                         maxlength="2" required>일
                     </div>
                 </div>
@@ -264,7 +264,7 @@
                     </div>
                 </div>
                 <div class="form-grop">
-                    <label for="user-id" class="text">휴대폰 번호</label>
+                    <label for="user-phon" class="text">휴대폰 번호</label>
                     <div class="grop-hor">
                         <div class="user-phon">
                             <input type="tel" id="user-phon1" name="user-phon1" maxlength="3" required>
@@ -284,8 +284,8 @@
                             <button type="button" class="btn-check address-check">주소찾기</button>
                         </div>
                         <input type="text" name="user-address-detail" class="address-box" placeholder="상세주소" required>
-                        </div>
                     </div>
+                </div>
                 <div class="form-grop">
                     <label for="user-gender"class="text">성별</label>
                     <div class="radio">

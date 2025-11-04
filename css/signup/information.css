@@ -33,7 +33,7 @@ ol li.arrow {
 ol li.act{
     color: #000;
 }
-ol li span{
+ol li em{
     margin-right: var(--space-normal);
     font-size: 0.9rem;  
 }
@@ -97,6 +97,7 @@ input[type=text]{
 .email-selext{
     height: 40px;
     padding: 0 0.5rem;
+    margin-top: 0.5rem;
 }
 #user-year{
     width: 34px;
