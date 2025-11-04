@@ -1,0 +1,27 @@
+@media (max-width: 1024px){
+    .hero-banner {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .hero-text h1{
+        font-size: 2rem;
+    }
+
+    .hero-text{
+        gap: 2rem;
+    }
+
+    .pc_banner{display: none;}
+    .tab_banner{display: block;}
+    .mo_banner{display: none;}
+
+    .subbanner a img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .sns h3{
+        font-size: 1.6rem;
+    }
+}

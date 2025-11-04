@@ -1,6 +1,5 @@
-html{
-    font-size: var(--base-size-pc);
-}
+.header_smart{display: none;}
+
 .intro {
     position: fixed;
     width: 100%;
@@ -146,3 +145,6 @@ header.on{
     display: block;
 }
 
+.header-smart{
+    display: none;
+}

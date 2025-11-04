@@ -26,13 +26,18 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/system.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/header_smart.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main_1460.css">
+    <link rel="stylesheet" href="./css/main_1024.css">
+    <link rel="stylesheet" href="./css/main_768.css">
     <link rel="stylesheet" href="./css/footer.css">
 
     <!-- swiper.js -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/header_smart.js"></script>
     <script src="./js/intro.js"></script>
 </head>
 <body>
@@ -216,10 +221,204 @@
         </div>
     </header>
 
+    <div class="header_smart">
+        <div class="common_frame">
+            <div class="logo_smart">
+                <a href="./index.html">
+                    <img src="./resource/logo.svg" alt="Estee Lauder 로고 - 메인페이지로 바로가기">
+                </a>
+            </div>
+            <div class="btn_all_menu">
+                <img src="./resource/svg/header_smart/Menu.svg" alt="전체메뉴 보기">
+            </div>
+        </div>
+
+        <div class="hidden_gnb">
+            <div class="common_frame hg1">
+                <div class="logo_smart">
+                    <a href="./index.html">
+                        <img src="./resource/logo.svg" alt="Estee Lauder 로고 - 메인페이지로 바로가기">
+                    </a>
+                </div>
+                <div class="btn_closed">
+                    <img src="./resource/svg/header_smart/X.svg" alt="메뉴 닫기">
+                </div>
+            </div>
+        
+            <div class="common_frame hg2">
+                <ul class="hg_lnb">
+                    <li>
+                        <a href="#">검색</a>
+                    </li>
+                    <li>
+                        <a href="#">로그인</a>
+                    </li>
+                    <li>
+                        <a href="#">장바구니</a>
+                    </li>
+                    <li>
+                        <a href="#">주문조회</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="common_frame hg3">
+                <ul class="gnb_smart">
+                    <li class="smart_dep1"><a href="./new.html">신제품</a></li>
+                    <li class="smart_dep1"><a href="./bestseller.html">베스트셀러</a></li>
+                    
+                    <!-- 스킨케어 -->
+                    <li class="smart_dep1">
+                        <div class="menu_icon">
+                            <a href="./">스킨케어</a>
+                            <figure>
+                                <img src="./resource/svg/header_smart/Chevron down.svg" alt="스킨케어 메뉴 보기">
+                            </figure>
+                        </div>
+                        <ul>
+                            <li><a href="./skincare/cleaner-toner.html">클렌저 / 토너</a></li>
+                            <li><a href="./skincare/repair-serum.html">리페어 세럼 / 에센스</a></li>
+                            <li><a href="./skincare/lotion.html">로션 / 크림</a></li>
+                            <li><a href="./skincare/eyecare.html">아이 케어</a></li>
+                            <li><a href="./skincare/specialcare.html">스페셜 케어 / 마스크</a></li>
+                            <li><a href="./skincare/suncare.html">선 케어</a></li>
+                        </ul>
+                        <figure class="menu_img">
+                            <img src="./resource/header/skin_care_menu.png" alt="스킨케어 메뉴 이미지">
+                        </figure>
+                    </li>
+
+                    <!-- 메이크업 -->
+                    <li class="smart_dep1">
+                        <div class="menu_icon">
+                            <a href="./">메이크업</a>
+                            <figure>
+                                <img src="./resource/svg/header_smart/Chevron down.svg" alt="메이크업 메뉴 보기">
+                            </figure>
+                        </div>
+                        <ul>
+                            <li class="smart_dep2">
+                                <a href="./makeup/lip/lip-all.html">립</a>
+                                <ul>
+                                    <li><a href="./makeup/lip/lipstick.html">립스틱</a></li>
+                                    <li><a href="./makeup/lip/liquid.html">리퀴드 립</a></li>
+                                    <li><a href="./makeup/lip/gloss.html">립 글로스</a></li>
+                                    <li><a href="./makeup/lip/care.html">립 케어</a></li>
+                                </ul>
+                            </li>
+                            <li class="smart_dep2">
+                                <a href="./makeup/eye/eye-all.html">아이</a>
+                                <ul>
+                                    <li><a href="./makeup/eye/shadow.html">아이섀도우</a></li>
+                                    <li><a href="./makeup/eye/brow.html">아이브로우</a></li>
+                                    <li><a href="./makeup/eye/liner.html">아이라이너</a></li>
+                                    <li><a href="./makeup/eye/mascara.html">마스카라</a></li>
+                                    <li><a href="./makeup/eye/acc.html">액세서리</a></li>
+                                </ul>
+                            </li>
+                            <li class="smart_dep2">
+                                <a href="./makeup/face/face-all.html">페이스</a>
+                                <ul>
+                                    <li><a href="./makeup/face">파운데이션</a></li>
+                                    <li><a href="./makeup/face">컨실러</a></li>
+                                    <li><a href="./makeup/face">파우더</a></li>
+                                    <li><a href="./makeup/face">프라이머</a></li>
+                                    <li><a href="./makeup/face">블러쉬</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <figure class="menu_img">
+                            <img src="./resource/header/make_up_menu.png" alt="메이크업 메뉴 이미지">
+                        </figure>    
+                    </li>
+
+                    <!-- 향수 -->
+                    <li class="smart_dep1">
+                        <div class="menu_icon">
+                            <a href="./perfume/perfume-all.html">향수</a>
+                            <figure>
+                                <img src="./resource/svg/header_smart/Chevron down.svg" alt="향수 메뉴 전체보기">
+                            </figure>
+                        </div>
+                        <ul>
+                            <li class="smart_dep2">
+                                <a href="./perfume/collection/collection-all.html">컬렉션 소개</a>
+                                <ul>
+                                    <li><a href="./perfume/collection/luxury.html">럭셔리 프래그런스</a></li>
+                                    <li><a href="./perfume/collection/beautiful-mag.html">뷰티풀 매그놀리아</a></li>
+                                    <li><a href="./perfume/collection/morden.html">모던 뮤즈</a></li>
+                                    <li><a href="./perfume/collection/pleasure.html">플레져</a></li>
+                                    <li><a href="./perfume/collection/beautiful.html">뷰티풀</a></li>
+                                </ul>
+                            </li>
+                            <li class="smart_dep2">
+                                <a href="./perfume/airen/airen-all.html">에어린</a>
+                                <ul>
+                                    <li><a href="./perfume/airen/airen.html">에어린</a></li>
+                                    <li><a href="./perfume/airen/premium.html">에어린 프리미엄</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <figure class="menu_img">
+                            <img src="./resource/header/perfume_menu.png" alt="향수 메뉴 이미지">
+                        </figure>
+                    </li>
+                    
+                    <!-- 브랜드스토리 -->
+                    <li class="smart_dep1">
+                        <div class="menu_icon">
+                            <a href="./">브랜드스토리</a>
+                            <figure>
+                                <img src="./resource/svg/header_smart/Chevron down.svg" alt="브랜드스토리 메뉴 전체보기">
+                            </figure>
+                        </div>
+                        <ul>
+                            <li><a href="./brandstory">에스티로더 브랜드 스토리</a></li>
+                            <li><a href="./brandstory">트렌드 리포트</a></li>
+                            <li><a href="./brandstory">목표&가치</a></li>
+                            <li><a href="./brandstory">Emerging Leaders Fund</a></li>
+                            <li><a href="./brandstory">원료도감</a></li>
+                            <li><a href="./brandstory">커뮤니티</a></li>
+                        </ul>
+                        <figure class="menu_img">
+                            <img src="./resource/header/brandstory_menu.png" alt="">
+                        </figure>
+                    </li>
+
+                    <li class="smart_dep1"><a href="./">공식몰서비스</a></li>
+
+                    <!-- 마이페이지 -->
+                    <li class="smart_dep1">
+                        <div class="menu_icon">
+                            <a href="./mypage/">마이페이지</a>
+                            <figure>
+                                <img src="./resource/svg/header_smart/Chevron down.svg" alt="마이페이지 메뉴 전체보기">
+                            </figure>
+                        </div>
+                        <ul>
+                            <li><a href="./mypage">주문정보</a></li>
+                            <li><a href="./mypage">장바구니</a></li>
+                            <li><a href="./mypage">개인정보조회</a></li>
+                        </ul>
+                        <figure class="menu_img">
+                            <img src="./resource/header/my_page_menu.png" alt="마이페이지 메뉴 이미지">
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
     <main>
         <div class="hero-banner">
-            <video autoplay muted loop playsinline><source src="./resource/Estée Lauder Luxury Fragrance.mp4" type="video/mp4">
-            </video>
+            <a href="./perfume/collection/collection-all.html">
+                <video autoplay muted loop playsinline><source src="./resource/Estée Lauder Luxury Fragrance.mp4" type="video/mp4">
+                </video>
+                <div class="hero-text">
+                    <h1 class="pf">Luxury Fragrance Collection</h1>
+                    <p>Discover the Collection →</p>
+                </div>
+            </a>
         </div>
         <div class="common_frame">
             <!-- 베스트셀러 가로스크롤 리스트 -->
@@ -288,9 +487,23 @@
 
             <script>
                 let swiper1 = new Swiper(".scroll-list", {
-                    slidesPerView: 3.5,
-                    spaceBetween: 20,
+                    slidesPerView: 2.2,
+                    spaceBetween: 14,
                     autoHeight: true,
+                    breakpoints: {
+                        768: {
+                        slidesPerView: 3.2,
+                        spaceBetween: 18,
+                        },
+                        1024: {
+                            slidesPerView: 4.2,
+                            spaceBetween: 18,
+                        },
+                        1460: {
+                        slidesPerView: 4.2,
+                        spaceBetween: 20,
+                        },
+                    },
                 });
             </script>
         </div>
@@ -309,17 +522,23 @@
                     <ul class="swiper-wrapper popup_station">
                         <li class="swiper-slide popuplist">
                             <a href="#">
-                                <img src="./resource/main/main_popup/popup_1.png" alt="베스트 리뷰 이벤트">
+                                <img class="pc_banner" src="./resource/main/main_popup/popup_1.png" alt="베스트 리뷰 이벤트">
+                                <img class="tab_banner" src="./resource/main/main_popup/popup_1_tab.jpg" alt="베스트 리뷰 이벤트">
+                                <img class="mo_banner" src="./resource/main/main_popup/popup_1_mo.jpg" alt="베스트 리뷰 이벤트">
                             </a>
                         </li>
                         <li class="swiper-slide popuplist">
                             <a href="#">
-                                <img src="./resource/main/main_popup/popup_2.png" alt="쇼핑백 증정">
+                                <img class="pc_banner" src="./resource/main/main_popup/popup_2.png" alt="쇼핑백 증정">
+                                <img class="tab_banner" src="./resource/main/main_popup/popup_2_tab.jpg" alt="쇼핑백 증정">
+                                <img class="mo_banner" src="./resource/main/main_popup/popup_2_mo.jpg" alt="쇼핑백 증정">
                             </a>
                         </li>
                         <li class="swiper-slide popuplist">
                             <a href="#">
-                                <img src="./resource/main/main_popup/popup_3.png" alt="온라인몰 전용 상품 최대 30% 세일">
+                                <img class="pc_banner" src="./resource/main/main_popup/popup_3.png" alt="온라인몰 전용 상품 최대 30% 세일">
+                                <img class="tab_banner" src="./resource/main/main_popup/popup_3_tab.jpg" alt="온라인몰 전용 상품 최대 30% 세일">
+                                <img class="mo_banner" src="./resource/main/main_popup/popup_3_mo.jpg" alt="온라인몰 전용 상품 최대 30% 세일">
                             </a>
                         </li>
                     </ul>
@@ -337,6 +556,8 @@
                             el: ".swiper-pagination",
                             clickable: true,
                             },
+                        autoHeight:true
+                        
                         });
                 </script>
 
@@ -351,17 +572,37 @@
                 <ul class="swiper-wrapper bannerarea">
                     <li class="swiper-slide subbanner">
                         <a href="#">
-                            <img src="./resource/main/main_banner/banner_1.png" alt="퓨어컬러 익스플리시트 실크 매트 립스틱">
+                            <img class="pc_banner" src="./resource/main/main_banner/banner_1.png" alt="퓨어컬러 익스플리시트 실크 매트 립스틱 배너 - 바로가기">
+                            <img class="tab_banner" src="./resource/main/main_banner//banner_1_tab.jpg" alt="퓨어컬러 익스플리시트 실크 매트 립스틱 배너 - 바로가기">
+                            <img class="mo_banner" src="./resource/main/main_banner/banner_1_mo.jpg" alt="퓨어컬러 익스플리시트 실크 매트 립스틱 배너 - 바로가기">
                         </a>
                     </li>
                     <li class="swiper-slide subbanner">
                         <a href="#">
-                            <img src="./resource/main/main_banner/banner_2.png" alt="퓨어컬러 젤리 글로우 밤">
+                            <img class="pc_banner" src="./resource/main/main_banner/banner_2.png" alt="퓨어컬러 젤리 글로우 밤 배너 - 바로가기">
+                            <img class="tab_banner" src="./resource/main/main_banner/banner_2_tab.jpg" alt="퓨어컬러 젤리 글로우 밤 배너 - 바로가기">
+                            <img class="mo_banner" src="./resource/main/main_banner/banner_2_mo.jpg" alt="퓨어컬러 젤리 글로우 밤 배너 - 바로가기">
                         </a>
                     </li>
                     <li class="swiper-slide subbanner">
                         <a href="#">
-                            <img src="./resource/main/main_banner/banner_3.png" alt="리-뉴트리뷰 래디언스 UV 플루이드">
+                            <img class="pc_banner" src="./resource/main/main_banner/banner_3.png" alt="리-뉴트리뷰 래디언스 UV 플루이드 배너 - 바로가기">
+                            <img class="tab_banner" src="./resource/main/main_banner/banner_3_tab.jpg" alt="리-뉴트리뷰 래디언스 UV 플루이드 배너 - 바로가기">
+                            <img class="mo_banner" src="./resource/main/main_banner/banner_3_mo.jpg" alt="리-뉴트리뷰 래디언스 UV 플루이드 배너 - 바로가기">
+                        </a>
+                    </li>
+                    <li class="swiper-slide subbanner">
+                        <a href="#">
+                            <img class="pc_banner" src="./resource/main/main_banner/banner_4.jpg" alt="텐더 화이트 향수 배너 - 바로가기">
+                            <img class="tab_banner" src="./resource/main/main_banner/banner_4_tab.jpg" alt="텐더 화이트 향수 배너 - 바로가기">
+                            <img class="mo_banner" src="./resource/main/main_banner/banner_4_mo.jpg" alt="텐더 화이트 향수 배너 - 바로가기">
+                        </a>
+                    </li>
+                    <li class="swiper-slide subbanner">
+                        <a href="#">
+                            <img class="pc_banner" src="./resource/main/main_banner/banner_5.jpg" alt="더블웨어 제로 스머징 랭스 마스카라 배너 - 바로가기">
+                            <img class="tab_banner" src="./resource/main/main_banner/banner_5_tab.jpg" alt="더블웨어 제로 스머징 랭스 마스카라 배너 - 바로가기">
+                            <img class="mo_banner" src="./resource/main/main_banner/banner_5_mo.jpg" alt="더블웨어 제로 스머징 랭스 마스카라 배너 - 바로가기">
                         </a>
                     </li>
                 </ul>
@@ -371,14 +612,15 @@
                 var swiper3 = new Swiper(".sub-banner", {
                     spaceBetween: 20,
                     centeredSlides: true,
-                    autoplay: {
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    },
+                    // autoplay: {
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // },
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,
                     },
+                    autoHeight:true
                 });
             </script>
          </div>
@@ -446,9 +688,23 @@
             </div>
             <script>
                 let swiper4 = new Swiper(".new", {
-                    slidesPerView: 3.5,
-                    spaceBetween: 20,
+                    slidesPerView: 2.2,
+                    spaceBetween: 14,
                     autoHeight: true,
+                    breakpoints: {
+                        768: {
+                        slidesPerView: 3.2,
+                        spaceBetween: 14,
+                        },
+                        1024: {
+                            slidesPerView: 4.2,
+                            spaceBetween: 18,
+                        },
+                        1460: {
+                        slidesPerView: 4.2,
+                        spaceBetween: 20,
+                        },
+                    },
                 });
             </script>
 
@@ -568,9 +824,23 @@
             </div>
             <script>
                 let swiper5 = new Swiper(".review", {
-                    slidesPerView: 3.5,
-                    spaceBetween: 20,
+                    slidesPerView: 2,
+                    spaceBetween: 14,
                     autoHeight: true,
+                    breakpoints: {
+                        768: {
+                        slidesPerView: 2,
+                        spaceBetween: 14,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 18,
+                        },
+                        1460: {
+                        slidesPerView: 4,
+                        spaceBetween: 20,
+                        },
+                    },
                 });
             </script>
 
@@ -595,14 +865,14 @@
 
     <footer>
         <div class="footer-common-frame">
-            <div class="footer-top">
+            <div class="common_frame footer-top">
                 <div class="footer-logo">
                     <a href="./index.html">
                         <img src="./resource/logo.svg" alt="Estee lauder - 메인페이지로 바로가기">
                     </a>
                     <section class="address">
                         <p>이엘씨에이한국(유) 대표 Jean-Alexandre Havard, 서울시 강남구 강남대로 382(역삼동) 메리츠 타워 9층, 06232. 사업자등록번호: 211-81-71889</p>
-                        <p>고객관리지원팀 1644-3728 | 호스팅서비스 사업자: ㈜엘지유플러스 | 통신판매업신고: 강남 15737호</p>
+                        <p class="ad_last">고객관리지원팀 1644-3728 | 호스팅서비스 사업자: ㈜엘지유플러스 | 통신판매업신고: 강남 15737호</p>
                     </section>
                 </div>
                 <div class="footer-gnb">
