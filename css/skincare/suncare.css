@@ -1,21 +1,30 @@
-html{
-    font-size: var(--basic-size-pc);
-}
 
 .common-frame{
     margin: 3rem 5rem 12rem 5rem;
+}
+
+.tab_banner{
+    display: none;
+}
+
+.mo_banner{
+    display: none;
+}
+
+.list{
+    width: 100%;
 }
 
 .list ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin-bottom: 3rem;
 }
 
 .list>ul>li{
-    font-size: 1.4rem;
+    font-size: .9rem;
     font-weight: var(--font-strong);
     transition: all 0.5s ease 0s;
     cursor: pointer;
