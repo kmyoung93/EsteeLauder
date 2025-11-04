@@ -77,13 +77,25 @@ form h1{
 .form-grop{
     display: flex;
     justify-content: space-between;
-    margin: 1rem 0;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+    gap: 2rem;
+}
+.form-grop .text {
+    flex: 0 0 auto;
+    min-width: 150px;
+    padding-top: 0.5rem;
+}
+.form-grop > div:not(.text),
+.form-grop > input,
+.form-grop > select {
+    max-width: 600px;
 }
 input[type=text],
 input[type=number]{
     height: 40px;
     padding: 0 0.8rem;
-    width: 200px;
+    box-sizing: border-box;
 }
 select {
     width: 100%; /* 부모 요소에 맞춤 */
@@ -91,33 +103,64 @@ select {
     height: 40px;
     padding: 0 0.8rem;
 }
+#order-name {
+    width: 100%;
+    max-width: 300px;
+}
+.user-phon {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+}
 .email-input {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     flex-wrap: nowrap;
 }
-
 .email-input input[type="text"] {
     width: 140px;
     height: 40px;
 }
-
 .email-input select {
+    width: 180px;
+    height: 40px;
+}
+.email-input input[type="text"] {
     width: 150px;
     height: 40px;
 }
 #user-phon1, #user-phon2, #user-phon3{
-    width: 63px;
+    width: 70px;
     height: 40px;
+    text-align: center;
+}
+.grop-ver{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.address-box{
+    flex: 1;
+    height: 40px;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
+}
+.address-box-detail{
+    width: 100%;
+    height: 40px;
+    padding: 0 0.8rem;
+    box-sizing: border-box;
 }
 .form-grop .grop-ver .grop-hor .address-box,
 .form-grop .grop-ver .address-box{
-    width: 400px;
+    width: 100%;
 }
 .btn-check {
     background-color: #000;
-    font-weight: 700;
     width: 125px;
     height: 40px;
     color: #fff;
@@ -126,7 +169,7 @@ select {
 .form-grop .grop-hor{
     gap: var(--space-normal);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 .grop-ver{
@@ -134,8 +177,26 @@ select {
     display: flex;
     flex-direction:column;
 }
-.address-box-detail{
-    width: 95% !important;
+.delivery-request {
+    width: 100%;
+    max-width: 400px;
+}
+/* 결제 방법 선택 */
+.order-select {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.order-select label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.order-select input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 .oreder-list {
     border-top: 3px solid #000;
@@ -192,7 +253,7 @@ input[type="checkbox"].product-checkbox {
     display: none;
 }
 .product-details .color-info {
-    display: block !important;
+    display: block;
 }
 .quantity-col,
 .price-col {
@@ -286,7 +347,7 @@ tbody td:last-child figure img {
     }
     .pay {
         position: static;
-        width: 100% !important;
+        width: 100%;
         min-width: unset;
         max-width: unset;
         padding: 0;
@@ -297,53 +358,62 @@ tbody td:last-child figure img {
         gap: 1rem;
         flex-direction: row-reverse;
     }
-    
-    /* 폼 관련 추가 */
     .form-grop {
-        /* flex-direction: column;
-        align-items: flex-start; */
         gap: 0.5rem;
     }
-    
     .text {
         margin-bottom: 0.5rem;
+        flex-shrink: 0;
     }
-    
-    input[type=text],
+    /* input[type=text],
     input[type=number] {
         max-width: 400px;
-    }
-    
+    } */
     select {
         width: 100%;
         max-width: 400px;
     }
-    
     .email-input {
         flex-wrap: wrap;
     }
-    
     .email-input input[type="text"] {
         width: 140px;
     }
-    
     .email-input select {
         width: 150px;
     }
-    
-    .form-grop .grop-ver .grop-hor .address-box,
-    .form-grop .grop-ver .address-box {
-        max-width: 400px;
+    .form-grop {
+        justify-content: space-between; 
+        display: flex;
+        align-items: flex-start;
+    }
+    .form-grop > div:not(.text),
+    .form-grop > input,
+    .form-grop > select {
+        max-width: none;
+        width: auto;
+        margin-left: auto;
     }
     .form-grop .grop-ver .order-address-detail{
         width: 100%;
+        min-width: 500px;
     }
-    
+    .form-grop .grop-ver {
+        max-width: none;
+        width: 100%;
+        min-width: 500px;
+    }
+    .user-phon {
+        max-width: none;
+        width: 100%;
+    }
+    .email-input {
+        max-width: none;
+        width: 100%;
+    }
     .address-box-detail {
-        width: 91% !important;
-        max-width: 400px;
+        max-width: none;
     }
-    
     .order-select {
         display: flex;
         gap: 1rem;
@@ -370,7 +440,6 @@ tbody td:last-child figure img {
         padding: 0;
         text-align: left;
     }
-    
     /* 폼 레이아웃 */
     .form-grop {
         flex-direction: column;
@@ -378,104 +447,106 @@ tbody td:last-child figure img {
         width: 100%; /* 추가 */
         gap: 0.5rem;
     }
-    
-    .text {
+    .form-grop .text h4{
         margin-bottom: 0.5rem;
     }
-    
-    /* 입력 필드 */
-    input[type=text],
-    input[type=number] {
-        width: 100%;
+        #order-name{
         max-width: none;
     }
-    
+    .form-grop > div:not(.text),
+    .form-grop > input,
+    .form-grop > select {
+        margin-left: 0;
+        width: 100%;
+    }
     select {
         width: 100%;
         max-width: none;
     }
-    
-    /* 이메일 입력 */
-    .email-input {
-        flex-direction: column;
+     .email-input {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         width: 100%;
-        align-items: stretch;
+        gap: 0.5rem;
     }
-    
-    .email-input input[type="text"] {
-        width: 100%;
-    }
-    
-    .email-input select {
-        width: 100%;
-    }
-    
     .email-input span {
-        display: none;
+        flex: 0 0 auto; /* @ 기호는 내용만큼만 */
     }
-    
-    /* 전화번호 */
+    .email-input input[type="text"],
+    .email-input select {
+        flex: 1 1 0;
+        width: 100%;
+        max-width: 100%;
+        height: 40px;
+        padding: 0 0.8rem;
+        box-sizing: border-box;
+    }
+    .form-grop {
+        width: 100%;
+        display: block;
+    }
     .user-phon {
         display: flex;
         gap: 0.5rem;
         align-items: center;
         width: 100%;
     }
-    
     #user-phon1, #user-phon2, #user-phon3 {
         flex: 1;
         width: auto;
     }
-    
-    /* 주소 */
-    .grop-hor {
-        flex-direction: column;
-        align-items: stretch;
+    .form-grop .grop-ver .grop-hor {
+        flex-direction: row; /* 가로 배치 */
+        align-items: stretch; /* 높이 동일하게 */
         width: 100%;
+        gap: 0.5rem; /* 버튼과 입력칸 사이 여백 */
     }
-    
-    .form-grop .grop-ver .grop-hor .address-box,
-    .form-grop .grop-ver .address-box {
-        width: 100%;
-        max-width: none;
+
+    .form-grop .grop-ver .grop-hor .address-box {
+        flex: 1; /* 남는 공간 꽉 채우기 */
+        height: 40px;
     }
-    
+
+    .form-grop .grop-ver .grop-hor .btn-check {
+        flex: 0 0 auto; /* 버튼 고정 크기 */
+        height: 40px;
+        width: 100px; /* 필요 시 조정 가능 */
+    }
+
     .address-box-detail {
-        width: 100% !important;
+        width: 100%;
         max-width: none;
+        height: 40px;
+        margin-top: 0.5rem; /* 아래 상세주소 여백 */
     }
-    
     .btn-check {
         width: 100%;
     }
-    
-    /* 결제 방법 */
     .order-select {
         display: flex;
-        flex-direction: column;
         gap: 1rem;
     }
-    
     .order-select label {
         display: flex;
         align-items: center;
         gap: 0.5rem;
     }
-    
+    .form-grop .grop-hor{
+        align-items: stretch;
+    }
     /* 상품 정보 영역 */
     tbody td:nth-child(2) {
         flex: 1;
         padding-right: 1rem;
     }
-    
     tbody td:nth-child(2) .product {
-        display: flex !important;
-        flex-direction: row !important;
-        gap: 1.2rem !important;
-        align-items: flex-start !important;
-        text-align: left !important;
+        display: flex;
+        flex-direction: row;
+        gap: 1.2rem;
+        align-items: flex-start;
+        text-align: left;
     }
-    
     tbody td:nth-child(2) .product figure {
         flex-shrink: 0;
         width: 25vw;
@@ -487,13 +558,11 @@ tbody td:last-child figure img {
         align-items: center;
         justify-content: center;
     }
-    
     tbody td:nth-child(2) .product figure img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-    
     tbody td:nth-child(2) .product .product-details {
         flex: 1;
         display: flex;
@@ -501,72 +570,57 @@ tbody td:last-child figure img {
         gap: 0.4rem;
         min-width: 0;
     }
-    
     tbody td:nth-child(2) .product-name p:first-child {
         margin: 0;
     }
-    
     tbody td:nth-child(2) .product-name p:last-child {
         margin: 0;
         margin-bottom: 0.6rem;
     }
-    
     tbody td:nth-child(2) .product-details .color-info {
-        display: block !important;
+        display: block;
         margin-top: 1rem;
     }
-    
     tbody td:nth-child(2) .product-details .quantity-info {
-        display: block !important;
+        display: block;
         margin: 0;
     }
-    
     tbody td:nth-child(2) .product-details .price {
-        display: block !important;
+        display: block;
     }
-    
     tbody td:nth-child(3),
     tbody td:nth-child(4) {
-        display: none !important;
+        display: none;
     }
-    
     /* 결제 박스 */
     .pay {
         width: 100%;
         position: static;
         margin-top: 1.5rem;
-        padding: 1.5rem;
     }
-    
     .pay .btn {
         flex-direction: row-reverse;
         gap: 0.8rem;
     }
-    
     .btn > div {
         padding: 0.9rem;
     }
-    
     /* 단계 표시 */
     ol {
         flex-wrap: wrap;
         gap: 0.5rem;
         max-width: 100%;
     }
-    
     ol li {
         font-size: 0.85rem;
     }
-    
     ol li span {
         font-size: 0.75rem;
         margin-right: 0.5rem;
     }
-    
     ol li strong {
         font-size: 1rem;
     }
-    
     ol li.arrow {
         width: 1rem;
         height: 1rem;
