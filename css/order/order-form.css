@@ -281,10 +281,6 @@ tbody td:last-child figure img {
     border: 2px solid #000;
 }
 @media (max-width: 1460px){
-    .common_frame{
-        width: 100%;
-        margin: 0 3rem;
-    }
     .order-content-wrapper {
         flex-direction: column;
     }
@@ -337,8 +333,10 @@ tbody td:last-child figure img {
     
     .form-grop .grop-ver .grop-hor .address-box,
     .form-grop .grop-ver .address-box {
-        width: 100%;
         max-width: 400px;
+    }
+    .form-grop .grop-ver .order-address-detail{
+        width: 100%;
     }
     
     .address-box-detail {
@@ -350,19 +348,8 @@ tbody td:last-child figure img {
         display: flex;
         gap: 1rem;
     }
-        .email-input {
-        width: 100%; /* 추가 */
-    }
-    
-    .grop-hor {
-        width: 100%; /* 추가 */
-    }
 }
 @media (max-width: 768px) {
-    .common_frame{
-        width: 100%;
-        margin: 0 1rem;
-    }
     thead {
         display: none;
     }

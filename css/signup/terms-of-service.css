@@ -95,7 +95,7 @@ h2 span{
     margin-top: 2rem;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1460px) {
     html{
         font-size: var(--basic-size-tap);
     }
@@ -142,4 +142,15 @@ h2 span{
         width: 162px;
         height: 30px;
     }
+}
+@media (max-width: 320px){
+    ol{
+        flex-wrap: nowrap;
+    }
+    ol li{
+        display: flex ;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    text-align: left;}
 }
