@@ -5,15 +5,16 @@
     --basic-font-mobile:14px;
 
     /* color variation */
-    --bakee-brown-main-100:#FDE1C5;
-    --bakee-brown-main-200:#F9C898; 
-    --bakee-brown-main-300:#F2B170; 
-    --bakee-brown-main-400:#E99D50; 
-    --bakee-brown-main-500:#DD8B38; 
-    --bakee-brown-main-600:#CD7A27; 
-    --bakee-brown-main-700:#B8691B;        
-    --bakee-brown-main-800:#A05913;
-    --bakee-brown-main-900:#874A0E;  
+    --mood-in-blue-0:#8099FF;
+    --mood-in-blue-100:#6987FD;
+    --mood-in-blue-200:#5475F9; 
+    --mood-in-blue-300:#4165F2; 
+    --mood-in-blue-400:#3257E9; 
+    --mood-in-blue-500:#264BDD; 
+    --mood-in-blue-600:#1D40CD; 
+    --mood-in-blue-700:#1637B8;        
+    --mood-in-blue-800:#112EA0;
+    --mood-in-blue-main-900:#0E2687;  
 
     --font-strong:700;
     --font-normal:400;
@@ -26,9 +27,11 @@
     --space-normal:1rem;
     --space-x-small:0.5rem;
     --space-2x-small:0.25rem;
-    --space-x-large:2rem;
-    --space-2x-large:3rem;
-    --space-3x-large:12rem;
+    --space-large:2rem;
+    --space-x-large:3rem;
+    --space-2x-large:4rem;
+    --space-3x-large:5rem;
+    --space-4x-large:12rem;
 
     /* semantic color */
     --color-inactive:#777;
@@ -70,9 +73,13 @@ p{
 .common_frame{
     margin: 0 5rem;
 }
+em{
+    font-style: inherit;
+    color: var(--mood-in-blue-main-900);
+}
 
 .slider-container {
-  overflow-x: auto;
+    overflow-x: auto;
   /* 슬라이드처럼 멈춤 */
   /* scroll-snap-type: x mandatory;  */
   -webkit-overflow-scrolling: touch; /* iOS 부드러운 스크롤 */
@@ -80,11 +87,11 @@ p{
   display: flex;
   width: 62%;
   scrollbar-width: none;
- -ms-overflow-style: none;
+  -ms-overflow-style: none;
 }
 
 .slider-container::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .slider-track{
@@ -97,12 +104,12 @@ p{
 }
 
 .slider-track::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .slider-track span {
-  flex-shrink: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }

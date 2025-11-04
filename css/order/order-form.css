@@ -1,0 +1,689 @@
+@media (min-width:1920px) {
+    body{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
+html{
+    font-size: var(--basic-size-pc);
+}
+main {
+    min-height: calc(100vh - 200px);
+    padding: 2rem 0;
+}
+.common_frame > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: var(--space-4x-large);
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+ol{
+    margin: 0 auto;
+    max-width: 850px;
+    list-style: none;
+    margin-top: var(--space-2x-large);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-inactive);
+    flex-wrap: nowrap;
+    text-align: center;
+}
+ol li.arrow {
+    flex: 0 0 auto;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../../resource/signup/lucide_chevron-right.svg") no-repeat center / contain;
+    flex-wrap: nowrap;
+}
+ol li.act{
+    color: #000;
+}
+ol li span{
+    font-style: inherit;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
+ol li strong{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.order-content-wrapper {
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+    align-items: flex-start;
+}
+.order-form{
+    width: 100%;
+}
+.oreder-information{
+    margin-top: 6rem;
+}
+.oreder-address,
+.oreder-payment{
+    margin-top: 3rem;
+}
+fieldset{
+    border: none;
+}
+form h1{
+    border-bottom: 3px solid #000;
+    width: 100%;
+    padding: var(--space-normal) 0;
+    margin-bottom: 0.5rem;
+}
+.form-grop{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+input[type=text],
+input[type=number]{
+    height: 40px;
+    padding: 0 0.8rem;
+    width: 200px;
+}
+select {
+    width: 100%; /* 부모 요소에 맞춤 */
+    max-width: 400px; /* 최대 너비 제한 */
+    height: 40px;
+    padding: 0 0.8rem;
+}
+.email-input {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+}
+
+.email-input input[type="text"] {
+    width: 140px;
+    height: 40px;
+}
+
+.email-input select {
+    width: 150px;
+    height: 40px;
+}
+#user-phon1, #user-phon2, #user-phon3{
+    width: 63px;
+    height: 40px;
+}
+.form-grop .grop-ver .grop-hor .address-box,
+.form-grop .grop-ver .address-box{
+    width: 400px;
+}
+.btn-check {
+    background-color: #000;
+    font-weight: 700;
+    width: 125px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+.form-grop .grop-hor{
+    gap: var(--space-normal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grop-ver{
+    gap: var(--space-normal);
+    display: flex;
+    flex-direction:column;
+}
+.address-box-detail{
+    width: 95% !important;
+}
+.oreder-list {
+    border-top: 3px solid #000;
+    width: 100%;
+    flex: 1;
+    border-collapse: collapse;
+}
+thead {
+    border-bottom: 1px solid #000;
+}
+thead th{
+    white-space: nowrap;
+}
+thead th {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #818181;
+    text-align: center;
+}
+tbody td {
+    padding: 2rem 0;
+    border-bottom: 1px solid #818181;
+    text-align: center;
+    vertical-align: middle;
+}
+input[type="checkbox"].product-checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+.product {
+    display: flex;
+    gap: 1.5rem;
+    text-align: left;
+    align-items: center;
+}
+.product figure {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+.product figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-details {
+    flex: 1;
+}
+.product-name p:last-child {
+    margin-bottom: 0.8rem;
+}
+.product-details .quantity-info,
+.product-details .price {
+    display: none;
+}
+.product-details .color-info {
+    display: block !important;
+}
+.quantity-col,
+.price-col {
+    display: table-cell;
+}
+tbody td:last-child figure {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+tbody td:last-child figure img {
+    width: 100%;
+    height: 100%;
+}
+.pay {
+    width: 28%;
+    min-width: 320px;
+    max-width: 400px;
+    position: sticky;
+    top: 6rem;
+    height: fit-content;
+    background: #fff;
+    padding: 2rem;
+    flex-shrink: 0;
+}
+.pay > h1 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+.pay .product-details {
+    margin-bottom: 1.5rem;
+}
+.pay .product-details > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.pay .product-details p {
+    font-weight: 500;
+    white-space: nowrap;
+    flex-shrink: 0; 
+}
+.pay .product-details div > div {
+    font-weight: 600;
+    text-align: right;
+    white-space: nowrap;
+    min-width: fit-content;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+.product-totla {
+    color: #000;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.btn > div {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-1 {
+    background: #000;
+    color: #fff;
+}
+.btn-2 {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+@media (max-width: 1460px){
+    .common_frame{
+        width: 100%;
+        margin: 0 3rem;
+    }
+    .order-content-wrapper {
+        flex-direction: column;
+    }
+    .pay {
+        position: static;
+        width: 100% !important;
+        min-width: unset;
+        max-width: unset;
+        padding: 0;
+        margin-top: 6rem;
+    }
+    .pay .btn {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row-reverse;
+    }
+    
+    /* 폼 관련 추가 */
+    .form-grop {
+        /* flex-direction: column;
+        align-items: flex-start; */
+        gap: 0.5rem;
+    }
+    
+    .text {
+        margin-bottom: 0.5rem;
+    }
+    
+    input[type=text],
+    input[type=number] {
+        max-width: 400px;
+    }
+    
+    select {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .email-input {
+        flex-wrap: wrap;
+    }
+    
+    .email-input input[type="text"] {
+        width: 140px;
+    }
+    
+    .email-input select {
+        width: 150px;
+    }
+    
+    .form-grop .grop-ver .grop-hor .address-box,
+    .form-grop .grop-ver .address-box {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .address-box-detail {
+        width: 91% !important;
+        max-width: 400px;
+    }
+    
+    .order-select {
+        display: flex;
+        gap: 1rem;
+    }
+        .email-input {
+        width: 100%; /* 추가 */
+    }
+    
+    .grop-hor {
+        width: 100%; /* 추가 */
+    }
+}
+@media (max-width: 768px) {
+    .common_frame{
+        width: 100%;
+        margin: 0 1rem;
+    }
+    thead {
+        display: none;
+    }
+    table, tbody {
+        display: block;
+    }
+    tr {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding: 2rem 0 1.5rem;
+        position: relative;
+        border-bottom: 1px solid #818181;
+    }
+    tbody td {
+        display: block;
+        border: none;
+        padding: 0;
+        text-align: left;
+    }
+    
+    /* 폼 레이아웃 */
+    .form-grop {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%; /* 추가 */
+        gap: 0.5rem;
+    }
+    
+    .text {
+        margin-bottom: 0.5rem;
+    }
+    
+    /* 입력 필드 */
+    input[type=text],
+    input[type=number] {
+        width: 100%;
+        max-width: none;
+    }
+    
+    select {
+        width: 100%;
+        max-width: none;
+    }
+    
+    /* 이메일 입력 */
+    .email-input {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
+    }
+    
+    .email-input input[type="text"] {
+        width: 100%;
+    }
+    
+    .email-input select {
+        width: 100%;
+    }
+    
+    .email-input span {
+        display: none;
+    }
+    
+    /* 전화번호 */
+    .user-phon {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #user-phon1, #user-phon2, #user-phon3 {
+        flex: 1;
+        width: auto;
+    }
+    
+    /* 주소 */
+    .grop-hor {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+    
+    .form-grop .grop-ver .grop-hor .address-box,
+    .form-grop .grop-ver .address-box {
+        width: 100%;
+        max-width: none;
+    }
+    
+    .address-box-detail {
+        width: 100% !important;
+        max-width: none;
+    }
+    
+    .btn-check {
+        width: 100%;
+    }
+    
+    /* 결제 방법 */
+    .order-select {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .order-select label {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    /* 상품 정보 영역 */
+    tbody td:nth-child(2) {
+        flex: 1;
+        padding-right: 1rem;
+    }
+    
+    tbody td:nth-child(2) .product {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 1.2rem !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+    }
+    
+    tbody td:nth-child(2) .product figure {
+        flex-shrink: 0;
+        width: 25vw;
+        height: 25vw;
+        min-width: 80px;
+        min-height: 80px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    tbody td:nth-child(2) .product figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    tbody td:nth-child(2) .product .product-details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        min-width: 0;
+    }
+    
+    tbody td:nth-child(2) .product-name p:first-child {
+        margin: 0;
+    }
+    
+    tbody td:nth-child(2) .product-name p:last-child {
+        margin: 0;
+        margin-bottom: 0.6rem;
+    }
+    
+    tbody td:nth-child(2) .product-details .color-info {
+        display: block !important;
+        margin-top: 1rem;
+    }
+    
+    tbody td:nth-child(2) .product-details .quantity-info {
+        display: block !important;
+        margin: 0;
+    }
+    
+    tbody td:nth-child(2) .product-details .price {
+        display: block !important;
+    }
+    
+    tbody td:nth-child(3),
+    tbody td:nth-child(4) {
+        display: none !important;
+    }
+    
+    /* 결제 박스 */
+    .pay {
+        width: 100%;
+        position: static;
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+    }
+    
+    .pay .btn {
+        flex-direction: row-reverse;
+        gap: 0.8rem;
+    }
+    
+    .btn > div {
+        padding: 0.9rem;
+    }
+    
+    /* 단계 표시 */
+    ol {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        max-width: 100%;
+    }
+    
+    ol li {
+        font-size: 0.85rem;
+    }
+    
+    ol li span {
+        font-size: 0.75rem;
+        margin-right: 0.5rem;
+    }
+    
+    ol li strong {
+        font-size: 1rem;
+    }
+    
+    ol li.arrow {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .common_frame {
+        margin: 0 0.5rem;
+    }
+    
+    .common_frame > h1 {
+        font-size: 2rem;
+        margin-top: var(--space-2x-large);
+    }
+    
+    /* 단계 표시 더 작게 */
+    ol {
+        gap: 0.3rem;
+    }
+    
+    ol li span {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 0.2rem;
+    }
+    
+    ol li strong {
+        font-size: 0.9rem;
+    }
+    
+    /* 전화번호 세로 배치 */
+    .user-phon {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .user-phon span {
+        display: none;
+    }
+    
+    #user-phon1, #user-phon2, #user-phon3 {
+        width: 100%;
+    }
+    
+    /* 이메일 더 작게 */
+    .email-input input[type="text"],
+    .email-input select {
+        font-size: 0.9rem;
+    }
+    
+    /* 결제 박스 */
+    .pay {
+        padding: 1rem;
+    }
+    
+    .pay > h1 {
+        font-size: 1.2rem;
+    }
+    
+    .pay .product-details p,
+    .pay .product-details div > div {
+        font-size: 0.9rem;
+    }
+    
+    .total h1 {
+        font-size: 1.1rem;
+    }
+    
+    .btn > div {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+    
+    /* 폼 제목 */
+    form h1 {
+        font-size: 1.2rem;
+        padding: 0.7rem 0;
+    }
+    
+    /* 라벨 */
+    .text h4 {
+        font-size: 0.9rem;
+    }
+    
+    /* 버튼 */
+    .btn-check {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+    
+    /* 상품 이미지 더 작게 */
+    tbody td:nth-child(2) .product figure {
+        min-width: 60px;
+        min-height: 60px;
+        width: 20vw;
+        height: 20vw;
+    }
+    
+    tbody td:nth-child(2) .product {
+        gap: 0.8rem !important;
+    }
+    
+    tbody td:nth-child(2) .product-details {
+        font-size: 0.85rem;
+    }
+}
