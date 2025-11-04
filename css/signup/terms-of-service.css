@@ -1,0 +1,145 @@
+@media (min-width:1920px) {
+    body{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
+html{
+    font-size: var(--basic-size-pc);
+}
+/* .common_frame{
+    padding-top: 6rem;
+} */
+h1{
+    text-align: center;
+    margin-top: var(--space-4x-large);
+}
+ol{
+    margin: 0 auto;
+    max-width: 850px;
+    list-style: none;
+    margin-top: var(--space-2x-large);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: clamp(1rem, 5vw, 15rem);
+    color: var(--color-inactive);
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.arrow {
+    flex: 0 0 auto; /* 크기 고정 */
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../../resource/signup/lucide_chevron-right.svg") no-repeat center / contain;
+    flex-wrap: nowrap;
+}
+ol li.act{
+    color: #000;
+}
+ol li span{
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
+ol li strong{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+h2 span{
+    color: var(--mood-in-blue-main-900);
+}
+.box-txt{
+    height: 529px;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    overflow: scroll;
+    white-space: pre-line;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.tos{
+    margin-top: 6rem;
+}
+.chack-fame{
+    margin-right: 0.5rem;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.tos form{
+    margin: 0;
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.common_frame>form{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 6rem;
+    font-weight: 700;
+}
+.next-step a{
+    margin: 0 auto;
+    width: 425px;
+    height: 57px;
+    background-color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto 6rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2rem;
+}
+
+@media (max-width:1024px) {
+    html{
+        font-size: var(--basic-size-tap);
+    }
+    .common_frame{
+        margin: 0 3rem;
+    }
+    ol{
+        max-width: 790px;
+        justify-content: space-between;
+        gap: var(--space-3x-large);
+    }
+    .box-txt{
+        height: 264px;
+    }
+    .next-step a{
+        width: 306px;
+        height: 46px;
+    }
+}
+@media (max-width: 768px) {
+    html {
+        font-size: var(--basic-size-mobile);
+    }
+    .common_frame {
+        margin: 0 1rem;
+    }
+    ol {
+        width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap; /* 리스트 줄바꿈 허용 */
+        gap: 0.5rem; /* 좁은 화면에서 gap 줄이기 */
+    }
+    ol li {
+        flex: 1 1 auto; /* 화면에 맞게 늘어나게 */
+    }
+    .box-txt {
+        height: 162px;
+    }
+    .next-step a {
+        width: 100%;
+        max-width: 100%; /* 모바일에서는 화면폭 맞춤 */
+    }
+    .next-step a{
+        width: 162px;
+        height: 30px;
+    }
+}
