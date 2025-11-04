@@ -130,8 +130,4 @@ em{
     .common_frame{
         margin: 0 1rem;
     }
-    flex-shrink: 0;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
 }
