@@ -84,7 +84,7 @@ ol li strong{
     text-decoration: none;
 }
 
-@media (max-width:1024px) {
+@media (max-width:146px) {
     html{
         font-size: var(--basic-size-tap);
     }
@@ -121,4 +121,15 @@ ol li strong{
     .but-login a{
         width: 245px;
     }
+}
+@media (max-width: 320px){
+    ol{
+        flex-wrap: nowrap;
+    }
+    ol li{
+        display: flex ;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    text-align: left;}
 }

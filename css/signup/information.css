@@ -34,6 +34,8 @@ ol li.act{
     color: #000;
 }
 ol li em{
+    font-style: inherit;
+    color: #818181;
     margin-right: var(--space-normal);
     font-size: 0.9rem;  
 }
@@ -110,10 +112,7 @@ input[type=text]{
     margin-left: var(--space-normal);
     margin-right: var(--space-x-small);
 }
-#user-phon1{
-    width: 100px;
-}
-#user-phon2, #user-phon3{
+#user-phon1, #user-phon2, #user-phon3{
     width: 40px;
 }
 .form-grop .grop-ver .grop-hor .address-box,
@@ -127,6 +126,14 @@ input[type=text]{
     height: 40px;
     color: #fff;
     cursor: pointer;
+}
+.email-input{
+    white-space: nowrap;
+}
+.email-select{
+    width: 180px;
+    height: 44px;
+    padding: 0 0.5rem;
 }
 .radio{
     display: flex;
@@ -175,7 +182,7 @@ input[type=text]{
 .marketing{
     white-space: pre-wrap;
 }
-@media (max-width:1024px) {
+@media (max-width:1460px) {
     html{
         font-size: var(--basic-size-tap);
     }
@@ -189,6 +196,11 @@ input[type=text]{
     .sign-form{
         width: 100%;
     }
+    .email-select {
+    width: 144px;
+    height: 44px;
+    padding: 0 0.5rem;
+}
 }
 @media (max-width: 768px) {
     html {
@@ -322,7 +334,7 @@ input[type=text]{
     height: 40px;
     padding: 0 0.8rem;
     box-sizing: border-box;
-}
+    }
     .form-grop .grop-ver .grop-hor {
         width: 100%;
     }
@@ -360,5 +372,9 @@ input[type=text]{
         box-sizing: border-box;
         height: 40px !important;
         line-height: 40px;
+    }
+    .email-select {
+        width: 90px;
+    height: 40px;
     }
 }
