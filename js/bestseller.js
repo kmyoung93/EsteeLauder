@@ -273,10 +273,13 @@ document.addEventListener("DOMContentLoaded",()=>{
         
         // 색상이 있을 때만 .product-color 영역 생성
         const colorSection = product.color && product.color.length > 0
-            ? `<div class="product-color">
+            ? `
+            <div class="slider-container">
+            <div class="product-color">
                 ${product.color.map(color => 
                     `<span style="background-color: ${color}"></span>`
                 ).join('')}
+               </div>
                </div>`
             : '';
         const colorGroupSection = product.groupColor && product.groupColor.length > 0 ? `<div class="product-group-color">

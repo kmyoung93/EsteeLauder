@@ -182,6 +182,10 @@ h2{
     .product a{
         gap: 0.75rem;
     }
+
+    .product .slider-container{
+        width: 90vw;
+    }
     
     .product .title{
         margin-top: 0.75rem;

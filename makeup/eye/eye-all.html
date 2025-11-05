@@ -17,8 +17,9 @@
     <meta property="og:type" content="website">
 
     <!-- fabicon(파비콘) 설정 -->
-    <link rel="icon" sizes="32x32" href="../../resource/fabicon_bk.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="./resource/fabicon_bk.png" type="image/png">
 
+    <!-- style -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Libertinus+Serif+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -26,10 +27,20 @@
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/system.css">
     <link rel="stylesheet" href="../../css/header.css">
-    <link rel="stylesheet" href="../../css/makeup/eye/eye-all.css">
+    <link rel="stylesheet" href="../../css/header_smart.css">
     <link rel="stylesheet" href="../../css/footer.css">
+
+    <!-- 개별스타일 -->
+    <link rel="stylesheet" href="../../css/makeup/eye/eye-all.css">
+    <link rel="stylesheet" href="../../css/skincare/skincare_mediaQuery.css">
+
+    <!-- swiper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="../../js/header.js"></script>
+    <script src="../../js/header_smart.js"></script>
+    <script src="../../js/intro.js"></script>
 </head>
-<body>
     <header>
         <div class="header-wrap">
             <!-- 로고 -->
@@ -40,8 +51,8 @@
             <!-- GNB (메인 메뉴) -->
             <nav>
                 <ul class="gnb">
-                    <li><a href="../../new.html">신제품</a></li>
-                    <li><a href="../../bestseller.html">베스트셀러</a></li>
+                    <li><a href="../new.html">신제품</a></li>
+                    <li><a href="../bestseller.html">베스트셀러</a></li>
                     
                     <!-- 스킨케어 -->
                     <li>
@@ -67,7 +78,7 @@
                     
                     <!-- 메이크업 -->
                     <li>
-                        <a href="../../makeup/makeup.html">메이크업</a>
+                        <a href="../makeup.html">메이크업</a>
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
@@ -76,36 +87,36 @@
                                 <div class="menu-area">
                                     <ul class="menu-column">
                                         <li>
-                                            <a href="../../makeup/lip/lip-all.html" class="dep2">립</a>
+                                            <a href="../lip/lip-all.html" class="dep2">립</a>
                                             <ul class="menu-column">
-                                                <li><a href="../../makeup/lip/lipstick.html">립스틱</a></li>
-                                                <li><a href="../../makeup/lip/liquid.html">리퀴드 립</a></li>
-                                                <li><a href="../../makeup/lip/gloss.html">립 글로스</a></li>
-                                                <li><a href="../../makeup/lip/care.html">립 케어</a></li>
+                                                <li><a href="../lip/lipstick.html">립스틱</a></li>
+                                                <li><a href="../lip/liquid.html">리퀴드 립</a></li>
+                                                <li><a href="../lip/gloss.html">립 글로스</a></li>
+                                                <li><a href="../lip/care.html">립 케어</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                     <ul class="menu-column">
                                         <li>
-                                            <a href="../../makeup/eye/eye-all.html" class="dep2">아이</a>
+                                            <a href="../eye/eye-all.html" class="dep2">아이</a>
                                             <ul class="menu-column">
-                                                <li><a href="../../makeup/eye/shadow.html">아이섀도우</a></li>
-                                                <li><a href="../../makeup/eye/brow.html">아이브로우</a></li>
-                                                <li><a href="../../makeup/eye/liner.html">아이라이너</a></li>
-                                                <li><a href="../../makeup/eye/mascara.html">마스카라</a></li>
-                                                <li><a href="../../makeup/eye/acc.html">액세서리</a></li>
+                                                <li><a href="../eye/shadow.html">아이섀도우</a></li>
+                                                <li><a href="../eye/brow.html">아이브로우</a></li>
+                                                <li><a href="../eye/liner.html">아이라이너</a></li>
+                                                <li><a href="../eye/mascara.html">마스카라</a></li>
+                                                <li><a href="../eye/acc.html">액세서리</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                     <ul class="menu-column">
                                         <li>
-                                            <a href="../../makeup/face/face-all.html" class="dep2">페이스</a>
+                                            <a href="../face/face-all.html" class="dep2">페이스</a>
                                             <ul class="menu-column">
-                                                <li><a href="../../makeup/face/foundation.html">파운데이션</a></li>
-                                                <li><a href="../../makeup/face/consiler.html">컨실러</a></li>
-                                                <li><a href="../../makeup/face/powder.html">파우더</a></li>
-                                                <li><a href="../../makeup/face/primer.html">프라이머</a></li>
-                                                <li><a href="../../makeup/face/blush.html">블러쉬</a></li>
+                                                <li><a href="../face/foundation.html">파운데이션</a></li>
+                                                <li><a href="../face/consiler.html">컨실러</a></li>
+                                                <li><a href="../face/powder.html">파우더</a></li>
+                                                <li><a href="../face/primer.html">프라이머</a></li>
+                                                <li><a href="../face/blush.html">블러쉬</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -151,21 +162,21 @@
                     
                     <!-- 브랜드스토리 -->
                     <li>
-                        <a href="../../brandstory/esteelauder-story.html">브랜드스토리</a>
+                        <a href="../brandstory/esteelauder-story.html">브랜드스토리</a>
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
-                                    <img src="../../resource/header/brandstory_menu.png" alt="브랜드스토리">
+                                    <img src="../resource/header/brandstory_menu.png" alt="브랜드스토리">
                                 </div>
                                 <div class="menu-area">
                                     <ul class="menu-column">
-                                        <li><a href="../../brandstory/esteelauder-story.html">에스티로더 브랜드 스토리</a></li>
-                                        <li><a href="../../brandstory/trend.html">트렌드 리포트</a></li>
-                                        <li><a href="../../brandstory/vision.html">목표 & 가치</a></li>
-                                        <li><a href="../../brandstory/emerging.html">Emerging Leaders Fund</a></li>
-                                        <li><a href="../../brandstory/ingre.html">원료도감</a></li>
-                                        <li><a href="../../brandstory/livebroadcast.html">라이브방송</a></li>
-                                        <li><a href="../../brandstory/community.html">커뮤니티</a></li>
+                                        <li><a href="../brandstory/esteelauder-story.html">에스티로더 브랜드 스토리</a></li>
+                                        <li><a href="../brandstory/trend.html">트렌드 리포트</a></li>
+                                        <li><a href="../brandstory/vision.html">목표 & 가치</a></li>
+                                        <li><a href="../brandstory/emerging.html">Emerging Leaders Fund</a></li>
+                                        <li><a href="../brandstory/ingre.html">원료도감</a></li>
+                                        <li><a href="../brandstory/livebroadcast.html">라이브방송</a></li>
+                                        <li><a href="../brandstory/community.html">커뮤니티</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -173,21 +184,21 @@
                     </li>
                     
                     <!-- 공식몰서비스 -->
-                    <li><a href="../../service.html">공식몰서비스</a></li>
+                    <li><a href="../service.html">공식몰서비스</a></li>
 
                     <!-- 마이페이지 -->
                     <li>
-                        <a href="../../lnb/order.html">마이페이지</a>
+                        <a href="../lnb/order.html">마이페이지</a>
                         <div class="dropdown-wrapper">
                             <div class="dropdown-inner">
                                 <div class="image-area">
-                                    <img src="../../resource/header/my_page_menu.png" alt="마이페이지">
+                                    <img src="../resource/header/my_page_menu.png" alt="마이페이지">
                                 </div>
                                 <div class="menu-area">
                                     <ul class="menu-column">
-                                        <li><a href="../../lnb/order.html">주문정보</a></li>
-                                        <li><a href="../../lnb/cart.html">장바구니</a></li>
-                                        <li><a href="../../mypage/user-info.html">개인정보조회</a></li>
+                                        <li><a href="../lnb/order.html">주문정보</a></li>
+                                        <li><a href="../lnb/cart.html">장바구니</a></li>
+                                        <li><a href="../mypage/user-info.html">개인정보조회</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -198,23 +209,212 @@
 
             <!-- LNB (우측 유틸메뉴) -->
             <ul class="lnb">
-                <li><a href="../../lnb/serch.html">검색</a></li>
-                <li><a href="../../lnb/login.html">로그인</a></li>
-                <li><a href="../../lnb/cart.html">장바구니</a></li>
-                <li><a href="../../lnb/order.html">주문조회</a></li>
+                <li><a href="../lnb/serch.html">검색</a></li>
+                <li><a href="../lnb/login.html">로그인</a></li>
+                <li><a href="../lnb/cart.html">장바구니</a></li>
+                <li><a href="../lnb/order.html">주문조회</a></li>
             </ul>
         </div>
     </header>
+    <div class="header_smart">
+    <div class="common_frame">
+        <div class="logo_smart">
+            <a href="../../index.html">
+                <img src="../../resource/logo.svg" alt="Estee Lauder 로고 - 메인페이지로 바로가기">
+            </a>
+        </div>
+        <div class="btn_all_menu">
+            <img src="../../resource/svg/header_smart/Menu.svg" alt="전체메뉴 보기">
+        </div>
+    </div>
+
+    <div class="hidden_gnb">
+        <div class="common_frame hg1">
+            <div class="logo_smart">
+                <a href="../../index.html">
+                    <img src="../../resource/logo.svg" alt="Estee Lauder 로고 - 메인페이지로 바로가기">
+                </a>
+            </div>
+            <div class="btn_closed">
+                <img src="../../resource/svg/header_smart/X.svg" alt="메뉴 닫기">
+            </div>
+        </div>
+    
+        <div class="common_frame hg2">
+            <ul class="hg_lnb">
+                <li>
+                    <a href="#">검색</a>
+                </li>
+                <li>
+                    <a href="#">로그인</a>
+                </li>
+                <li>
+                    <a href="#">장바구니</a>
+                </li>
+                <li>
+                    <a href="#">주문조회</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="common_frame hg3">
+            <ul class="gnb_smart">
+                <li class="smart_dep1"><a href="../../new.html">신제품</a></li>
+                <li class="smart_dep1"><a href="../../bestseller.html">베스트셀러</a></li>
+                
+                <!-- 스킨케어 -->
+                <li class="smart_dep1">
+                    <div class="menu_icon">
+                        <a href="../../skincare/skincare.html">스킨케어</a>
+                        <figure>
+                            <img src="../../resource/svg/header_smart/Chevron down.svg" alt="스킨케어 메뉴 보기">
+                        </figure>
+                    </div>
+                    <ul>
+                        <li><a href="../../skincare/cleaner-toner.html">클렌저 / 토너</a></li>
+                        <li><a href="../../skincare/repair-serum.html">리페어 세럼 / 에센스</a></li>
+                        <li><a href="../../skincare/lotion.html">로션 / 크림</a></li>
+                        <li><a href="../../skincare/eyecare.html">아이 케어</a></li>
+                        <li><a href="../../skincare/specialcare.html">스페셜 케어 / 마스크</a></li>
+                        <li><a href="../../skincare/suncare.html">선 케어</a></li>
+                    </ul>
+                    <figure class="menu_img">
+                        <img src="../../resource/header/skin_care_menu.png" alt="스킨케어 메뉴 이미지">
+                    </figure>
+                </li>
+
+                <!-- 메이크업 -->
+                <li class="smart_dep1">
+                    <div class="menu_icon">
+                        <a href="../makeup.html">메이크업</a>
+                        <figure>
+                            <img src="../../resource/svg/header_smart/Chevron down.svg" alt="메이크업 메뉴 보기">
+                        </figure>
+                    </div>
+                    <ul>
+                        <li class="smart_dep2">
+                            <a href="../lip/lip-all.html">립</a>
+                            <ul>
+                                <li><a href="../lip/lipstick.html">립스틱</a></li>
+                                <li><a href="../lip/liquid.html">리퀴드 립</a></li>
+                                <li><a href="../lip/gloss.html">립 글로스</a></li>
+                                <li><a href="../lip/care.html">립 케어</a></li>
+                            </ul>
+                        </li>
+                        <li class="smart_dep2">
+                            <a href="../eye/eye-all.html">아이</a>
+                            <ul>
+                                <li><a href="../eye/shadow.html">아이섀도우</a></li>
+                                <li><a href="../eye/brow.html">아이브로우</a></li>
+                                <li><a href="../eye/liner.html">아이라이너</a></li>
+                                <li><a href="../eye/mascara.html">마스카라</a></li>
+                                <li><a href="../eye/acc.html">액세서리</a></li>
+                            </ul>
+                        </li>
+                        <li class="smart_dep2">
+                            <a href="../face/face-all.html">페이스</a>
+                            <ul>
+                                <li><a href="../face/foundation.html">파운데이션</a></li>
+                                <li><a href="../face/consiler.html">컨실러</a></li>
+                                <li><a href="../face/powder.html">파우더</a></li>
+                                <li><a href="../face/primer.html">프라이머</a></li>
+                                <li><a href="../face/blush.html">블러쉬</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <figure class="menu_img">
+                        <img src="../../resource/header/make_up_menu.png" alt="메이크업 메뉴 이미지">
+                    </figure>    
+                </li>
+
+                <!-- 향수 -->
+                <li class="smart_dep1">
+                    <div class="menu_icon">
+                        <a href="../../perfume/perfume-all.html">향수</a>
+                        <figure>
+                            <img src="../../resource/svg/header_smart/Chevron down.svg" alt="향수 메뉴 전체보기">
+                        </figure>
+                    </div>
+                    <ul>
+                        <li class="smart_dep2">
+                            <a href="../../perfume/collection/collection-all.html">컬렉션 소개</a>
+                            <ul>
+                                <li><a href="../../perfume/collection/luxury.html">럭셔리 프래그런스</a></li>
+                                <li><a href="../../perfume/collection/beautiful-mag.html">뷰티풀 매그놀리아</a></li>
+                                <li><a href="../../perfume/collection/morden.html">모던 뮤즈</a></li>
+                                <li><a href="../../perfume/collection/pleasure.html">플레져</a></li>
+                                <li><a href="../../perfume/collection/beautiful.html">뷰티풀</a></li>
+                            </ul>
+                        </li>
+                        <li class="smart_dep2">
+                            <a href="../../perfume/airen/airen-all.html">에어린</a>
+                            <ul>
+                                <li><a href="../../perfume/airen/airen.html">에어린</a></li>
+                                <li><a href="../../perfume/airen/premium.html">에어린 프리미엄</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <figure class="menu_img">
+                        <img src="../../resource/header/perfume_menu.png" alt="향수 메뉴 이미지">
+                    </figure>
+                </li>
+                
+                <!-- 브랜드스토리 -->
+                <li class="smart_dep1">
+                    <div class="menu_icon">
+                        <a href="./">브랜드스토리</a>
+                        <figure>
+                            <img src="./resource/svg/header_smart/Chevron down.svg" alt="브랜드스토리 메뉴 전체보기">
+                        </figure>
+                    </div>
+                    <ul>
+                        <li><a href="./brandstory">에스티로더 브랜드 스토리</a></li>
+                        <li><a href="./brandstory">트렌드 리포트</a></li>
+                        <li><a href="./brandstory">목표&가치</a></li>
+                        <li><a href="./brandstory">Emerging Leaders Fund</a></li>
+                        <li><a href="./brandstory">원료도감</a></li>
+                        <li><a href="./brandstory">커뮤니티</a></li>
+                    </ul>
+                    <figure class="menu_img">
+                        <img src="./resource/header/brandstory_menu.png" alt="">
+                    </figure>
+                </li>
+
+                <li class="smart_dep1"><a href="./">공식몰서비스</a></li>
+
+                <!-- 마이페이지 -->
+                <li class="smart_dep1">
+                    <div class="menu_icon">
+                        <a href="./mypage/">마이페이지</a>
+                        <figure>
+                            <img src="./resource/svg/header_smart/Chevron down.svg" alt="마이페이지 메뉴 전체보기">
+                        </figure>
+                    </div>
+                    <ul>
+                        <li><a href="./mypage">주문정보</a></li>
+                        <li><a href="./mypage">장바구니</a></li>
+                        <li><a href="./mypage">개인정보조회</a></li>
+                    </ul>
+                    <figure class="menu_img">
+                        <img src="./resource/header/my_page_menu.png" alt="마이페이지 메뉴 이미지">
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
     
     <main>
         <div class="hero-banner">
             <a href="#">
-                <img src="../../resource/makeup/makeup_herobanner.jpg" alt="더블웨어 소프트 글로우 매트 쿠션 배너 - 바로가기">
+                <img class="pc_banner" src="../../resource/makeup/eye/eye_herobanner_pc.jpg" alt="더블웨어 제로 스머징 랭스닝 마스카라 배너 - 바로가기">
+                <img class="tab_banner" src="../../resource/makeup/eye/eye_herobanner_tab.jpg" alt="더블웨어 제로 스머징 랭스닝 마스카라 배너 - 바로가기">
+                <img class="mo_banner" src="../../resource/makeup/eye/eye_herobanner_mo.jpg" alt="더블웨어 제로 스머징 랭스닝 마스카라 배너 - 바로가기">
             </a>
         </div>
 
         <div class="common-frame">
-            <div class="list"> 
+            <div class="list slider">  
                 <ul>
                     <li id="all"><a href="../makeup.html">ALL</a></li>
                     <li id="lip"><a href="../lip/lip-all.html">립</a></li>
