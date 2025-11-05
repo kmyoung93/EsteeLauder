@@ -1,0 +1,205 @@
+/* 원료 도감 스타일 */
+
+/* 메인 레이아웃 */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: var(--space-3x-large) var(--space-normal) 6rem;
+}
+
+/* 타이틀 영역 */
+.ic-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.ic-title h1 {
+    margin-bottom: var(--space-2x-large);
+    color: #333;
+}
+
+.ic-title p {
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 카탈로그 그리드 */
+.catalog {
+    width: 100%;
+}
+
+.common-frame {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-x-large);
+}
+
+/* 개별 카탈로그 카드 */
+.common-frame article {
+    background: #fff;
+    border-radius: 20px;
+    padding: var(--space-x-large);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.common-frame article:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* 이미지 스타일링 */
+.common-frame article img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: var(--space-normal);
+}
+
+/* 텍스트 콘텐츠 */
+.common-frame article h3 {
+    margin-bottom: var(--space-x-small);
+    color: #333;
+    line-height: 1.4;
+}
+
+.common-frame article p {
+    color: #666;
+    margin-bottom: var(--space-x-small);
+}
+
+.common-frame article p:last-child {
+    margin-bottom: 0;
+}
+
+.common-frame article p.detail {
+    color: #999;
+    white-space: nowrap;
+}
+
+/* 태블릿 (1024px 이하) */
+@media (max-width: 1024px) {
+    .common-frame {
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--space-normal);
+    }
+
+    .ic-title {
+        margin-bottom: var(--space-x-large);
+    }
+
+    .common-frame article {
+        padding: var(--space-normal);
+    }
+
+    .common-frame article img {
+        max-width: 160px;
+        height: 160px;
+    }
+}
+
+/* 모바일 (768px 이하) */
+@media (max-width: 768px) {
+    .ic-title h1 {
+        font-size: 1.4rem;
+    }
+
+    .ic-title p {
+        font-size: 0.9rem;
+    }
+
+    .common-frame {
+        grid-template-columns: 1fr;
+        gap: var(--space-normal);
+    }
+
+    .common-frame article {
+        padding: var(--space-normal);
+    }
+
+    .common-frame article img {
+        max-width: 150px;
+        height: 150px;
+    }
+
+    .common-frame article h3 {
+        font-size: 1.1rem;
+    }
+
+    .common-frame article p {
+        font-size: 0.9rem;
+    }
+}
+
+/* 소형 모바일 (480px 이하) */
+@media (max-width: 480px) {
+
+    .ic-title {
+        margin-bottom: var(--space-normal);
+    }
+
+    .common-frame {
+        gap: var(--space-x-small);
+    }
+
+    .common-frame article {
+        padding: var(--space-x-small);
+    }
+
+    .common-frame article img {
+        max-width: 120px;
+        height: 120px;
+    }
+}
+
+/* 초소형 모바일 (320px 이하) */
+@media (max-width: 320px) {
+    .ic-title h1 {
+        font-size: 1.2rem;
+    }
+
+    .ic-title p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .ic-title {
+        margin-bottom: var(--space-x-small);
+    }
+
+    .common-frame {
+        gap: var(--space-2x-small);
+    }
+
+    .common-frame article {
+        padding: var(--space-2x-small);
+        border-radius: 12px;
+    }
+
+    .common-frame article img {
+        max-width: 100px;
+        height: 100px;
+        border-radius: 8px;
+    }
+
+    .common-frame article h3 {
+        font-size: 1rem;
+        margin-bottom: var(--space-2x-small);
+    }
+
+    .common-frame article p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+
+    .common-frame article p.detail {
+        font-size: 0.75rem;
+    }
+}
