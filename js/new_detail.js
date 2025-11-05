@@ -54,4 +54,11 @@ document.addEventListener("DOMContentLoaded",()=>{
     }
     });
 
+    let viewMore = document.querySelector(".view_more")
+    
+    viewMore.addEventListener("click",()=>{
+        alert("TT")
+        // document.querySelector(".product_info ol").classList.toggle("on")
+    })
+
 })
