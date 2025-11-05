@@ -85,8 +85,56 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         if (confirm(`선택한 ${selectedCount}개 상품을 결제하시겠습니까?`)) {
-            alert('주문서 작성 페이지로 이동합니다.');
-            // window.location.href = '../order/order-form.html';
+            // 선택된 제품 데이터 수집
+            const selectedProducts = [];
+            const rows = document.querySelectorAll('.oreder-list tbody tr');
+            
+            rows.forEach(row => {
+                const checkbox = row.querySelector('.product-checkbox');
+                if (checkbox && checkbox.checked) {
+                    // 제품명 추출
+                    const productNames = row.querySelectorAll('.product-name p');
+                    const productName = productNames[0] ? productNames[0].textContent.trim() : 'Double Wear';
+                    const productNameKo = productNames[1] ? productNames[1].textContent.trim() : '더블웨어 세컨 스킨 블러 쿠션';
+                    
+                    // 색상 정보
+                    const colorInfo = row.querySelector('.color-info');
+                    const color = colorInfo ? colorInfo.textContent.replace('색상:', '').trim() : '';
+                    
+                    // 수량
+                    const quantityCol = row.querySelector('.quantity-col');
+                    const quantity = quantityCol ? parseInt(quantityCol.textContent) : 1;
+                    
+                    // 가격 (총 가격을 수량으로 나눔)
+                    const priceCol = row.querySelector('.price-col h4');
+                    let price = productPrice;
+                    if (priceCol) {
+                        const priceText = priceCol.textContent.replace(/[₩,\s]/g, '');
+                        const totalPrice = parseInt(priceText);
+                        price = Math.round(totalPrice / quantity);
+                    }
+                    
+                    // 이미지
+                    const imageElement = row.querySelector('figure img');
+                    const image = imageElement ? imageElement.src : '../resource/order/order-finsh/Revitalizing Supreme.jpg';
+                    
+                    selectedProducts.push({
+                        name: productName,
+                        nameKo: productNameKo,
+                        color: color,
+                        quantity: quantity,
+                        price: price,
+                        image: image
+                    });
+                }
+            });
+            
+            // localStorage에 저장
+            localStorage.setItem('selectedCartItems', JSON.stringify(selectedProducts));
+            console.log('장바구니에서 선택된 제품:', selectedProducts);
+            
+            // 주문서 작성 페이지로 이동
+            window.location.href = './order-form.html';
         }
     });
 

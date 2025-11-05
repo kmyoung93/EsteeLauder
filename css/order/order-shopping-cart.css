@@ -40,7 +40,7 @@ ol li.arrow {
 ol li.act{
     color: #000;
 }
-ol li em{
+ol li span{
     font-style: inherit;
     margin-right: 1rem;
     font-size: 0.9rem;

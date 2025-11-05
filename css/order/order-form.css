@@ -91,7 +91,7 @@ form h1{
 .form-grop > select {
     max-width: 600px;
 }
-input[type=text],
+.form-grop input[type=text],
 input[type=number]{
     height: 40px;
     padding: 0 0.8rem;
@@ -143,15 +143,22 @@ select {
     gap: 1rem;
     width: 100%;
 }
-.address-box{
-    flex: 1;
+.address-box,
+.address-box-detail {
+    display: flex;
+    align-items: center;
     height: 40px;
     padding: 0 0.8rem;
     box-sizing: border-box;
 }
-.address-box-detail{
+
+/* ✅ 내부 input에도 높이 강제 적용 */
+.address-box input,
+.address-box-detail input {
     width: 100%;
-    height: 40px;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     padding: 0 0.8rem;
     box-sizing: border-box;
 }
@@ -170,7 +177,7 @@ select {
     gap: var(--space-normal);
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: stretch;
 }
 .grop-ver{
     gap: var(--space-normal);
@@ -233,9 +240,9 @@ input[type="checkbox"].product-checkbox {
     align-items: center;
 }
 .product figure {
-    width: 120px;
-    height: 120px;
-    flex-shrink: 0;
+    /* width: 100%; */
+    aspect-ratio: 1/1;
+    /* flex-shrink: 0; */
 }
 .product figure img {
     width: 100%;
@@ -297,12 +304,10 @@ tbody td:last-child figure img {
     gap: 1rem;
 }
 .pay .product-details p {
-    font-weight: 500;
     white-space: nowrap;
     flex-shrink: 0; 
 }
 .pay .product-details div > div {
-    font-weight: 600;
     text-align: right;
     white-space: nowrap;
     min-width: fit-content;
@@ -342,6 +347,9 @@ tbody td:last-child figure img {
     border: 2px solid #000;
 }
 @media (max-width: 1460px){
+    .common_frame > h1 {
+    margin-top: 6rem;
+} 
     .order-content-wrapper {
         flex-direction: column;
     }
@@ -396,12 +404,12 @@ tbody td:last-child figure img {
     }
     .form-grop .grop-ver .order-address-detail{
         width: 100%;
-        min-width: 500px;
+        min-width: 0;
     }
     .form-grop .grop-ver {
         max-width: none;
         width: 100%;
-        min-width: 500px;
+        min-width: 0;
     }
     .user-phon {
         max-width: none;
@@ -420,6 +428,15 @@ tbody td:last-child figure img {
     }
 }
 @media (max-width: 768px) {
+        #order-name {
+        max-width: 300px;
+    }
+    .email-input input[type="text"] {
+        width: 140px;
+    }
+    .email-input select {
+        width: 180px;
+    }
     thead {
         display: none;
     }
@@ -428,11 +445,16 @@ tbody td:last-child figure img {
     }
     tr {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         margin-bottom: 1rem;
         padding: 2rem 0 1.5rem;
         position: relative;
         border-bottom: 1px solid #818181;
+        flex-direction: column;
+    }
+    .product-details {
+        display: flex;
+        flex-direction: column;
     }
     tbody td {
         display: block;
@@ -458,12 +480,19 @@ tbody td:last-child figure img {
     .form-grop > select {
         margin-left: 0;
         width: 100%;
+        justify-content: flex-start;
     }
     select {
         width: 100%;
         max-width: none;
     }
-     .email-input {
+    .email-input input[type="text"] {
+        width: 140px;
+    }
+    .email-input select {
+        width: 150px;
+    }
+    .email-input {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -491,34 +520,32 @@ tbody td:last-child figure img {
         gap: 0.5rem;
         align-items: center;
         width: 100%;
+        max-width: none;
     }
     #user-phon1, #user-phon2, #user-phon3 {
         flex: 1;
-        width: auto;
+        width: 100%;
     }
     .form-grop .grop-ver .grop-hor {
-        flex-direction: row; /* 가로 배치 */
-        align-items: stretch; /* 높이 동일하게 */
+        flex-direction: row;
+        align-items: stretch;
         width: 100%;
-        gap: 0.5rem; /* 버튼과 입력칸 사이 여백 */
+        gap: 0.5rem;
     }
-
     .form-grop .grop-ver .grop-hor .address-box {
-        flex: 1; /* 남는 공간 꽉 채우기 */
+        flex: 1;
         height: 40px;
     }
-
     .form-grop .grop-ver .grop-hor .btn-check {
-        flex: 0 0 auto; /* 버튼 고정 크기 */
+        flex: 0 0 auto;
         height: 40px;
-        width: 100px; /* 필요 시 조정 가능 */
+        width: 100px;
     }
-
     .address-box-detail {
         width: 100%;
         max-width: none;
         height: 40px;
-        margin-top: 0.5rem; /* 아래 상세주소 여백 */
+        margin-top: 0.5rem;
     }
     .btn-check {
         width: 100%;
@@ -535,18 +562,56 @@ tbody td:last-child figure img {
     .form-grop .grop-hor{
         align-items: stretch;
     }
+    .product {
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    .product figure {
+        max-width: 150px;
+    }
+    tbody td:nth-child(5) figure {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        cursor: pointer;
+    }
+    tbody td:nth-child(5) figure img {
+        width: 100%;
+        height: 100%;
+    }
+    /* 체크박스 */
+    tbody td:nth-child(1) {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+    tbody td:nth-child(1) input[type="checkbox"] {
+        width: 1.25rem;
+        height: 1.25rem;
+        cursor: pointer;
+    }
+    
     /* 상품 정보 영역 */
     tbody td:nth-child(2) {
+        display: none;
         flex: 1;
         padding-right: 1rem;
     }
+    .product-details .quantity-info, .product-details .price {
+    display: inline-block;
+}
+    
+    /* 상품 레이아웃 - 이미지 + 텍스트 가로 배치 */
     tbody td:nth-child(2) .product {
-        display: flex;
-        flex-direction: row;
-        gap: 1.2rem;
-        align-items: flex-start;
-        text-align: left;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 1.2rem !important;
+        align-items: flex-start !important;
+        text-align: left !important;
     }
+    
+    /* 상품 이미지 - 반응형 크기 */
     tbody td:nth-child(2) .product figure {
         flex-shrink: 0;
         width: 25vw;
@@ -558,11 +623,14 @@ tbody td:last-child figure img {
         align-items: center;
         justify-content: center;
     }
+    
     tbody td:nth-child(2) .product figure img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
+    
+    /* 상품 정보 텍스트 */
     tbody td:nth-child(2) .product .product-details {
         flex: 1;
         display: flex;
@@ -570,34 +638,42 @@ tbody td:last-child figure img {
         gap: 0.4rem;
         min-width: 0;
     }
+    
+    /* 브랜드명 */
     tbody td:nth-child(2) .product-name p:first-child {
         margin: 0;
     }
+    
+    /* 제품명 */
     tbody td:nth-child(2) .product-name p:last-child {
         margin: 0;
         margin-bottom: 0.6rem;
     }
+    
+    /* 색상 정보 */
     tbody td:nth-child(2) .product-details .color-info {
-        display: block;
+        display: block !important;
         margin-top: 1rem;
-    }
+    }    
+    /* 수량 정보 */
     tbody td:nth-child(2) .product-details .quantity-info {
-        display: block;
+        display: block !important;
         margin: 0;
-    }
+    }    
+    /* 가격 */
     tbody td:nth-child(2) .product-details .price {
-        display: block;
+        display: block !important;
     }
+    /* 테이블의 수량/가격 열 숨김 */
     tbody td:nth-child(3),
     tbody td:nth-child(4) {
-        display: none;
+        display: none !important;
     }
-    /* 결제 박스 */
     .pay {
         width: 100%;
         position: static;
         margin-top: 1.5rem;
-    }
+    }    
     .pay .btn {
         flex-direction: row-reverse;
         gap: 0.8rem;
@@ -605,113 +681,66 @@ tbody td:last-child figure img {
     .btn > div {
         padding: 0.9rem;
     }
-    /* 단계 표시 */
-    ol {
-        flex-wrap: wrap;
-        gap: 0.5rem;
-        max-width: 100%;
-    }
-    ol li {
-        font-size: 0.85rem;
-    }
-    ol li span {
-        font-size: 0.75rem;
-        margin-right: 0.5rem;
-    }
-    ol li strong {
-        font-size: 1rem;
-    }
-    ol li.arrow {
-        width: 1rem;
-        height: 1rem;
-    }
 }
-
 @media (max-width: 320px) {
-    .common_frame {
-        margin: 0 0.5rem;
+    /* 폼 타이틀 */
+    form h1 {
+        font-size: 1.2rem; /* 추가 */
+        padding: 0.7rem 0; /* 추가 */
     }
-    
-    .common_frame > h1 {
-        font-size: 2rem;
-        margin-top: var(--space-2x-large);
-    }
-    
-    /* 단계 표시 더 작게 */
-    ol {
-        gap: 0.3rem;
-    }
-    
-    ol li span {
-        display: block;
-        margin-right: 0;
-        margin-bottom: 0.2rem;
-    }
-    
-    ol li strong {
-        font-size: 0.9rem;
-    }
-    
-    /* 전화번호 세로 배치 */
-    .user-phon {
-        flex-direction: column;
+    ol{
         gap: 0.5rem;
+        flex-wrap: nowrap;
     }
-    
-    .user-phon span {
-        display: none;
+    ol li{
+        display: flex;
+        flex-direction: column;
     }
-    
+    /* 라벨 */
+    .form-grop .text h4 {
+        font-size: 0.9rem; /* 추가 */
+    }
+    input[type=text],
+    input[type=number],
+    select {
+        height: 38px; /* 40px → 38px */
+    }
+    .user-phon {
+        gap: 0.5rem; /* 추가 */
+    }
     #user-phon1, #user-phon2, #user-phon3 {
         width: 100%;
+        height: 38px;
     }
-    
-    /* 이메일 더 작게 */
     .email-input input[type="text"],
     .email-input select {
-        font-size: 0.9rem;
+        height: 38px;
     }
-    
-    /* 결제 박스 */
-    .pay {
-        padding: 1rem;
+    .address-box,
+    .address-box-detail {
+        height: 38px ; /* 추가 */
     }
-    
+    .btn-check {
+        height: 38px; /* 추가 */
+        padding: 0.5rem; /* 추가 */
+    }
+    .delivery-request {
+        height: 38px; /* 추가 */
+        font-size: 0.9rem; /* 추가 */
+    }
     .pay > h1 {
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* 추가 */
     }
-    
     .pay .product-details p,
     .pay .product-details div > div {
-        font-size: 0.9rem;
+        font-size: 0.9rem; /* 추가 */
     }
-    
     .total h1 {
-        font-size: 1.1rem;
+        font-size: 1.1rem; /* 추가 */
     }
-    
     .btn > div {
-        padding: 0.7rem;
-        font-size: 0.9rem;
+        font-size: 0.9rem; /* 추가 */
     }
-    
-    /* 폼 제목 */
-    form h1 {
-        font-size: 1.2rem;
-        padding: 0.7rem 0;
-    }
-    
-    /* 라벨 */
-    .text h4 {
-        font-size: 0.9rem;
-    }
-    
-    /* 버튼 */
-    .btn-check {
-        font-size: 0.9rem;
-        padding: 0.5rem;
-    }
-    
     /* 상품 이미지 더 작게 */
     tbody td:nth-child(2) .product figure {
         min-width: 60px;
@@ -719,12 +748,18 @@ tbody td:last-child figure img {
         width: 20vw;
         height: 20vw;
     }
-    
     tbody td:nth-child(2) .product {
         gap: 0.8rem !important;
     }
-    
-    tbody td:nth-child(2) .product-details {
-        font-size: 0.85rem;
+    tbody td:nth-child(1) {
+    margin-right: 0;
+    }
+    .product {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .email-input input[type="text"], .email-input selec {
+        padding: 0 0.3rem;
     }
 }
