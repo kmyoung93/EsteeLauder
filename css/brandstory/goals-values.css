@@ -1,0 +1,120 @@
+.values{
+    padding-top: var(--space-3x-large);
+    text-align: center;
+}
+.tabs{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 2rem;
+}
+.tabs span{
+    flex:1;
+    padding:.5rem 0;
+    cursor: pointer;
+}
+.tabs span.on{
+    border-bottom:1px solid #000;
+}
+
+.values .swiper-pagination-fraction {
+    color: var(--swiper-pagination-fraction-color,inherit);
+    margin: 2rem 0;
+}
+.values figure{
+    margin-bottom: 2rem;
+}
+.tab-value-descriptions section{
+    display: none;;
+}
+.tab-value-descriptions section.on{
+    display: block;
+}
+.values .swiper-slide {
+    display: block;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    width: 100%;
+    box-sizing: border-box;
+}
+.values>p {
+    font-size: 1rem;
+    line-height: var(--text-line-height);
+    padding-bottom: 3rem;
+}
+.inframe{
+    width:40%;
+    margin:0 auto;
+}
+.values .swiper-slide h2{
+    margin-bottom: 1rem;
+}
+.values .swiper {
+    padding: 0rem 0 3rem;
+}
+.values .swiper .swiper-button-next {
+    left: auto;
+    right: 25%;
+}
+.values .swiper .swiper-button-prev {
+    left: 25%;
+    right: auto;
+}
+.values .swiper svg {
+    height: 100%;
+    object-fit: contain;
+    transform-origin: center;
+    width: 100%;
+    fill: rgb(0 0 0);
+    pointer-events: none;
+}
+.values .swiper-button-next,
+.values .swiper-button-prev {
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    position: absolute;
+    width: 2rem;
+    z-index: 10;
+}
+.values h1 {
+    font-size: 1.6rem;
+    font-weight: var(--font-strong);
+    padding-bottom: var(--space-2x-large);
+}
+.values p{
+    font-size: 1rem;
+    line-height: var(--text-line-height);
+    /* padding-bottom: 6rem; */
+}
+@media (max-width:1200px){
+    .inframe {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .values .swiper .swiper-button-next {
+        left: auto;
+        right: 10%;
+    }
+    .values .swiper .swiper-button-prev {
+        left: 10%;
+        right: auto;
+    }
+}
+@media (max-width:768px){
+    .inframe {
+        width: auto;
+        margin: 0;
+    }
+    .values .swiper .swiper-button-next{
+        display: none;;
+    }
+    .values .swiper .swiper-button-prev{
+        display: none;;
+    }
+
+}
