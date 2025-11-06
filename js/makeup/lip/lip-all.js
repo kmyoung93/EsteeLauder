@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                </div>`:'';
         
         li.innerHTML = `
-            <a href="#">
+            <a href="/detail_page/lipAll_detail.html?cid=${product.code}">
                 <figure class="product-img">
                     <img src="../../resource/makeup/lip/all/${product.thmb}" alt="${product.name}">
                 </figure>
