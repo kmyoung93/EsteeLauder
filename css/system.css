@@ -1,3 +1,9 @@
+@media (min-width:1920px) {
+    body{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
 :root{
     /* basic size 1rem */
     --basic-font-pc:20px;
