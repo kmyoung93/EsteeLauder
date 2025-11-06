@@ -1,0 +1,384 @@
+@media (min-width:1920px) {
+    body{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
+html{
+    font-size: var(--basic-size-pc);
+}
+main {
+    min-height: calc(100vh - 200px);
+    padding: 2rem 0;
+}
+.common_frame > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: var(--space-4x-large);
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+ol{
+    margin: 0 auto;
+    max-width: 850px;
+    list-style: none;
+    margin-top: var(--space-2x-large);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-inactive);
+    flex-wrap: nowrap;
+    text-align: center;
+}
+ol li.arrow {
+    flex: 0 0 auto;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url("../../resource/signup/lucide_chevron-right.svg") no-repeat center / contain;
+    flex-wrap: nowrap;
+}
+ol li.act{
+    color: #000;
+}
+ol li span{
+    font-style: inherit;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
+ol li strong{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.order-content-wrapper {
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+    align-items: flex-start;
+}
+.oreder-list {
+    border-top: 3px solid #000;
+    width: 100%;
+    flex: 1;
+    border-collapse: collapse;
+}
+thead {
+    border-bottom: 1px solid #000;
+}
+thead th{
+    white-space: nowrap;
+}
+thead th {
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #818181;
+    text-align: center;
+}
+tbody td {
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #818181;
+    text-align: center;
+    vertical-align: middle;
+}
+input[type="checkbox"].product-checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+.product {
+    display: flex;
+    gap: 1.5rem;
+    text-align: left;
+    align-items: center;
+}
+.product figure {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+.product figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-details {
+    flex: 1;
+}
+.product-name p:last-child {
+    margin-bottom: 0.8rem;
+}
+.product-details .quantity-info,
+.product-details .price {
+    display: none;
+}
+.product-details .color-info {
+    display: block !important;
+}
+.quantity-col,
+.price-col {
+    display: table-cell;
+}
+fieldset{
+    border: none;
+}
+tbody td:last-child figure {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+tbody td:last-child figure img {
+    width: 100%;
+    height: 100%;
+}
+.pay {
+    width: 28%;
+    min-width: 320px;
+    max-width: 400px;
+    position: sticky;
+    top: 6rem;
+    height: fit-content;
+    background: #fff;
+    padding: 2rem;
+    flex-shrink: 0;
+}
+.pay > h1 {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+.pay .product-details {
+    margin-bottom: 1.5rem;
+}
+.pay .product-details > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.pay .product-details p {
+    font-weight: 500;
+    white-space: nowrap;
+    flex-shrink: 0; 
+}
+.pay .product-details div > div {
+    font-weight: 600;
+    text-align: right;
+    white-space: nowrap;
+    min-width: fit-content;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 1.5rem;
+    gap: 1rem; /* 최소 간격 */
+}
+.product-totla {
+    color: #000;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.btn > div {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-1 {
+    background: #000;
+    color: #fff;
+}
+.btn-2 {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+@media (max-width: 1460px){
+    html{
+        font-size: var(--basic-size-tap);
+    }
+    .common_frame {
+        margin: 0 3rem;
+    }
+    .order-content-wrapper {
+        flex-direction: column;
+    }
+    .pay {
+        position: static;
+        width: 100% !important; /* !important 추가 */
+        min-width: unset; /* min-width 제거 */
+        max-width: unset;
+        padding: 0;
+        margin-top: 6rem;
+    }
+    .pay .btn {
+        display: flex;
+        gap: 1rem;
+        flex-direction: row-reverse;
+    }
+
+}
+@media (max-width: 1320px){
+    /* thead th {
+    padding: 1.5rem 0.5rem;
+    } */
+}
+@media (max-width: 1280px){
+    /* thead th {
+    padding: 0.5rem 0.5rem;
+    } */
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+    html {
+        font-size: var(--basic-size-mobile);
+    }
+    .common_frame {
+        margin: 0 1rem;
+    }
+    thead {
+        display: none;
+    }
+    table, tbody {
+        display: block;
+    }
+    tr {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        padding: 2rem 0 1.5rem;
+        position: relative;
+        border-bottom: 1px solid #818181;
+    }
+    tbody td {
+        display: block;
+        border: none;
+        padding: 0;
+        text-align: left;
+    }
+    /* X 삭제 버튼 - 오른쪽 상단 절대 위치 */
+    tbody td:nth-child(5) {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 10;
+    }
+    tbody td:nth-child(5) figure {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        cursor: pointer;
+    }
+    tbody td:nth-child(5) figure img {
+        width: 100%;
+        height: 100%;
+    }
+    /* 체크박스 */
+    tbody td:nth-child(1) {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+        flex-shrink: 0;
+    }
+    
+    tbody td:nth-child(1) input[type="checkbox"] {
+        width: 1.25rem;
+        height: 1.25rem;
+        cursor: pointer;
+    }
+    
+    /* 상품 정보 영역 */
+    tbody td:nth-child(2) {
+        flex: 1;
+        padding-right: 1rem;
+    }
+    
+    /* 상품 레이아웃 - 이미지 + 텍스트 가로 배치 */
+    tbody td:nth-child(2) .product {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 1.2rem !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+    }
+    
+    /* 상품 이미지 - 반응형 크기 */
+    tbody td:nth-child(2) .product figure {
+        flex-shrink: 0;
+        width: 25vw;
+        height: 25vw;
+        min-width: 80px;
+        min-height: 80px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    tbody td:nth-child(2) .product figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /* 상품 정보 텍스트 */
+    tbody td:nth-child(2) .product .product-details {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        min-width: 0;
+    }
+    
+    /* 브랜드명 */
+    tbody td:nth-child(2) .product-name p:first-child {
+        margin: 0;
+    }
+    
+    /* 제품명 */
+    tbody td:nth-child(2) .product-name p:last-child {
+        margin: 0;
+        margin-bottom: 0.6rem;
+    }
+    
+    /* 색상 정보 */
+    tbody td:nth-child(2) .product-details .color-info {
+        display: block !important;
+        margin-top: 1rem;
+    }    
+    /* 수량 정보 */
+    tbody td:nth-child(2) .product-details .quantity-info {
+        display: block !important;
+        margin: 0;
+    }    
+    /* 가격 */
+    tbody td:nth-child(2) .product-details .price {
+        display: block !important;
+    }
+    /* 테이블의 수량/가격 열 숨김 */
+    tbody td:nth-child(3),
+    tbody td:nth-child(4) {
+        display: none !important;
+    }
+    .pay {
+        width: 100%;
+        position: static;
+        margin-top: 1.5rem;
+    }    
+    .pay .btn {
+        flex-direction: row-reverse;
+        gap: 0.8rem;
+    }
+    .btn > div {
+        padding: 0.9rem;
+    }
+}

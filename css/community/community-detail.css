@@ -1,0 +1,128 @@
+@media (min-width:1920px) {
+    body{
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}
+html{
+    font-size: var(--basic-size-pc);
+}
+.common_frame h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: var(--space-4x-large);
+    font-size: 2.5rem;
+}
+.post-wrap{
+    width: 100%;
+    /* border: 1px solid red; */ /* 제거 */
+    margin-top: var(--space-3x-large);
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+.post-title{
+    text-align: center;
+    border-bottom: 1px solid #818181;
+    padding: var(--space-normal) 0;
+    font-weight: 500;
+}
+.post-detail{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    border-bottom: 1px solid #818181;
+    padding: var(--space-x-small) var(--space-normal);
+}
+.post-txt{
+    min-height: 300px;
+    border-bottom: 1px solid #818181;
+    text-align: center;
+    padding: var(--space-large) var(--space-normal);
+}
+.post-txt .post-content{
+    margin-top: var(--space-normal);
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 2rem;
+}
+.post-content h3{
+    margin-top: 2rem;
+}
+.post-pre a, .post-next a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-small) var(--space-normal);
+}
+.post-pre{
+    border-bottom: 1px solid #818181;
+}
+.post-pre,
+.post-next{
+    padding: 1rem 0;
+}
+.post-pre > a > div:first-child, 
+.post-next > a > div:first-child{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.post-pre-icon{
+    background: url("../../resource/community/detail_btn_pre.svg") no-repeat 50% 50% / cover;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.post-next-icon{
+    background: url("../../resource/community/detail_btn_next.svg") no-repeat 50% 50% / cover;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.post-next-no,
+.post-pre-no{
+    width: 60px;
+    text-align: center;
+}
+.post-pre-date,
+.post-next-date{
+    width: 120px;
+    text-align: center;
+}
+.post-next-view,
+.post-pre-view{
+    width: 80px;
+    text-align: center;
+}
+.post-pre-title,
+.post-next-title{
+    flex: 1;
+    text-align: center;
+    padding: 0 var(--space-normal);
+}
+@media (max-width:1024px){
+    html{
+    font-size: var(--basic-font-tab);
+    }
+    .common_frame{
+        width: auto;
+        margin: 0 auto; 
+        padding: 0 3rem;
+        /* 나중에 수정 */
+    }
+}
+@media (max-width:768px){
+    html{
+    font-size: var(--basic-font-mobile);
+    }
+    .common_frame{
+        width: auto;
+        margin: 0 auto;
+        padding: 0 1rem;
+        /* 나중에 수정 */
+    }
+    .post-next-date,
+    .post-next-view,
+    .post-pre-date,
+    .post-pre-view{
+        display: none;
+    }
+}

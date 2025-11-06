@@ -1,0 +1,255 @@
+.main-title{
+    text-align: center;
+    margin-top: var(--space-4x-large);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.user-info{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    padding: 0  55px;
+    width: 100%;
+    flex: 40%;
+}
+.name{
+    display: flex;
+    gap: 1rem;
+}
+.user-email{
+    text-align: center;
+}
+.user-email p{
+    padding: 0.25rem;
+}
+.user-email p a{
+    border: 1px solid #000;
+    width: 184px;
+    height: 38px;
+    padding: 0.25rem;
+}
+.user-summary{
+    display: flex;
+    gap: 1rem;
+    padding:1rem 0;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    flex: 60%;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex: 3;
+}
+.order-step{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+.arrow{
+    background: url("../../resource/signup/lucide_chevron-right.svg") 50% 50% / cover;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.order-step li{
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+li h3{
+    margin-bottom: 1rem;
+}
+.my-order{
+    margin-top: 6rem;
+}
+.my-order h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.oreder-list{
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+}
+.product{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.product .product-details{
+    text-align: left;
+}
+.product .product-details .product-name{
+    padding-bottom: 1rem;
+}
+.price{
+    font-weight: 700;
+}
+thead{
+    border-bottom: 1px solid #000;
+}
+table{
+    border-top: 3px solid #000;
+}
+thead th{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #818181;
+}
+tbody td{
+    padding: 2rem 0;
+    border-bottom: 1px solid #818181;
+}
+.product-details .quantity-info,
+.product-details .price {
+    display: none;
+}
+.product-details .color-info {
+    display: block !important;
+}
+.quantity-col,
+.price-col {
+    display: table-cell;
+}
+@media (max-width: 1460px){
+    .user-info{
+        padding: 0  45px;
+        gap: 7rem;
+    }
+    .user-summary {
+        gap: 0;
+    }
+}
+@media (max-width: 1117px){
+    .user-info{
+        padding: 0 30px;
+        gap: 4rem;
+    }
+}
+@media (max-width: 965px){
+    .user-info{
+        padding: 0 20px;
+        gap: 2rem;
+    }
+}
+@media (max-width: 850px){
+    .user-info{
+        padding: 0 20px;
+        gap: 1rem;
+    }
+}
+@media (max-width: 800px){
+    .user-info{
+        padding: 0 15px;
+        gap: 0.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .common_frame .top{
+        flex-direction: column;
+    }
+    .user-email{
+        text-align: right;
+    }
+    .user-info{
+        justify-content: space-between;
+    }
+    .user-summary{
+        justify-content: space-between;
+    }
+    thead {
+        display: none;
+    }
+    table, tbody {
+        display: block;
+    }
+    tr {
+        display: flex;
+        flex-direction: column;
+        margin-top: var(--space-large);
+        margin-bottom: var(--space-large);
+        padding-bottom: var(--space-large);
+        border-bottom: 1px solid #e0e0e0;
+    }
+    tr:last-child {
+        border-bottom: none;
+    }
+    tbody td {
+        display: block;
+        border: none;
+        padding: 0;
+        text-align: left;
+    }
+    tbody td:nth-child(1) {
+        order: 1;
+        font-weight: 700;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    tbody td:nth-child(5) {
+        order: 2;
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+    tbody td:nth-child(2) {
+        order: 3;
+        margin-bottom: 0;
+    }
+    tbody td:nth-child(3).quantity-col {
+        display: none !important;
+    }
+    tbody td:nth-child(4).price-col {
+        display: none !important;
+    }
+    tbody td:nth-child(2) .product {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 1.5rem !important;
+        align-items: flex-start !important;
+    }
+    tbody td:nth-child(2) .product figure {
+        flex-shrink: 0;
+        width: 30vw;
+        height: 30vw;
+        min-width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    tbody td:nth-child(2) .product figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    tbody td:nth-child(2) .product .product-details {
+        flex: 1;
+        min-width: 0;
+        word-wrap: break-word;
+    }
+    tbody td:nth-child(2) .product-name {
+        margin-bottom: 1rem;
+    }
+    tbody td:nth-child(2) .product-name p:first-child {
+        font-weight: 700;
+        margin-bottom: 0.2rem;
+    }
+    tbody td:nth-child(2) .product-details .color-info,
+    tbody td:nth-child(2) .product-details .quantity-info,
+    tbody td:nth-child(2) .product-details .price {
+        display: block !important;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin: 0;
+    }
+    tbody td:nth-child(2) .product-details .price {
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+}

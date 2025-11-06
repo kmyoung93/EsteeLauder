@@ -1,6 +1,4 @@
-html{
-    font-size: var(--basic-size-pc);
-}
+
 
 .hero-banner {
     width: 100%;
@@ -18,9 +16,24 @@ html{
     filter: brightness(0.7);
 }
 
-.common_frame{
-    margin: 0 5rem;
-    width: auto;
+.hero-text{
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: #fff;
+    text-align: left;
+}
+
+.hero-text h1{
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.hero-text p{
+    text-decoration: underline;
 }
 
 .bestseller{
@@ -78,7 +91,6 @@ html{
     .sub-cont{
         display: flex;
         width: auto;
-        height: 100vh;
         & .slider{
             flex: 1;
             /* border: 1px solid #000; */
@@ -92,6 +104,8 @@ html{
     }
 }
 
+
+
 .popup .swiper-pagination-bullet-active {
     background: #0E2687;
     opacity: var(--swiper-pagination-bullet-opacity,1);
@@ -104,7 +118,6 @@ html{
 
 .popuplist a img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -127,12 +140,17 @@ html{
     object-fit: cover;
 }
 
-.subbanner a img{
+.tab_banner{display: none;}
+.mo_banner{display: none;}
+
+.sub-banner{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
+.subbanner a img{
+    width: 100%;
+    object-fit: cover;
+}
 
 .subbanner .swiper-pagination-bullet-active {
     background: #fff;
