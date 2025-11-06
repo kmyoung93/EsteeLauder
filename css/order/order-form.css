@@ -233,6 +233,10 @@ input[type="checkbox"].product-checkbox {
     height: 1.2rem;
     cursor: pointer;
 }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+}
 .product {
     display: flex;
     gap: 1.5rem;
