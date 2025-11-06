@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                </div>`:'';
         
         li.innerHTML = `
-            <a href="#">
+            <a href="/detail_page/beautiful-mag_detail.html?cid=${product.code}">
                 <figure class="product-img">
                     <img src="../../resource/perfume/collection/magnolia/${product.thmb}" alt="${product.name}">
                 </figure>

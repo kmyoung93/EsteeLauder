@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             : '';
         
         li.innerHTML = `
-            <a href="#">
+            <a href="/detail_page/lotion_detail.html?cid=${product.code}">
                 <figure class="product-img">
                     <img src="../resource/skincare/lotion/${product.thmb}" alt="${product.name}">
                 </figure>

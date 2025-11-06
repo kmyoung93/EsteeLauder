@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                </div>`:'';
         
         li.innerHTML = `
-            <a href="#">
+            <a href="/detail_page/primium_detail.html?cid=${product.code}">
                 <figure class="product-img">
                     <img src="/resource/perfume/airen/airen_primium/${product.thmb}" alt="${product.name}">
                 </figure>

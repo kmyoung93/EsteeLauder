@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             : '';
         
         li.innerHTML = `
-            <a href="/detail_page/lipAll_detail.html?cid=${product.code}">
+            <a href="/detail_page/new_detail.html?cid=${product.code}">
                 <figure class="product-img">
                     <img src="./resource/new/${product.thmb}" alt="${product.name}">
                 </figure>
