@@ -101,6 +101,10 @@ input[type=text]{
     padding: 0 0.5rem;
     margin-top: 0.5rem;
 }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: none;
+}
 #user-year{
     width: 34px;
     padding: 0 0.3rem;
