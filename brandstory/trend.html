@@ -17,339 +17,102 @@
     <meta property="og:type" content="website">
 
     <!-- fabicon(파비콘) 설정 -->
-    <link rel="icon" sizes="32x32" href="../resource/fabicon_bk.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="/resource/fabicon_bk.png" type="image/png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Libertinus+Serif+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/font.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/system.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/brandstory/trend.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/system.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/brandstory/trend.css">
 
-    <script src="../js/brandstory/observer.js"></script>
+    <script src="/js/brandstory/observer.js"></script>
 </head>
 <body>
-    <header>
-        <div class="header-wrap">
-            <!-- 로고 -->
-            <div class="logo">
-                <a href="../index.html"><img src="../resource/logo.svg" alt="Estee Lauder - 메인메뉴로 바로가기"></a>
-            </div>
-
-            <!-- GNB (메인 메뉴) -->
-            <nav>
-                <ul class="gnb">
-                    <li><a href="../new.html">신제품</a></li>
-                    <li><a href="#">베스트셀러</a></li>
-                    
-                    <!-- 스킨케어 -->
-                    <li>
-                        <a href="#">스킨케어</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/skin_care_menu.png" alt="스킨케어 제품">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li><a href="#">클렌저 / 토너</a></li>
-                                        <li><a href="#">리페어 세럼 / 에센스</a></li>
-                                        <li><a href="#">로션 / 크림</a></li>
-                                        <li><a href="#">아이 케어</a></li>
-                                        <li><a href="#">스페셜 케어 / 마스크</a></li>
-                                        <li><a href="#">선 케어</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 메이크업 -->
-                    <li>
-                        <a href="#">메이크업</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/make_up_menu.png" alt="메이크업 제품">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">립</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">립스틱</a></li>
-                                                <li><a href="#">리퀴드 립</a></li>
-                                                <li><a href="#">립 글로스</a></li>
-                                                <li><a href="#">립 케어</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">아이</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">아이섀도우</a></li>
-                                                <li><a href="#">아이브로우</a></li>
-                                                <li><a href="#">아이라이너</a></li>
-                                                <li><a href="#">마스카라</a></li>
-                                                <li><a href="#">액세서리</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">페이스</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">파운데이션</a></li>
-                                                <li><a href="#">컨실러</a></li>
-                                                <li><a href="#">파우더</a></li>
-                                                <li><a href="#">프라이머</a></li>
-                                                <li><a href="#">블러쉬</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 향수 -->
-                    <li>
-                        <a href="#">향수</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/perfume_menu.png" alt="향수 제품">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">컬렉션 소개</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">럭셔리 프래그런스</a></li>
-                                                <li><a href="#">뷰티풀 매그놀리아</a></li>
-                                                <li><a href="#">모던 뮤즈</a></li>
-                                                <li><a href="#">플레져</a></li>
-                                                <li><a href="#">뷰티풀</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">에어린</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">에어린</a></li>
-                                                <li><a href="#">에어린 프리미엄</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 브랜드스토리 -->
-                    <li>
-                        <a href="#">브랜드스토리</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/brandstory_menu.png" alt="브랜드스토리">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li><a href="#">에스티로더 브랜드 스토리</a></li>
-                                        <li><a href="#">트렌드 리포트</a></li>
-                                        <li><a href="#">목표 & 가치</a></li>
-                                        <li><a href="#">Emerging Leaders Fund</a></li>
-                                        <li><a href="#">원료도감</a></li>
-                                        <li><a href="#">라이브방송</a></li>
-                                        <li><a href="#">커뮤니티</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 공식몰서비스 -->
-                    <li><a href="#">공식몰서비스</a></li>
-
-                    <!-- 마이페이지 -->
-                    <li>
-                        <a href="#">마이페이지</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/my_page_menu.png" alt="마이페이지">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li><a href="#">주문정보</a></li>
-                                        <li><a href="#">장바구니</a></li>
-                                        <li><a href="#">개인정보조회</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- LNB (우측 유틸메뉴) -->
-            <ul class="lnb">
-                <li><a href="#">검색</a></li>
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">장바구니</a></li>
-                <li><a href="#">주문조회</a></li>
-            </ul>
-        </div>
-    </header> 
-
-<div class="banner video">
-    <video autoplay muted loop playsinline>
-        <source src="../resource/barndstory/tr-banner.mp4" type="video/mp4"> 
-    </video>
-    <h1 class="pf">The essence of enduring beauty.</h1>
-</div>
-<main>   
-    <!-- Double wear 구간 -->
-    <div class="tr-sec alt dtu">
-        <div class="common_frame">
-            <section>
-                <p class="sub">9년 연속 파운데이션 1위</p>
-                <h2>Double wear</h2>
-                <div class="text">
-                    <p>25년간 꾸준히 사랑받아온 더블웨어.</p>
-                    <p>수많은 사람들이 직접 경험하며 그 가치를 증명했습니다.</p>
-                    <p>이 파운데이션은 오랜 시간 동안 변함없는 신뢰와 완벽한 지속력으로 마니아들의 극찬을 받는 특별한 포뮬러를 담고 있습니다.</p>
-                    <a href="#" class="shop-btn">SHOP NOW ▸</a>
-                </div>
-            </section>
-            <figure>
-                <img src="../resource/barndstory/tr-ware-img.jpg" alt="에스티로더 더블웨어 파운데이션 제품 이미지">
-            </figure>
-        </div>
+    <div class="header_wrap"></div>
+    <div class="banner video">
+        <video autoplay muted loop playsinline>
+            <source src="/resource/barndstory/tr-banner.mp4" type="video/mp4"> 
+        </video>
+        <h1 class="pf">The essence of enduring beauty.</h1>
     </div>
-
-    <!-- 무너짐 없는 24시간 지속력 구간 -->
-    <div class="tr-sec alt dtu">
-        <div class="common_frame">
-            <section>
-                <p class="sub">Stay Flawless All Day</p>
-                <h2>무너짐 없는 24시간 지속력</h2>
-                <div class="text">
-                    <p>독자적인 NBC Wear™ 테크놀로지가 적용된 이 아이코닉한 파운데이션은 24시간 동안 완벽한 지속력을 자랑합니다.</p>
-                    <p>시간이 지나도 다크닝 없이 처음 그대로의 컬러를 유지하며, 갈라짐이나 끼임, 뭉침 없이 매끈한 피부결을 연출합니다.</p>
-                    <p>유분을 효과적으로 조절해 물과 땀에도 지워지지 않는 완벽한 베이스를 완성하세요.</p>
-                </div>
-            </section>
-            <figure>
-                <img src="../resource/barndstory/tr-texture-img.jpg" alt="에스티로더 더블웨어 파운데이션을 바른 모델의 얼굴">
-            </figure>
-        </div>
-    </div>
-
-    <!-- 모든 피부톤을 위한 55가지의 아름다움 구간 -->
-    <div class="tr-sec dtu">
-        <div class="common_frame">
-            <section>
-                <p class="sub">Find Your Perfect Shade</p>
-                <h2>모든 피부톤을 위한 55가지의 아름다움</h2>
-                <div class="text">
-                    <p>당신만의 톤을 그대로 살려, 자연스럽고 자신감 있는 피부를 완성하세요.</p>
-                    <p>더블웨어는 55가지 이상의 컬러 스펙트럼으로 모든 피부톤에 완벽하게 어우러지는 자연스러운 쉐이드를 제공합니다.</p>
-                </div>
-            </section>                
-            <figure>
-                <img src="../resource/barndstory/tr-ware2-img.jpg" alt="다양한 피부톤을 위한 55가지 컬러의 더블웨어 파운데이션">
-            </figure>
-        </div>
-    </div>
-
-    <!-- 물과 마찰에 강한 포뮬러 구간 -->
-    <div class="tr-sec alt dtu">
-        <div class="common_frame">
-            <section>
-                <p class="sub">Waterproof Perfection</p>
-                <h2>물과 마찰에 강한 포뮬러</h2>
-                <div class="text">
-                    <p>더블웨어의 강력한 포뮬러는 방수(Waterproof) 기능으로 물, 땀, 마스크 마찰에도 쉽게 지워지지 않습니다.</p>
-                    <p>외부 환경에서도 처음의 메이크업 상태를 오래 유지하며, 유분을 조절해 무너짐 없이 깨끗하고 균일한 피부 표현을 완성합니다.</p>
-                    <p>하루 종일 흔들림 없는 메이크업 지속력을 경험하세요.</p>
-                </div>
-            </section>
-            <figure>
-                <img src="../resource/barndstory/tr-ware3-img.jpg" alt="물과 마찰에도 견디는 에스티로더 더블웨어 파운데이션의 방수 포뮬러를 표현한 이미지">
-            </figure>
-        </div>
-    </div>
-</main>
-    <footer>
-        <div class="footer-common_frame">
-            <div class="footer-top">
-                <div class="footer-logo">
-                    <a href="../index.html">
-                        <img src="../resource/logo.svg" alt="Estee lauder - 메인페이지로 바로가기">
-                    </a>
-                    <p>이엘씨에이한국(유) 대표 Jean-Alexandre Havard, 서울시 강남구 강남대로 382(역삼동) 메리츠 타워 9층, 06232. 사업자등록번호: 211-81-71889</p>
-                    <p>고객관리지원팀 1644-3728 | 호스팅서비스 사업자: ㈜엘지유플러스 | 통신판매업신고: 강남 15737호</p>
-                </div>
-                <div class="footer-gnb">
-                    <ul>
-                        <li>
-                            <a href="#">고객지원</a>
-                                <ul class="footer-gnb-2dep">
-                                    <li><a href="#">라이브챗</a></li>
-                                    <li><a href="#">카카오톡 라이브챗</a></li>
-                                    <li><a href="#">1644-3278</a></li>
-                                </ul>
-                        </li>
-                        <li>
-                            <a href="#">고객센터</a>
-                                <ul class="footer-gnb-2dep">
-                                    <li><a href="#">이용안내</a></li>
-                                    <li><a href="#">반품 및 교환</a></li>
-                                    <li><a href="#">배송정보</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">채용정보</a></li>
-                                </ul>
-                        </li>
-                        <li>
-                            <a href="#">에스티로더</a>
-                                <ul class="footer-gnb-2dep">
-                                    <li><a href="#">매장찾기</a></li>
-                                </ul>
-                        </li>
-                    </ul>
-                </div>
+    <main>   
+        <!-- Double wear 구간 -->
+        <div class="tr-sec alt dtu">
+            <div class="common_frame">
+                <section>
+                    <p class="sub">9년 연속 파운데이션 1위</p>
+                    <h2>Double wear</h2>
+                    <div class="text">
+                        <p>25년간 꾸준히 사랑받아온 더블웨어.</p>
+                        <p>수많은 사람들이 직접 경험하며 그 가치를 증명했습니다.</p>
+                        <p>이 파운데이션은 오랜 시간 동안 변함없는 신뢰와 완벽한 지속력으로 마니아들의 극찬을 받는 특별한 포뮬러를 담고 있습니다.</p>
+                        <a href="#" class="shop-btn">SHOP NOW ▸</a>
+                    </div>
+                </section>
+                <figure>
+                    <img src="/resource/barndstory/tr-ware-img.jpg" alt="에스티로더 더블웨어 파운데이션 제품 이미지">
+                </figure>
             </div>
         </div>
-        <div class="info">
-                <ul>
-                    <li><a href="#">개인정보 처리방침</a></li>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">cookie 관리</a></li>
-                    <li><a href="#">사업자정보 조회</a></li>
-                </ul>
-        </div>
-        <div class="footer-info">
-                <div class="footer-sns">
-                    <ul>
-                        <li><a href="https://www.facebook.com/EsteeLauderKR">페이스북</a></li>
-                        <li><a href="https://www.instagram.com/esteelauderkr/?hl=ko">인스타그램</a></li>
-                        <li><a href="https://www.tiktok.com/@esteelauder">틱톡</a></li>
-                        <li><a href="https://pin.it/4jTxEihiR">핀터레스트</a></li>
-                        <li><a href="https://youtube.com/@kresteelauder?si=pzx4rCCM0AmLBUdi">유튜브</a></li>
-                    </ul>
-                </div>
+
+        <!-- 무너짐 없는 24시간 지속력 구간 -->
+        <div class="tr-sec alt dtu">
+            <div class="common_frame">
+                <section>
+                    <p class="sub">Stay Flawless All Day</p>
+                    <h2>무너짐 없는 24시간 지속력</h2>
+                    <div class="text">
+                        <p>독자적인 NBC Wear™ 테크놀로지가 적용된 이 아이코닉한 파운데이션은 24시간 동안 완벽한 지속력을 자랑합니다.</p>
+                        <p>시간이 지나도 다크닝 없이 처음 그대로의 컬러를 유지하며, 갈라짐이나 끼임, 뭉침 없이 매끈한 피부결을 연출합니다.</p>
+                        <p>유분을 효과적으로 조절해 물과 땀에도 지워지지 않는 완벽한 베이스를 완성하세요.</p>
+                    </div>
+                </section>
+                <figure>
+                    <img src="/resource/barndstory/tr-texture-img.jpg" alt="에스티로더 더블웨어 파운데이션을 바른 모델의 얼굴">
+                </figure>
+            </div>
         </div>
 
-            <div class="footer-bottom">
-                <p>본 페이지는 취업용도의 포트폴리오 홈페이지입니다.</p>
+        <!-- 모든 피부톤을 위한 55가지의 아름다움 구간 -->
+        <div class="tr-sec dtu">
+            <div class="common_frame">
+                <section>
+                    <p class="sub">Find Your Perfect Shade</p>
+                    <h2>모든 피부톤을 위한 55가지의 아름다움</h2>
+                    <div class="text">
+                        <p>당신만의 톤을 그대로 살려, 자연스럽고 자신감 있는 피부를 완성하세요.</p>
+                        <p>더블웨어는 55가지 이상의 컬러 스펙트럼으로 모든 피부톤에 완벽하게 어우러지는 자연스러운 쉐이드를 제공합니다.</p>
+                    </div>
+                </section>                
+                <figure>
+                    <img src="/resource/barndstory/tr-ware2-img.jpg" alt="다양한 피부톤을 위한 55가지 컬러의 더블웨어 파운데이션">
+                </figure>
             </div>
-    </footer>
+        </div>
+
+        <!-- 물과 마찰에 강한 포뮬러 구간 -->
+        <div class="tr-sec alt dtu">
+            <div class="common_frame">
+                <section>
+                    <p class="sub">Waterproof Perfection</p>
+                    <h2>물과 마찰에 강한 포뮬러</h2>
+                    <div class="text">
+                        <p>더블웨어의 강력한 포뮬러는 방수(Waterproof) 기능으로 물, 땀, 마스크 마찰에도 쉽게 지워지지 않습니다.</p>
+                        <p>외부 환경에서도 처음의 메이크업 상태를 오래 유지하며, 유분을 조절해 무너짐 없이 깨끗하고 균일한 피부 표현을 완성합니다.</p>
+                        <p>하루 종일 흔들림 없는 메이크업 지속력을 경험하세요.</p>
+                    </div>
+                </section>
+                <figure>
+                    <img src="/resource/barndstory/tr-ware3-img.jpg" alt="물과 마찰에도 견디는 에스티로더 더블웨어 파운데이션의 방수 포뮬러를 표현한 이미지">
+                </figure>
+            </div>
+        </div>
+    </main>
+    <div class="footer_wrap"></div>
+    <script src="/js/include.js"></script>
 </body>
 </html>
