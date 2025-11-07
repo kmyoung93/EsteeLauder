@@ -30,10 +30,34 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/cs/cs.css">
 
+    <script src="/js/getQueryParam.js"></script>
+
     <script src="../js/cs/cs.js"></script>
     <script src="../js/header_smart.js"></script>
 </head>
 <body>
+    <script>
+        document.addEventListener("DOMContentLoaded",()=>{
+            let idx = getQueryParam("tab")
+            if(idx){
+                let tabs = document.querySelectorAll(".tab > div")            
+                tabs.forEach(tab=>tab.classList.remove("on"))
+                tabs[idx-1].classList.add("on")
+
+                const tabContents = document.querySelectorAll('.tab-descs > div');
+                // 모든 탭 콘텐츠 숨기기
+                tabContents.forEach(content => {
+                    content.classList.remove('on');
+                    content.style.display = 'none';
+                });
+            
+                // 선택된 탭 콘텐츠만 보이기
+                tabContents[idx-1].classList.add('on');
+                tabContents[idx-1].style.display = (idx-1) === 0 ? 'flex' : 'flex';
+            }
+
+        })
+    </script>
     <header>
         <div class="header-wrap">
             <!-- 로고 -->
@@ -620,14 +644,14 @@
     </main>
     <footer>
         <div class="footer-common-frame">
-            <div class="common_frame footer-top">
+            <div class="footer-top">
                 <div class="footer-logo">
-                    <a href="../index.html">
-                        <img src="../resource/logo.svg" alt="Estee lauder - 메인페이지로 바로가기">
+                    <a href="/index.html">
+                        <img src="/resource/logo.svg" alt="Estee lauder - 메인페이지로 바로가기">
                     </a>
                     <section class="address">
                         <p>이엘씨에이한국(유) 대표 Jean-Alexandre Havard, 서울시 강남구 강남대로 382(역삼동) 메리츠 타워 9층, 06232. 사업자등록번호: 211-81-71889</p>
-                        <p class="ad_last">고객관리지원팀 1644-3728 | 호스팅서비스 사업자: ㈜엘지유플러스 | 통신판매업신고: 강남 15737호</p>
+                        <p>고객관리지원팀 1644-3728 | 호스팅서비스 사업자: ㈜엘지유플러스 | 통신판매업신고: 강남 15737호</p>
                     </section>
                 </div>
                 <div class="footer-gnb">
@@ -684,5 +708,6 @@
                 <p>본 페이지는 취업용도의 포트폴리오 홈페이지입니다.</p>
             </div>
     </footer>
+    <script src="/js/include.js"></script>
 </body>
 </html>
