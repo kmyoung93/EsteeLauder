@@ -37,6 +37,28 @@
 </head>
 <body>
     <div class="header_wrap"></div>
+    <script>
+         document.addEventListener("DOMContentLoaded",()=>{
+            let idx = getQueryParam("tab")
+            if(idx){
+                let tabs = document.querySelectorAll(".tab > div")            
+                tabs.forEach(tab=>tab.classList.remove("on"))
+                tabs[idx-1].classList.add("on")
+
+                const tabContents = document.querySelectorAll('.tab-descs > div');
+                // 모든 탭 콘텐츠 숨기기
+                tabContents.forEach(content => {
+                    content.classList.remove('on');
+                    content.style.display = 'none';
+                });
+            
+                // 선택된 탭 콘텐츠만 보이기
+                tabContents[idx-1].classList.add('on');
+                tabContents[idx-1].style.display = (idx-1) === 0 ? 'flex' : 'flex';
+            }
+
+        })
+    </script>
     <main>
         <div class="common_frame">
             <div class="title">
