@@ -1,5 +1,5 @@
 let newProArray = [
-{           folderName:"/resource/detail_thumb_img/makeup_Eye/eye5",
+{           folderName:"/resource/detail_thumb_img/makeup_Eye/eye5/",
             code: 1,
             thmb: "eye_1.png",
             name: "브로우 퍼펙트 3D 스타일러",
@@ -10,7 +10,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Eye/eye3",
+            folderName:"/resource/detail_thumb_img/makeup_Eye/eye3/",
             code: 2,
             thmb: "eye_2.jpg",
             color: [
@@ -24,7 +24,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/makeup_Eye/eye2",
+            folderName:"/resource/detail_thumb_img/makeup_Eye/eye2/",
             code: 3,
             thmb: "eye_3.jpg",
             color: [
@@ -38,7 +38,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Eye/eye1",
+            folderName:"/resource/detail_thumb_img/makeup_Eye/eye1/",
             code: 4,
             thmb: "eye_4.jpg",
             groupColor: [
@@ -76,7 +76,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Eye/eye4",
+            folderName:"/resource/detail_thumb_img/makeup_Eye/eye4/",
             code: 5,
             thmb: "eye_5.png",
             name: "펜슬 샤프너",

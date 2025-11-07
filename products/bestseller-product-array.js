@@ -1,6 +1,6 @@
 let newProArray = [
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best1",
+            folderName:"/resource/detail_thumb_img/bestseller/best1/",
             code: 1,
             thmb: "bestseller_1.png",
             color: [
@@ -34,48 +34,56 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best2",
+            folderName:"/resource/detail_thumb_img/bestseller/best2/",
             code: 2,
             thmb: "bestseller_2.png",
             name: "마이크로 에센스 트리트먼트 로션 200ml",
             ename: "Micro Essence",
             price: 220000,
-            thumbArray:["best2(1).jpg","best2(2).jpg","best2(3).jpg"]
+            thumbArray:["best2(1).jpg","best2(2).jpg","best2(3).jpg"],
+            color:[],
+            colorOptions:[]
         },
         
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best3",
+            folderName:"/resource/detail_thumb_img/bestseller/best3/",
             code: 3,
             thmb: "bestseller_3.png",
             name: "리바이탈라이징 수프림 플러스 유스 파워 소프트 크림",
             ename: "Revitalizing Supreme+",
             price: 118000,
-            thumbArray:["best3(1).jpg","best3(2).jpg","best3(3).jpg"]
+            thumbArray:["best3(1).jpg","best3(2).jpg","best3(3).jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best4",
+            folderName:"/resource/detail_thumb_img/bestseller/best4/",
             folderName:"/resource/detail_thumb_img/skincare_All/skincare14",
             code: 4,
             thmb: "bestseller_4.png",
             name: "어드밴스드 나이트 리페어 아이 리프트+ 스컬프팅 세럼",
             ename: "Advanced Night Repair",
             price: 158000,
-            thumbArray:["best4(1).jpg","best4(2).jpg","best4(3).jpg"]
+            thumbArray:["best4(1).jpg","best4(2).jpg","best4(3).jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best5",
+            folderName:"/resource/detail_thumb_img/bestseller/best5/",
             code: 5,
             thmb: "bestseller_5.png",
             name: "퍼펙셔니스트 프로 래피드 브라이트닝 트리트먼트 퍼멘트3 + 비타민 C ",
             ename: "Perfectionist Pro",
             price: 232000,
-            thumbArray:["best5(1).jpg","best5(2).jpg","best5(3).jpg","best5(4).jpg"]
+            thumbArray:["best5(1).jpg","best5(2).jpg","best5(3).jpg","best5(4).jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best6",
+            folderName:"/resource/detail_thumb_img/bestseller/best6/",
             code: 6,
             thmb: "bestseller_6.png",
              color: [
@@ -93,17 +101,19 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best7",
+            folderName:"/resource/detail_thumb_img/bestseller/best7/",
             code: 7,
             thmb: "bestseller_7.png",
             name: "퍼펙셔니스트 프로 래피드 펌+리프트 트리트먼트 세럼 50ml",
             ename: "Perfectionist Pro",
             price: 232000,
-            thumbArray:["best9(1).jpg","best9(2).jpg"]
+            thumbArray:["best9(1).jpg","best9(2).jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {   
-            folderName:"/resource/detail_thumb_img/bestseller/best8",
+            folderName:"/resource/detail_thumb_img/bestseller/best8/",
             code: 8,
             thmb: "bestseller_8.png",
             color: [
@@ -122,7 +132,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best9",
+            folderName:"/resource/detail_thumb_img/bestseller/best9/",
             code: 9,
             thmb: "bestseller_9.png",
             color: [
@@ -140,7 +150,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best10",
+            folderName:"/resource/detail_thumb_img/bestseller/best10/",
             code: 10,
             thmb: "bestseller_10.png",
             color: [
@@ -158,7 +168,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best11",
+            folderName:"/resource/detail_thumb_img/bestseller/best11/",
             code: 11,
             thmb: "bestseller_11.png",
             color: [
@@ -184,27 +194,31 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best12",
+            folderName:"/resource/detail_thumb_img/bestseller/best12/",
             code: 12,
             thmb: "bestseller_12.png",
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
             ename: "Double Wear",
             price: 87000,
-            thumbArray:["best12-1.jpg","best12-2.jpg","best12-3.jpg"]
+            thumbArray:["best12-1.jpg","best12-2.jpg","best12-3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best13",
+            folderName:"/resource/detail_thumb_img/bestseller/best13/",
             code: 13,
             thmb: "bestseller_13.png",
             name: "갈색병 세럼 115ml",
             ename: "Advanced Night Repair",
             price: 127000,
-            thumbArray:["best13-1.jpg","best13-2.jpg","best13-3.jpg","best13-4.jpg"]
+            thumbArray:["best13-1.jpg","best13-2.jpg","best13-3.jpg","best13-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best14",
+            folderName:"/resource/detail_thumb_img/bestseller/best14/",
             code: 14,
             thmb: "bestseller_14.png",
             color: [
@@ -223,17 +237,19 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best15",
+            folderName:"/resource/detail_thumb_img/bestseller/best15/",
             code: 15,
             thmb: "bestseller_15.png",
             name: "플레져 바디로션",
             ename: "Estée Lauder Pleasures",
             price: 79000,
-            thumbArray:["best15-1.jpg","best15-2.jpg","best15-3.jpg"]
+            thumbArray:["best15-1.jpg","best15-2.jpg","best15-3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best16",
+            folderName:"/resource/detail_thumb_img/bestseller/best16/",
             code: 16,
             thmb: "bestseller_16.png",
             color: [
@@ -258,7 +274,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best17",
+            folderName:"/resource/detail_thumb_img/bestseller/best17/",
             code: 17,
             thmb: "bestseller_17.png",
             color: [
@@ -277,12 +293,14 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/bestseller/best18",
+            folderName:"/resource/detail_thumb_img/bestseller/best18/",
             code: 18,
             thmb: "bestseller_18.png",
             name: "마이크로 에센스 트리트먼트 로션 프레시 200ml",
             ename: "Micro Essence",
             price: 220000,
-            thumbArray:["best18-1.jpg","best18-2.jpg","best18-3.jpg"]
+            thumbArray:["best18-1.jpg","best18-2.jpg","best18-3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 ]

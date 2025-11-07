@@ -1,6 +1,6 @@
 let newProArray = [
      {
-            folderName:"/resource/detail_thumb_img/makeup_Eye/eye1",
+            folderName:"/resource/detail_thumb_img/makeup_Eye/eye1/",
             code: 1,
             thmb: "shadow_1.jpg",
             groupColor: [

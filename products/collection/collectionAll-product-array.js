@@ -1,6 +1,6 @@
 let newProArray = [
      {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection1",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection1/",
             code: 1,
             thmb: "collection_1.jpg",
             name: "울트라 리치 핸드 크림",
@@ -10,7 +10,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection2",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection2/",
             code: 2,
             thmb: "collection_2.jpg",
             name: "드림 더스크 100ML 리필",
@@ -20,7 +20,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection3",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection3/",
             code: 3,
             thmb: "collection_3.jpg",
             name: "뷰티풀 매그놀리아",
@@ -30,7 +30,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection4",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection4/",
             code: 4,
             thmb: "collection_4.jpg",
             name: "인피니트 스카이",
