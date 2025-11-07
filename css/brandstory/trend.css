@@ -1,31 +1,7 @@
-/* ==================== 기본 스타일 ==================== */
-html {
-    font-size: var(--basic-font-pc);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #ffffff;
-    color: #1a1a1a;
-    line-height: 1.7;
-}
-
 img {
     max-width: 100%;
     height: auto;
     display: block;
-}
-
-/* ==================== 공통 프레임 ==================== */
-.common-frame {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 100px;
 }
 
 /* 애니메이션 효과 */
@@ -40,25 +16,6 @@ img {
     opacity: 1;
 }
 
-@media (max-width: 1024px) {
-    html {
-        font-size: var(--basic-font-tab);
-    }
-    
-    .common-frame {
-        padding: 0 60px;
-    }
-}
-
-@media (max-width: 768px) {
-    html {
-        font-size: var(--basic-font-mobile);
-    }
-    
-    .common-frame {
-        padding: 0 20px;
-    }
-}
 
 /* ==================== 배너 ==================== */
 .banner.video {
@@ -88,7 +45,7 @@ img {
     text-transform: capitalize;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1460px) {
     .banner.video {
         height: 500px;
     }
@@ -119,7 +76,7 @@ main {
     margin-bottom: var(--space-2x-large);
 }
 
-.tr-sec .common-frame {
+.tr-sec .common_frame {
     display: flex;
     gap: 20px;
     align-items: flex-start;
@@ -142,7 +99,7 @@ main {
 }
 
 /* 역방향 레이아웃 */
-.tr-sec.alt .common-frame {
+.tr-sec.alt .common_frame {
     flex-direction: row-reverse;
 }
 
@@ -152,8 +109,8 @@ main {
         margin-bottom: var(--space-x-large);
     }
     
-    .tr-sec .common-frame,
-    .tr-sec.alt .common-frame {
+    .tr-sec .common_frame,
+    .tr-sec.alt .common_frame {
         flex-direction: column;
         gap: 16px;
     }
@@ -198,10 +155,6 @@ main {
 
 /* ==================== 반응형 - 320px (초소형 모바일) ==================== */
 @media (max-width: 320px) {
-    .common-frame {
-        padding: 0 var(--space-x-small);
-    }
-    
     .banner.video {
         height: 250px;
     }
@@ -215,7 +168,7 @@ main {
         margin-bottom: var(--space-normal);
     }
     
-    .tr-sec .common-frame {
+    .tr-sec .common_frame {
         gap: var(--space-x-small);
     }
     

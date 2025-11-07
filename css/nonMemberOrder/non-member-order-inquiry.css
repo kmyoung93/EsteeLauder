@@ -1,16 +1,3 @@
-@media (min-width:1920px) {
-    body{
-        max-width: 1920px;
-        margin: 0 auto;
-    }
-}
-html{
-    font-size: var(--basic-size-pc);
-}
-.common_frame{
-    margin: 0 var(--space-3x-large);
-    margin-top: 6rem;
-}
 .order-box{
     text-align: center;
     width: 850px;
@@ -69,23 +56,9 @@ fieldset{
     margin-top: 2rem;
     text-decoration: none;
 }
-@media (max-width:1024px) {
-    html{
-    font-size: var(--basic-size-tap);
-    }
-    .common_frame{
-        margin: 0 auto; 
-        padding: 0 3rem;
-        /* 나중에 수정 */
-    }
+@media (max-width:1460px) {
+
 }
 @media (max-width:768px) {
-    html {
-        font-size: var(--basic-size-mobile);
-    }
-    .common_frame{
-        margin: 0 auto;
-        padding: 0 1rem;
-        /* 나중에 수정 */
-    }
+    
 }

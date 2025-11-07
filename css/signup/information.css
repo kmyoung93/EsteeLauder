@@ -1,9 +1,3 @@
-@media (min-width:1920px) {
-    body{
-        max-width: 1920px;
-        margin: 0 auto;
-    }
-}
 html{
     font-size: var(--basic-size-pc);
 }
@@ -33,11 +27,10 @@ ol li.arrow {
 ol li.act{
     color: #000;
 }
-ol li em{
+ol li span{
     font-style: inherit;
-    color: #818181;
-    margin-right: var(--space-normal);
-    font-size: 0.9rem;  
+    margin-right: 1rem;
+    font-size: 0.9rem;
 }
 ol li strong{
     font-size: 1.25rem;
@@ -72,6 +65,7 @@ form{
 .text{
     font-weight: 700;
     width: 270px;
+    flex-shrink: 1;
 }
 input[type=text],
 #user-name,
@@ -91,10 +85,10 @@ input[name="user-address-detail"] {
     padding: 0 0.8rem;
 }
 input[type=text]{
-    width: 200px;
+    width: 170px;
 }
 #user-pw, #user-pw-re{
-    width: 200px;
+    width: 170px;
 }
 .email-selext{
     height: 40px;
@@ -135,7 +129,7 @@ input[type="number"]::-webkit-outer-spin-button {
     white-space: nowrap;
 }
 .email-select{
-    width: 180px;
+    width: 120px;
     height: 44px;
     padding: 0 0.5rem;
 }
@@ -153,6 +147,7 @@ input[type="number"]::-webkit-outer-spin-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 550px;
 }
 .grop-ver{
     gap: var(--space-normal);
@@ -187,38 +182,81 @@ input[type="number"]::-webkit-outer-spin-button {
     white-space: pre-wrap;
 }
 @media (max-width:1460px) {
-    html{
-        font-size: var(--basic-size-tap);
-    }
-    .common_frame{
-        margin: 0 3rem;
-    }
-    ol{
-        justify-content: space-between;
-        gap: var(--space-3x-large);
-    }
     .sign-form{
         width: 100%;
+        max-width: 850px;
+        margin: 3rem  auto 6rem;
     }
+    .text{
+        flex-shrink: 0;
+        max-width: 220px;
+    }
+    .email-input {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        width: 50%;
+    }
+    .form-grop{
+        width: 100%;
+        max-width: 850px;
+    }
+    .email-input input[type="text"] {
+        flex: 1;
+        min-width: 0;
+        width: auto;
+        max-width: 120px;
+    }
+    
+    .email-input span {
+        flex-shrink: 0;
+    }
+    
     .email-select {
-    width: 144px;
-    height: 44px;
-    padding: 0 0.5rem;
-}
+        width: 144px;
+        height: 44px;
+        padding: 0 0.5rem;
+        flex-shrink: 0;
+    }
+    
+    /* 휴대폰 번호 영역 */
+    .user-phon {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        flex: 1;
+    }
+    
+    .user-phon input {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .user-phon span {
+        flex-shrink: 0;
+    }
+    
+    /* 생년월일 영역 */
+    .birth {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    
+    .birth input {
+        flex: 1;
+        min-width: 0;
+    }
+    .form-grop .grop-hor {
+        flex: 1;
+        max-width: 480px;
+        justify-content: flex-start;
+    }
 }
 @media (max-width: 768px) {
-    html {
-        font-size: var(--basic-size-mobile);
-    }
-    .common_frame {
-        margin: 0 1rem;
-    }
     h1 {
         font-size: 1.5rem;
         margin-top: var(--space-2x-large);
-    }
-    ol {
-        display: none;
     }
     .sign-form {
         width: 100%;
@@ -380,5 +418,15 @@ input[type="number"]::-webkit-outer-spin-button {
     .email-select {
         width: 90px;
     height: 40px;
+    }
+}
+@media (max-width:320){
+        ol{
+        gap: 0.5rem;
+        flex-wrap: nowrap;
+    }
+    ol li{
+        display: flex;
+        flex-direction: column;
     }
 }

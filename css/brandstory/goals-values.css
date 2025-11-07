@@ -82,16 +82,11 @@
     z-index: 10;
 }
 .values h1 {
-    font-size: 1.6rem;
-    font-weight: var(--font-strong);
     padding-bottom: var(--space-2x-large);
+    margin-top: 6rem;
 }
-.values p{
-    font-size: 1rem;
-    line-height: var(--text-line-height);
-    /* padding-bottom: 6rem; */
-}
-@media (max-width:1200px){
+
+@media (max-width:1460x){
     .inframe {
         width: 60%;
         margin: 0 auto;
