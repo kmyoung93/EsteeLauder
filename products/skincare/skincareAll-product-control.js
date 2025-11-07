@@ -3,20 +3,20 @@ document.addEventListener("DOMContentLoaded",()=>{
     let paramId = getQueryParam("cid")
     let result = newProArray.find(item=>item.code === Number(paramId))
 
-    let detailImg = result.thmbArray.map(thumbimg => `<figure>
+    let detailImg = result.thumbArray.map(thumbimg => `<figure>
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
-    let detailImgMo = result.thmbArray.map(thumbimg => `<figure class="swiper-slide">
+    let detailImgMo = result.thumbArray.map(thumbimg => `<figure class="swiper-slide">
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
-    let detailColor = result.color.map(color => `<span style="background:${color}"></span>`).join('')
+    // let detailColor = result.color.map(color => `<span style="background:${color}"></span>`).join('')
 
-    let colorOption = result.colorOptions.map((option,idx) => `<li data-value="design">
-                                <span class="icon" style="background:${result.color[idx]}"></span>
-                                <span class="text">${option}</span>
-                            </li>`).join('')
+    // let colorOption = result.colorOptions.map((option,idx) => `<li data-value="design">
+    //                             <span class="icon" style="background:${result.color[idx]}"></span>
+    //                             <span class="text">${option}</span>
+    //                         </li>`).join('')
     
    
 
@@ -43,26 +43,14 @@ document.addEventListener("DOMContentLoaded",()=>{
                     <p>￦ 54,000</p>
                 </div>
                 <p>색상</p>
-                <div class="slider-track">
-                    <section class="color">
-                        ${detailColor}
-                    </section>
-                </div>
+                
                 <div class="select-color">
                     
                     <form action="/submit" method="POST">
                     <!-- 실제 전송될 값 (숨김) -->
                     <input type="hidden" name="category" id="categoryValue" required>
                     
-                    <!-- 커스텀 셀렉트 -->
-                    <div class="custom-select">
-                        <div class="select-display" id="selectDisplay">
-                        카테고리 선택
-                        </div>
-                        <ul class="select-options" id="selectOptions">
-                            ${colorOption}
-                        </ul>
-                    </div>
+                    
                     
                     <!-- <button type="submit">제출</button> -->
                     </form>

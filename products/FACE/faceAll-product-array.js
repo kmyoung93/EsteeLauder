@@ -1,6 +1,6 @@
 let newProArray = [
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face1",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face1/",
             code: 1,
             thmb: "face_1.jpg",
             color: [
@@ -34,7 +34,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face2",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face2/",
             code: 2,
             thmb: "face_2.jpg",
             color: [
@@ -52,7 +52,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face3",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face3/",
             code: 3,
             thmb: "face_3.jpg",
             color: [
@@ -77,7 +77,7 @@ let newProArray = [
         },
 
         {  
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face5",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face5/",
             code: 4,
             thmb: "face_4.jpg",
             color: [
@@ -96,7 +96,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face6",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face6/",
             code: 5,
             thmb: "face_5.jpg",
             color: [
@@ -114,7 +114,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face7",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face7/",
             code: 6,
             thmb: "face_6.jpg",
             color: [
@@ -132,7 +132,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face8",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face8/",
             code: 7,
             thmb: "face_7.jpg",
             color: [
@@ -150,7 +150,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face9",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face9/",
             code: 8,
             thmb: "face_8.jpg",
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
@@ -159,7 +159,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face10",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face10/",
             code: 9,
             thmb: "face_9.jpg",
             name: "더블웨어 플로리스 하이드레이팅 프라이머 – 피치",
@@ -168,7 +168,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face11",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face11/",
             code: 10,
             thmb: "face_10.jpg",
             color: [
@@ -184,7 +184,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face4",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face4/",
             code: 11,
             thmb: "face_11.jpg",
             color: [
@@ -199,7 +199,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face12",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face12/",
             code: 12,
             thmb: "face_12.PNG",
             color: [
