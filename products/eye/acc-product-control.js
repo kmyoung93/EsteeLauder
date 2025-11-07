@@ -3,11 +3,20 @@ document.addEventListener("DOMContentLoaded",()=>{
     let paramId = getQueryParam("cid")
     let result = newProArray.find(item=>item.code === Number(paramId))
 
-    let detailImg = result.thmbArray.map(thumbimg => `<figure>
+    if (!result) {
+                    console.error("No product found for cid =", paramId);
+                    return;
+                    }
+
+    const thumbs = Array.isArray(result.thumbArray) ? result.thumbArray : [];
+    const colors = Array.isArray(result.color) ? result.color : [];
+    const options = Array.isArray(result.colorOptions) ? result.colorOptions : [];
+
+    let detailImg = result.thumbArray.map(thumbimg => `<figure>
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
-    let detailImgMo = result.thmbArray.map(thumbimg => `<figure class="swiper-slide">
+    let detailImgMo = result.thumbArray.map(thumbimg => `<figure class="swiper-slide">
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
