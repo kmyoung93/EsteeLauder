@@ -31,7 +31,6 @@
     <link rel="stylesheet" href="./css/service.css">
 
     <script src="../js/header_smart.js"></script>
-    <script src="../js/order/order-finsh.js"></script>
 </head>
 <body>
     <header>
@@ -258,7 +257,7 @@
                 <!-- 스킨케어 -->
                 <li class="smart_dep1">
                     <div class="menu_icon">
-                        <a href="./">스킨케어</a>
+                        <a href="#">스킨케어</a>
                         <figure>
                             <img src="./resource/svg/header_smart/Chevron down.svg" alt="스킨케어 메뉴 보기">
                         </figure>
@@ -397,13 +396,6 @@
     </div>
     </div>
     
-
-
-
-
-
-
-    
     <main>
         <div class="common_frame">
             <div class="title">
@@ -498,11 +490,11 @@
                                 <fieldset>
                                     <select name="select-serice" id="select-serice" required>
                                         <option value="지점선택">서비스 선택</option>
-                                        <option value="갤러리아압구정">딥 리페어 나이트 페이셜</option>
-                                        <option value="롯데동탄점">인스턴트 메이크업  트랜스포메이션</option>
-                                        <option value="롯데본점">럭셔리 넥 & 숄더 마사지</option>
-                                        <option value="롯데잠실점">아이 스컬프팅 리추얼</option>
-                                        <option value="신세계강남점">럭셔리 핸드 마사지</option>
+                                        <option value="딥 리페어 나이트 페이셜">딥 리페어 나이트 페이셜</option>
+                                        <option value="인스턴트 메이크업 트랜스포메이션">인스턴트 메이크업  트랜스포메이션</option>
+                                        <option value="럭셔리 넥 & 숄더 마사지">럭셔리 넥 & 숄더 마사지</option>
+                                        <option value="아이 스컬프팅 리추얼">아이 스컬프팅 리추얼</option>
+                                        <option value="럭셔리 핸드 마사지">럭셔리 핸드 마사지</option>
                                     </select>
                                 </fieldset>
                             </form>
@@ -607,6 +599,22 @@
                 <div class="btn-1">서비스 예약하기</div>
             </div>
         </div>
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <div class="modal-inner">
+                <h2 class="modal-service-name"></h2>
+                <div class="modal-info">
+                    <span class="modal-branch"></span>
+                    <span class="modal-date"></span>
+                    <span class="modal-time"></span>
+                </div>
+                <p class="modal-confirm">예약되었습니다.</p>
+                <button class="modal-close">
+                    <img src="./resource/service/x-but.svg" alt="">
+                </button>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -676,5 +684,6 @@
             </div>
     </footer>
     <script src="./js/bestseller.js"></script>
+    <script src="./js/service.js"></script>
 </body>
 </html>
