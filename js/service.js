@@ -137,47 +137,49 @@ function updateTotalTime() {
 }
 
 function showModal() {
-  const modal = document.querySelector('.modal-overlay');
-  const modalContent = document.querySelector('.modal-content');
-  const modalServiceName = document.querySelector('.modal-service-name');
-  const modalBranch = document.querySelector('.modal-branch');
-  const modalDate = document.querySelector('.modal-date');
-  const modalTime = document.querySelector('.modal-time');
-  const modalCloseBtn = document.querySelector(".modal-close");
+    const modal = document.querySelector('.modal-overlay');
+    const modalContent = document.querySelector('.modal-content');
+    const modalServiceName = document.querySelector('.modal-service-name');
+    const modalBranch = document.querySelector('.modal-branch');
+    const modalDate = document.querySelector('.modal-date');
+    const modalTime = document.querySelector('.modal-time');
 
-    modalCloseBtn.style.background = 'none';
-  modalCloseBtn.style.backgroundImage = 'none';
-  // 선택된 서비스가 존재하고 이미지 경로가 있으면 적용
-  if (selectedInfo.service && serviceInfo[selectedInfo.service]) {
-    const bgUrl = serviceInfo[selectedInfo.service].image;
+    // 선택된 서비스가 있으면 배경 이미지 적용
+    if (selectedInfo.service && serviceInfo[selectedInfo.service]) {
+        const bgUrl = serviceInfo[selectedInfo.service].image;
+        modalContent.style.backgroundImage = `url('${bgUrl}')`;
+        modalContent.style.backgroundSize = 'cover';
+        modalContent.style.backgroundPosition = 'center';
+        modalContent.style.backgroundRepeat = 'no-repeat';
+    } else {
+        modalContent.style.backgroundImage = 'none';
+    }
 
-    // 이미지 경로 확인용 콘솔 출력
-    console.log("배경 이미지 경로:", bgUrl);
+    // 텍스트 내용 업데이트
+    modalServiceName.textContent = selectedInfo.service || '';
+    modalBranch.textContent = selectedInfo.branch || '';
+    modalDate.textContent = selectedInfo.date || '';
+    modalTime.textContent = selectedInfo.time || '';
 
-    // 이미지 미리 로드 후 적용 (경로 깨짐 방지)
-    const img = new Image();
-    img.src = bgUrl;
-    img.onload = () => {
-      modalContent.style.backgroundImage = `url('${bgUrl}')`;
-      modalContent.style.backgroundSize = 'cover';
-      modalContent.style.backgroundPosition = 'center';
-      modalContent.style.backgroundRepeat = 'no-repeat';
-    };
-  } else {
-    console.warn("서비스 이미지 정보를 찾을 수 없습니다:", selectedInfo.service);
-  }
-
-  // 텍스트 내용 갱신
-  modalServiceName.textContent = selectedInfo.service || '';
-  modalBranch.textContent = selectedInfo.branch || '';
-  modalDate.textContent = selectedInfo.date || '';
-  modalTime.textContent = selectedInfo.time || '';
-
-  // 모달 표시
-  modal.classList.add('active');
-  document.body.style.overflow = 'hidden';
-
+    // 모달 표시
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
 }
+
+// 닫기 버튼 클릭
+document.querySelector('.modal-close').addEventListener('click', function() {
+    const modal = document.querySelector('.modal-overlay');
+    modal.classList.remove('active');
+    document.body.style.overflow = ''; // 스크롤 복원
+});
+
+// 모달 배경 클릭 시 닫기
+document.querySelector('.modal-overlay').addEventListener('click', function(e) {
+    if (e.target === this) {
+        this.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+});
 
 // DOM 로드 후 실행
 document.addEventListener('DOMContentLoaded', function() {
