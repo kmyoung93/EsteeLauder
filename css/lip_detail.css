@@ -1,5 +1,9 @@
 .product_fig_mo{
-    display: none;
+    display: none !important;
+}
+
+.detail_img_pc{
+    display: block;
 }
 
 .review_wrap{
@@ -252,7 +256,7 @@
 
 .view_more{
     cursor: pointer;
-    z-index: 1000;
+    z-index: 10;
 }
 
 
@@ -298,6 +302,7 @@
 @media (max-width:1460px){
     .product_detail {
         margin-right: 2rem;
+        gap: 1rem;
     }
 }
 

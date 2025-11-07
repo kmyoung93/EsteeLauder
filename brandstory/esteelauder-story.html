@@ -17,196 +17,22 @@
     <meta property="og:type" content="website">
 
     <!-- fabicon(파비콘) 설정 -->
-    <link rel="icon" sizes="32x32" href="./resource/fabicon_bk.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="/resource/fabicon_bk.png" type="image/png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Libertinus+Serif+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/font.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/system.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/brandstory/esteelauder.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/system.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/brandstory/esteelauder.css">
 
-    <script src="../js/brandstory/observer.js"></script>
+    <script src="/js/brandstory/observer.js"></script>
 </head>
 <body>
-    <header>
-        <div class="header-wrap">
-            <!-- 로고 -->
-            <div class="logo">
-                <a href="../index.html"><img src="../resource/logo.svg" alt="Estee Lauder - 메인메뉴로 바로가기"></a>
-            </div>
-
-            <!-- GNB (메인 메뉴) -->
-            <nav>
-                <ul class="gnb">
-                    <li><a href="../new.html">신제품</a></li>
-                    <li><a href="#">베스트셀러</a></li>
-                    
-                    <!-- 스킨케어 -->
-                    <li>
-                        <a href="#">스킨케어</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/skin_care_menu.png" alt="스킨케어 제품">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li><a href="#">클렌저 / 토너</a></li>
-                                        <li><a href="#">리페어 세럼 / 에센스</a></li>
-                                        <li><a href="#">로션 / 크림</a></li>
-                                        <li><a href="#">아이 케어</a></li>
-                                        <li><a href="#">스페셜 케어 / 마스크</a></li>
-                                        <li><a href="#">선 케어</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 메이크업 -->
-                    <li>
-                        <a href="#">메이크업</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/make_up_menu.png" alt="메이크업 제품">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">립</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">립스틱</a></li>
-                                                <li><a href="#">리퀴드 립</a></li>
-                                                <li><a href="#">립 글로스</a></li>
-                                                <li><a href="#">립 케어</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">아이</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">아이섀도우</a></li>
-                                                <li><a href="#">아이브로우</a></li>
-                                                <li><a href="#">아이라이너</a></li>
-                                                <li><a href="#">마스카라</a></li>
-                                                <li><a href="#">액세서리</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">페이스</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">파운데이션</a></li>
-                                                <li><a href="#">컨실러</a></li>
-                                                <li><a href="#">파우더</a></li>
-                                                <li><a href="#">프라이머</a></li>
-                                                <li><a href="#">블러쉬</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 향수 -->
-                    <li>
-                        <a href="#">향수</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/perfume_menu.png" alt="향수 제품">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">컬렉션 소개</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">럭셔리 프래그런스</a></li>
-                                                <li><a href="#">뷰티풀 매그놀리아</a></li>
-                                                <li><a href="#">모던 뮤즈</a></li>
-                                                <li><a href="#">플레져</a></li>
-                                                <li><a href="#">뷰티풀</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <ul class="menu-column">
-                                        <li>
-                                            <a href="#" class="dep2">에어린</a>
-                                            <ul class="menu-column">
-                                                <li><a href="#">에어린</a></li>
-                                                <li><a href="#">에어린 프리미엄</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 브랜드스토리 -->
-                    <li>
-                        <a href="#">브랜드스토리</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/brandstory_menu.png" alt="브랜드스토리">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li><a href="#">에스티로더 브랜드 스토리</a></li>
-                                        <li><a href="#">트렌드 리포트</a></li>
-                                        <li><a href="#">목표 & 가치</a></li>
-                                        <li><a href="#">Emerging Leaders Fund</a></li>
-                                        <li><a href="#">원료도감</a></li>
-                                        <li><a href="#">라이브방송</a></li>
-                                        <li><a href="#">커뮤니티</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    
-                    <!-- 공식몰서비스 -->
-                    <li><a href="#">공식몰서비스</a></li>
-
-                    <!-- 마이페이지 -->
-                    <li>
-                        <a href="#">마이페이지</a>
-                        <div class="dropdown-wrapper">
-                            <div class="dropdown-inner">
-                                <div class="image-area">
-                                    <img src="../resource/header/my_page_menu.png" alt="마이페이지">
-                                </div>
-                                <div class="menu-area">
-                                    <ul class="menu-column">
-                                        <li><a href="#">주문정보</a></li>
-                                        <li><a href="#">장바구니</a></li>
-                                        <li><a href="#">개인정보조회</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- LNB (우측 유틸메뉴) -->
-            <ul class="lnb">
-                <li><a href="#">검색</a></li>
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">장바구니</a></li>
-                <li><a href="#">주문조회</a></li>
-            </ul>
-        </div>
-    </header>  
+    <div class="header_wrap"></div>
     <main>
               <div class="main-title">
                 <h1 class="pf">Beauty is an Attitude.</h1>
@@ -217,7 +43,7 @@
             </div>
         <!-- 아름다움의 탄생 구간 -->
         <div class="bs-intro dtu">
-            <div class="common-frame">
+            <div class="common_frame">
                 <section>
                     <p class="subheading">아름다움은 타고나는 것이 아니라 만들어지는 것</p>
                     <h2>아름다움의 탄생</h2>
@@ -233,7 +59,7 @@
         </div>
          <!-- 아름다워질 수 있는 방법 구간 -->
         <div class="title dtu">
-            <div class="common-frame">
+            <div class="common_frame">
                 <section>
                     <p class="subheading">아름다움은 타고나는 것이 아니라 만들어지는 것</p>
                     <h2>아름다워질 수 있는 방법</h2>
@@ -246,13 +72,13 @@
                     </div>
                 </section>
                 <figure>
-                    <img src="../resource/barndstory/makeup.jpg" alt="에스티로더여사가 손님을 화장해주고 있는 모습">
+                    <img src="/resource/barndstory/makeup.jpg" alt="에스티로더여사가 손님을 화장해주고 있는 모습">
                 </figure>
             </div>
         </div>
          <!-- 아름다움의 시작 구간 -->
         <div class="title opp dtu">
-            <div class="common-frame">
+            <div class="common_frame">
                 <section>
                     <p class="subheading">진정한 변화는 스스로의 선택에서 시작된다</p>
                     <h2>아름다움의 시작</h2>
@@ -264,13 +90,13 @@
                     </div>
                 </section>
                 <figure>
-                    <img src="../resource/barndstory/burial.jpg" alt="에스티로더 매장 앞에서 사람들이 줄서 있는 모습">
+                    <img src="/resource/barndstory/burial.jpg" alt="에스티로더 매장 앞에서 사람들이 줄서 있는 모습">
                 </figure>
             </div>
         </div>
          <!-- 멈추지 않는 도약 구간 -->
         <div class="title dtu">
-            <div class="common-frame">
+            <div class="common_frame">
                 <section>
                     <p class="subheading">멈추지 않는 열정이 브랜드를 완성한다</p>
                     <h2>멈추지 않는 도약</h2>
@@ -282,13 +108,13 @@
                         </section>
                 </section>                
                 <figure>
-                    <img src="../resource/barndstory/magazine.jpg" alt="에스티로더 잡지 모습">
+                    <img src="/resource/barndstory/magazine.jpg" alt="에스티로더 잡지 모습">
                 </figure>
             </div>
         </div>
          <!-- 영원히 전설로 남을 에스티 로더 여사 구간 -->
         <div class="title opp dtu">
-            <div class="common-frame">
+            <div class="common_frame">
                 <section>
                     <p class="subheading">시간이 흘러도, 철학은 여전히 살아 있다</p>
                     <h2>영원히 전설로 남을 에스티 로더 여사</h2>
@@ -300,75 +126,12 @@
                         </section>
                 </section>
                 <figure>
-                    <img src="../resource/barndstory/Mrs. Estee Lauder.jpg" alt="에스티로더 여사의 모습">
+                    <img src="/resource/barndstory/Mrs. Estee Lauder.jpg" alt="에스티로더 여사의 모습">
                 </figure>
             </div>
         </div> 
     </main>
-
-    <footer>
-        <div class="footer-common-frame">
-            <div class="footer-top">
-                <div class="footer-logo">
-                    <a href="../index.html">
-                        <img src="../resource/logo.svg" alt="Estee lauder - 메인페이지로 바로가기">
-                    </a>
-                    <p>이엘씨에이한국(유) 대표 Jean-Alexandre Havard, 서울시 강남구 강남대로 382(역삼동) 메리츠 타워 9층, 06232. 사업자등록번호: 211-81-71889</p>
-                    <p>고객관리지원팀 1644-3728 | 호스팅서비스 사업자: ㈜엘지유플러스 | 통신판매업신고: 강남 15737호</p>
-                </div>
-                <div class="footer-gnb">
-                    <ul>
-                        <li>
-                            <a href="#">고객지원</a>
-                                <ul class="footer-gnb-2dep">
-                                    <li><a href="#">라이브챗</a></li>
-                                    <li><a href="#">카카오톡 라이브챗</a></li>
-                                    <li><a href="#">1644-3278</a></li>
-                                </ul>
-                        </li>
-                        <li>
-                            <a href="#">고객센터</a>
-                                <ul class="footer-gnb-2dep">
-                                    <li><a href="#">이용안내</a></li>
-                                    <li><a href="#">반품 및 교환</a></li>
-                                    <li><a href="#">배송정보</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">채용정보</a></li>
-                                </ul>
-                        </li>
-                        <li>
-                            <a href="#">에스티로더</a>
-                                <ul class="footer-gnb-2dep">
-                                    <li><a href="#">매장찾기</a></li>
-                                </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="info">
-                <ul>
-                    <li><a href="#">개인정보 처리방침</a></li>
-                    <li><a href="#">이용약관</a></li>
-                    <li><a href="#">cookie 관리</a></li>
-                    <li><a href="#">사업자정보 조회</a></li>
-                </ul>
-        </div>
-        <div class="footer-info">
-                <div class="footer-sns">
-                    <ul>
-                        <li><a href="https://www.facebook.com/EsteeLauderKR">페이스북</a></li>
-                        <li><a href="https://www.instagram.com/esteelauderkr/?hl=ko">인스타그램</a></li>
-                        <li><a href="https://www.tiktok.com/@esteelauder">틱톡</a></li>
-                        <li><a href="https://pin.it/4jTxEihiR">핀터레스트</a></li>
-                        <li><a href="https://youtube.com/@kresteelauder?si=pzx4rCCM0AmLBUdi">유튜브</a></li>
-                    </ul>
-                </div>
-        </div>
-
-            <div class="footer-bottom">
-                <p>본 페이지는 취업용도의 포트폴리오 홈페이지입니다.</p>
-            </div>
-    </footer>
+    <div class="footer_wrap"></div>
+    <script src="/js/include.js"></script>
 </body>
 </html>
