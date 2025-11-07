@@ -156,9 +156,6 @@ document.addEventListener("DOMContentLoaded",()=>{
         {
             code: 12,
             thmb: "bestseller_12.png",
-            color: [
-                "#c9924d"
-            ],
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
             ename: "Double Wear",
             price: 87000
@@ -167,9 +164,6 @@ document.addEventListener("DOMContentLoaded",()=>{
         {
             code: 13,
             thmb: "bestseller_13.png",
-            color: [
-                "#d6a46b"
-            ],
             name: "갈색병 세럼 115ml",
             ename: "Advanced Night Repair",
             price: 127000
