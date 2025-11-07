@@ -1,5 +1,6 @@
 let newProArray = [
      {
+            
             folderName:"/resource/detail_thumb_img/makeup_All/makeup1/",
             code: 1,
             thmb: "makeup_1.jpg",
