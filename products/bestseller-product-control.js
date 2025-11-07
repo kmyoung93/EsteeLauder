@@ -2,21 +2,21 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     let paramId = getQueryParam("cid")
     let result = newProArray.find(item=>item.code === Number(paramId))
-
-    let detailImg = result.thmbArray.map(thumbimg => `<figure>
+    console.log(result)
+    let detailImg = result.thumbArray.map(thumbimg => `<figure>
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
-    let detailImgMo = result.thmbArray.map(thumbimg => `<figure class="swiper-slide">
+    let detailImgMo = result.thumbArray.map(thumbimg => `<figure class="swiper-slide">
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
-    let detailColor = result.color.map(color => `<span style="background:${color}"></span>`).join('')
+    let detailColor = result.color.length>0?result.color.map(color => `<span style="background:${color}"></span>`).join(''):""
 
-    let colorOption = result.colorOptions.map((option,idx) => `<li data-value="design">
+    let colorOption = result.colorOptions.length>0?result.colorOptions.map((option,idx) => `<li data-value="design">
                                 <span class="icon" style="background:${result.color[idx]}"></span>
                                 <span class="text">${option}</span>
-                            </li>`).join('')
+                            </li>`).join(''):""
     
    
 

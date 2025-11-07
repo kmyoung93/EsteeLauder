@@ -1,6 +1,6 @@
 let newProArray = [
      {
-            folderName:"/resource/detail_thumb_img/perfume_airen/airen1",
+            folderName:"/resource/detail_thumb_img/perfume_airen/airen1/",
             code: 1,
             thmb: "airen_1.jpg",
             name: "메디터래니언 허니써클 EDP",
@@ -10,7 +10,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/perfume_airen/airen2",
+            folderName:"/resource/detail_thumb_img/perfume_airen/airen2/",
             code: 2,
             thmb: "airen_2.jpg",
             name: "로즈 드 그라스 퍼퓸",
@@ -20,7 +20,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/perfume_airen/airen3",
+            folderName:"/resource/detail_thumb_img/perfume_airen/airen3/",
             code: 3,
             thmb: "airen_3.jpg",
             name: "이캣 자스민 EDP",
@@ -30,7 +30,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/perfume_airen/airen4",
+            folderName:"/resource/detail_thumb_img/perfume_airen/airen4/",
             code: 4,
             thmb: "airen_4.jpg",
             name: "앰버 머스크 EDP",
@@ -40,7 +40,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/perfume_airen/airen5",
+            folderName:"/resource/detail_thumb_img/perfume_airen/airen5/",
             code: 5,
             thmb: "airen_5.jpg",
             name: "앰버 머스크 트래블 스프레이",
@@ -49,7 +49,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_airen/airen6",
+            folderName:"/resource/detail_thumb_img/perfume_airen/airen6/",
             code: 6,
             thmb: "airen_6.jpg",
             name: "라일락 패스 바디크림",

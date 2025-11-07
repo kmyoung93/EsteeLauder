@@ -1,6 +1,6 @@
 let newProArray = [
     {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection9",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection9/",
             code: 1,
             thmb: "morden_1.jpg",
             name: "모던 뮤즈 EDP",

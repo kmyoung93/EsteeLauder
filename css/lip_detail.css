@@ -6,6 +6,11 @@
     display: block;
 }
 
+.detail_img_pc figure img{
+    width: 100%;
+    object-fit: cover;
+}
+
 .review_wrap{
     position: fixed;
     left: 0;
