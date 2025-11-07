@@ -1,6 +1,6 @@
 let newProArray = [
      {
-            
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup1/",
             code: 1,
             thmb: "makeup_1.jpg",
             color: [
@@ -13,10 +13,13 @@ let newProArray = [
             name: "퓨어 컬러 젤리 글로우 밤",
             ename: "Pure Color",
             price: 38000,
-              colorOptions:["01 언어폴로제티컬리 미","02 벨 마카롱", "03 남산 선셋", "04 누드 센세이션","05 퓨어 로즈"],
+            colorOptions:["01 언어폴로제티컬리 미","02 벨 마카롱", "03 남산 선셋", "04 누드 센세이션","05 퓨어 로즈"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup2/",
             code: 2,
             thmb: "makeup_2.jpg",
             color: [
@@ -46,9 +49,11 @@ let newProArray = [
             colorOptions:["1W1 본","1N0 포슬린","1C1 쿨 본","1W0 웜 포슬린 (NEW)","1W2 샌드","3W1 토니","1N1 아이보리 누드 (NEW)",
             "2W0 웜 바닐라","1C0 쉘 (NEW)","2C0 쿨 바닐라","2C1 퓨어 베이지 (NEW)","3C0 쿨 크림","3W0 웜 크림","2W1 던 (NEW)",
             "1N2 에크루 (NEW)","2W2 라탄","2N2 버프","2W1.5 내추럴 스웨이드 (NEW)"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
         
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup3/",
             code: 3,
             thmb: "makeup_3.jpg",
             color: [
@@ -62,9 +67,11 @@ let newProArray = [
             ename: "Double Wear",
             price: 103000,
             colorOptions:["1W2샌드","2W0 웜바닐라","2C0 쿨바닐라","1C0 쉘","1W1 본"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup4/",
             code: 4,
             thmb: "makeup_4.jpg",
             groupColor: [
@@ -97,9 +104,11 @@ let newProArray = [
             ename: "The Essential",
             price: 88000,
             colorOptions:["갤러리 홉","해피스트 아워","파워 브런치","어프레이 스프리"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup5/",
             code: 5,
             thmb: "makeup_5.jpg",
             color: [
@@ -117,10 +126,15 @@ let newProArray = [
             ],
             name: "퓨처리스트 파운데이션",
             ename: "Futurist Aqua Brilliance",
-            price: 110000
+            price: 110000,
+            colorOptions:["2N1 데저트 베이지","3W0 웜 크림","2W0 웜 바닐라","1C1 쿨 본","1W0 웜 포슬린","1N0 포슬린","1W1 본","1N1 아이보리 누드",
+            "1C0 쿨 포슬린","2C0 쿨 바닐라","3C0 쿨 크림"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup6/",
             code: 6,
             thmb: "makeup_6.jpg",
              color: [
@@ -130,10 +144,13 @@ let newProArray = [
             ],
             name: "더 스컬프팅 블러쉬",
             ename: "The Sculpting",
-            price: 73000
+            price: 73000,
+            colorOptions:["센슈어스 로즈","피치 패션","레벨리어스 로즈"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup7/",
             code: 7,
             thmb: "makeup_7.jpg",
             color: [
@@ -141,10 +158,13 @@ let newProArray = [
             ],
             name: "더블 웨어 제로-스머지 렝쓰닝 마스카라",
             ename: "Double Wear",
-            price: 50000
+            price: 50000,
+            colorOptions:["블랙"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup8/",
             code: 8,
             thmb: "makeup_8.jpg",
             color: [
@@ -152,10 +172,13 @@ let newProArray = [
             ],
             name: "리틀 블랙 아이 라이너",
             ename: "Double Wear",
-            price: 52000
+            price: 52000,
+            colorOptions:["블랙"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup9/",
             code: 9,
             thmb: "makeup_9.jpg",
             color: [
@@ -169,10 +192,12 @@ let newProArray = [
             ],
             name: "퓨어 컬러 멜트-온 글로스틱",
             ename: "Pure Color",
-            price: 55000
+            price: 55000,
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup10/",
             code: 10,
             thmb: "makeup_10.jpg",
             color: [
@@ -192,10 +217,13 @@ let newProArray = [
             ],
             name: "퓨어 컬러 립스틱",
             ename: "Pure Color",
-            price: 55000
+            price: 55000,
+            colorOptions:["390 멜티드 멜론","890 멜티드 탠저린","128 멜티드 블러쉬","156 멜티드 로즈","513 멜티드 모브","655 멜티드 가넷","185 멜티드 메이플"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup11/",
             code: 11,
             thmb: "makeup_11.jpg",
             color: [
@@ -207,10 +235,13 @@ let newProArray = [
             ],
             name: "더블웨어 세컨 스킨 블러 쿠션 리필",
             ename: "Double Wear",
-            price: 63000
+            price: 63000,
+            colorOptions:["1W2샌드","2W0 웜바닐라","2C0 쿨바닐라","1C0 쉘","1W1 본"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup12/",
             code: 12,
             thmb: "makeup_12.jpg",
             color: [
@@ -226,10 +257,14 @@ let newProArray = [
             ],
             name: "퓨어 컬러 익스플리시트 실크 매트 립스틱",
             ename: "Pure Color",
-            price: 56000
+            price: 56000,
+            colorOptions:["112 하이 프리퀀시","110 롱 플레이스 라이트 타임","201 얼티리어 모티브","212 일렉트릭 나이트","120 템퍼러춰 라이징","303 하트비트","302 라스트 임프레션","106 더블 오일 낫띵","101 스테틱"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup13/",
             code: 13,
             thmb: "makeup_13.jpg",
             color: [
@@ -242,10 +277,13 @@ let newProArray = [
             ],
             name: "더블웨어 소프트 글로우 매트 쿠션 SPF45 / PA+++",
             ename: "Double Wear",
-            price: 103000
+            price: 103000,
+            colorOptions:["1W1 본","3W1 토니","1C0 쉘","2W0 웜바닐라","1W2 샌드","2C0 쿨 바닐라"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup14/",
             code: 14,
             thmb: "makeup_14.jpg",
             color: [
@@ -258,10 +296,13 @@ let newProArray = [
             ],
             name: "더블웨어 매트 파우더 파운데이션",
             ename: "Double Wear",
-            price: 91000
+            price: 91000,
+            colorOptions:["1C0 쉘","1W2 샌드","1N0 포슬린","3W1 토니","2N1 데저트 베이지","1W0 웜 포세린"],
+            thmbArray:["makeup1.jpg","makeup2.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup15/",
             code: 15,
             thmb: "makeup_15.jpg",
             color: [
@@ -274,26 +315,34 @@ let newProArray = [
             ],
             name: "더블웨어 소프트 글로우 매트 쿠션 리필 SPF45 / PA+++",
             ename: "Double Wear",
-            price: 63000
+            price: 63000,
+            colorOptions:["1W1 본","3W1 토니","1C0 쉘","2W0 웜바닐라","1W2 샌드","2C0 쿨 바닐라"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup16/",
             code: 16,
             thmb: "makeup_16.jpg",
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
             ename: "Double Wear",
-            price: 87000
+            price: 87000,
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup17/",
             code: 17,
             thmb: "makeup_17.jpg",
             name: "더블웨어 플로리스 하이드레이팅 프라이머 – 피치",
             ename: "Double Wear",
-            price: 78000
+            price: 78000,
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup18/",
             code: 18,
             thmb: "makeup_18.jpg",
             color: [
@@ -304,26 +353,34 @@ let newProArray = [
             ],
             name: "리-뉴트리브 울트라 래디언스 세럼 크림 파운데이션",
             ename: "Re-Nutriv",
-            price: 215000
+            price: 215000,
+            colorOptions:["쿨 포슬린","웜 바닐라","쿨 바닐라","웜 포슬린"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup19/",
             code: 19,
             thmb: "makeup_19.png",
             name: "펜슬 샤프너",
             ename: "Pencil Sharpener",
-            price: 13000
+            price: 13000,
+            thmbArray:["makeup1.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup20/",
             code: 20,
             thmb: "makeup_20.png",
             name: "브로우 퍼펙트 3D 스타일러",
             ename: "Brow Perfect",
-            price: 45000
+            price: 45000,
+            colorOptions:["07 쿨 브라운","10 블랙큰 브라운","06 라이트 브루넷","08 브루넷","09 다크 브루넷","02 쿨 블론드","04 토프"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup21/",
             code: 21,
             thmb: "makeup_21.PNG",
             color: [
@@ -336,10 +393,13 @@ let newProArray = [
             ],
             name: "더블웨어 스테이-인-플레이스 컨실러",
             ename: "Double Wear",
-            price: 52000
+            price: 52000,
+            colorOptions:["2C 라이트 미디엄","3W 미디엄","1C 라이트","1W 라이트","2W 라이트미디엄","3C 미디엄"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 
         {
+            folderName:"/resource/detail_thumb_img/makeup_All/makeup22/",
             code: 22,
             thmb: "makeup_22.png",
              color: [
@@ -354,6 +414,8 @@ let newProArray = [
             ],
             name: "퓨어 컬러 휩 매트 립 컬러",
             ename: "Pure Color",
-            price: 54000
+            price: 54000,
+            colorOptions:["930 바누아","935 쇼크미","927 핫퓨즈","925 소설월","931 핫샷","924 소프트하티드","926 클라우드나인","932 러브피버"],
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
 ]
