@@ -19,10 +19,10 @@
 .hero-text{
     position: absolute;
     left: 5%;
-    top: 70%;
+    top: 83%;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     color: #fff;
     text-align: left;
 }

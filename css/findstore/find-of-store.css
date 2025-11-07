@@ -1,7 +1,7 @@
 html{
     font-size: var(--basic-size-pc);
 }
-.common_frame ul{
+.common_frame>ul{
     list-style: none;
     padding: 0;
     margin: 0;

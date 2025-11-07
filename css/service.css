@@ -329,7 +329,7 @@ input[type="radio"]{
 
 .modal-close {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     left: 50%;
     transform: translateX(-50%);
     background: none;
@@ -342,6 +342,7 @@ input[type="radio"]{
     justify-content: center;
     align-items: center;
     background-color: #fff;
+    
 }
 
 .modal-close img {

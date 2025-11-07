@@ -50,22 +50,42 @@ h1{
 }
 
 .btn button{
+    border: none;
     width: 100%;
     height: 57px;
     cursor: pointer;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    outline: none;
 }
 
-.login{
+.login a {
+    border: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
     background-color: #000;
+    text-align: center;
+    align-items: center;
     color: #fff;
     border: none;
+    justify-content: center;
+    outline: none;
 }
 
-.join{
+.join a{
+    display: flex;
     background-color: #fff;
     color: #000;
+    width: 100%;
+    height: 100%;
     border: 2px solid #000;
     box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .sns-login{
