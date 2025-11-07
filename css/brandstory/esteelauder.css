@@ -1,20 +1,3 @@
-/* ==================== 기본 스타일 ==================== */
-html{
-    font-size: var(--basic-font-pc);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #ffffff;
-    color: #1a1a1a;
-    line-height: 1.7;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -22,12 +5,6 @@ img {
 }
 
 /* ==================== 공통 프레임 ==================== */
-.common-frame {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 100px;
-}
-
 .dtu{
     transform:translateY(60px);
     transition:all 1.3s ease 0s;
@@ -36,24 +13,6 @@ img {
 .dtu.on{
     transform:translateY(0px);
     opacity: 1;
-}
-
-@media (max-width: 1024px) {
-    html{
-        font-size:var(--basic-font-tab);
-    }
-    .common-frame {
-        padding: 0 60px;
-    }
-}
-
-@media (max-width: 768px) {
-    html{
-        font-size:var(--basic-font-mobile);
-    }
-    .common-frame {
-        padding: 0 20px;
-    }
 }
 
 /* ==================== 메인 타이틀 ==================== */
@@ -73,13 +32,11 @@ img {
 }
 
 .main-title p {
-    font-size: 0.9rem;
-    line-height: 1.8;
     color: var(--color-text-secondary);
     max-width: 800px;
     margin: 0 auto;
 }
-.title.common-frame section{
+.title.common_frame section{
     padding-left: 100px;
 }
 
@@ -100,7 +57,7 @@ img {
     margin-bottom: var(--space-2x-large);
 }
 
-.bs-intro .common-frame {
+.bs-intro .common_frame {
     display: flex;
     gap: 20px;
     align-items: flex-start;
@@ -116,7 +73,7 @@ img {
         margin-bottom: var(--space-x-large);
     }
     
-    .bs-intro .common-frame {
+    .bs-intro .common_frame {
         flex-direction: column;
         gap: 0;
     }
@@ -128,7 +85,7 @@ img {
     margin-bottom: var(--space-2x-large);
 }
 
-.title .common-frame {
+.title .common_frame {
     display: flex;
     gap: 20px;
     align-items: flex-start;
@@ -150,7 +107,7 @@ img {
 }
 
 /* 역방향 레이아웃 */
-.title.opp .common-frame {
+.title.opp .common_frame {
     flex-direction: row-reverse;
 }
 
@@ -160,8 +117,8 @@ img {
         margin-bottom: var(--space-x-large);
     }
     
-    .title .common-frame,
-    .title.opp .common-frame {
+    .title .common_frame,
+    .title.opp .common_frame {
         flex-direction: column;
         gap: 16px;
     }
@@ -177,22 +134,18 @@ img {
 }
 
 h2 {
-    font-size: 1.8rem;
     margin-bottom: var(--space-x-large);
     line-height: 1.4;
     color: var(--color-text-primary);
 }
 
 h3 {
-    font-size: 2.5rem;
     margin-bottom: var(--space-x-large);
     color: var(--color-text-primary);
 }
 
 .intro-txt p,
 .title-txt p {
-    font-size: 0.9rem;
-    line-height: 1.9;
     margin-bottom: var(--space-normal);
     color: var(--color-text-secondary);
 }
@@ -204,17 +157,9 @@ h3 {
 
 @media (max-width: 768px) {
     .title h2 {
-        font-size: 1.4rem;
         margin-bottom: var(--space-x-large);
     }
-    
-    h3 {
-        font-size: 1.8rem;
-    }
-    
-    .subheading {
-        font-size: 0.8rem;
-    }
+
 }
 
 /* ==================== 마지막 섹션 ==================== */
@@ -227,11 +172,7 @@ h3 {
 }
 
 /* ==================== 반응형 - 320px (초소형 모바일) ==================== */
-@media (max-width: 320px) {
-    .common-frame {
-        padding: 0 var(--space-x-small);
-    }
-    
+@media (max-width: 320px) {    
     .main-title {
         padding: 8rem 0;
         margin-bottom: var(--space-normal);
@@ -239,14 +180,9 @@ h3 {
     }
     
     .main-title h1 {
-        font-size: 1.6rem;
         margin-bottom: var(--space-normal);
     }
     
-    .main-title p {
-        font-size: 0.85rem;
-        line-height: 1.6;
-    }
     
     .title.common-frame section {
         padding-left: 0;
@@ -281,24 +217,19 @@ h3 {
     }
     
     h2 {
-        font-size: 1.2rem;
         margin-bottom: var(--space-normal);
     }
     
     .title h2 {
-        font-size: 1.2rem;
         margin-bottom: var(--space-normal);
     }
     
     h3 {
-        font-size: 1.4rem;
         margin-bottom: var(--space-normal);
     }
     
     .intro-txt p,
     .title-txt p {
-        font-size: 0.85rem;
-        line-height: 1.6;
         margin-bottom: var(--space-x-small);
     }
     

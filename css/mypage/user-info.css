@@ -118,6 +118,9 @@ tbody td{
     display: table-cell;
 }
 @media (max-width: 1460px){
+    .main-title {
+    margin-top: 6rem;
+    }
     .user-info{
         padding: 0  45px;
         gap: 7rem;

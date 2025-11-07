@@ -1,20 +1,4 @@
 /* ==================== 기본 스타일 ==================== */
-html {
-    font-size: var(--basic-font-pc);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #ffffff;
-    color: #1a1a1a;
-    line-height: 1.7;
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -22,20 +6,9 @@ img {
 }
 
 /* ==================== 공통 프레임 ==================== */
-.common-frame {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 100px;
-}
 
-@media (max-width: 1024px) {
-    html {
-        font-size: var(--basic-font-tab);
-    }
-    
-    .common-frame {
-        padding: 0 60px;
-    }
+@media (max-width: 1460px) {
+
 }
 
 @media (max-width: 768px) {
@@ -64,20 +37,17 @@ main {
 .elf-title h1 {
     font-size: 5rem;
     margin-bottom: var(--space-x-large);
-    color: var(--color-text-primary);
+    margin-top: 6rem;
 }
 
 .elf-title h2 {
-    font-size: 1.6rem;
+    margin-top: 6rem;
     margin-bottom: var(--space-2x-large);
-    color: var(--color-text-primary);
+    line-height: 2rem;
 }
 
 .elf-title p {
-    font-size: 1rem;
-    line-height: 1.9;
     margin-bottom: var(--space-normal);
-    color: var(--color-text-secondary);
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -93,7 +63,7 @@ main {
     margin-bottom: 3rem;
 }
 
-.way .common-frame {
+.way .common_frame {
     display: flex;
     flex-direction: row-reverse;
     gap: var(--space-2x-large);
@@ -116,16 +86,11 @@ main {
 }
 
 .way h3 {
-    font-size: 1.8rem;
     margin-bottom: var(--space-2x-large);
-    color: var(--color-text-primary);
 }
 
 .way p {
-    font-size: 1rem;
-    line-height: 1.9;
     margin-bottom: var(--space-normal);
-    color: var(--color-text-secondary);
 }
 
 .way p:last-child {
@@ -142,14 +107,10 @@ main {
 .doing h3 {
     font-size: 1.8rem;
     margin-bottom: var(--space-2x-large);
-    color: var(--color-text-primary);
     margin-top: 6rem;
 }
 
 .doing p {
-    font-size: 1rem;
-    line-height: 1.9;
-    color: var(--color-text-secondary);
     max-width: 900px;
     margin: 0 auto;
 }
@@ -235,20 +196,12 @@ main {
 
 /* 오버레이 텍스트 */
 .fund-overlay h4 {
-    font-size: 1.5rem;
     margin-bottom: var(--space-normal);
-    line-height: 1.3;
-}
-
-.fund-overlay p {
-    font-size: 0.85rem;
-    line-height: 1.6;
 }
 
 .fund-caption {
     font-size: 0.75rem;
     line-height: 1.6;
-    color: var(--color-text-tertiary);
     text-align: center;
 }
 
@@ -271,50 +224,37 @@ main {
 }
 
 .vv-program h3 {
-    font-size: 1.8rem;
     margin-bottom: var(--space-x-large);
-    color: var(--color-text-primary);
 }
 
 .vv-program p {
-    font-size: 1rem;
-    line-height: 1.4;
     margin-bottom: var(--space-normal);
-    color: var(--color-text-secondary);
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* ==================== 반응형 - ELF 페이지 ==================== */
-@media (max-width: 1024px) {
+@media (max-width: 1460px) {
     .elf-title h1 {
-        font-size: 2.8rem;
+        font-size: 50px;
     }
-    
-    .elf-title h2 {
-        font-size: 1.6rem;
-    }
-    
-    .way h3,
-    .doing h3,
-    .vv-program h3 {
-        font-size: 1.6rem;
-    }
-    
     .fund-img {
         aspect-ratio: 303.97 / 317.3; /* Tab: (951.9-40)/3 / 317.3 */
     }
 }
 
-@media (max-width: 768px) {  
+@media (max-width: 768px) {      
     .elf-title h1 {
-        font-size: 2.1rem;
-    }  
-    
-    .way .common-frame {
+        font-size: 25px;
+        line-height: 2rem;
+    }
+    .way .common_frame {
         flex-direction: column;
         gap: var(--space-normal);
+    }
+    h3{
+        line-height: 2rem;
     }
     
     .fund-list {
@@ -331,29 +271,20 @@ main {
     }
 }
 /* ==================== 반응형 - 320px (초소형 모바일) ==================== */
-@media (max-width: 320px) {
-    .common-frame {
-        padding: 0 var(--space-x-small);
-    }
-    
+@media (max-width: 320px) {    
     .elf-title {
         padding: var(--space-x-large) 0;
-    }
-    
-    .elf-title h1 {
-        font-size: 1.6rem;
     }
     
     .way {
         margin-bottom: var(--space-x-large);
     }
     
-    .way .common-frame {
+    .way .common_frame {
         gap: var(--space-x-small);
     }
     
     .way h3 {
-        font-size: 1.2rem;
         margin-bottom: var(--space-normal);
         order: -1;
     }
@@ -367,8 +298,6 @@ main {
     }
     
     .way p {
-        font-size: 0.85rem;
-        line-height: 1.6;
         margin-bottom: var(--space-x-small);
     }
     
@@ -377,7 +306,6 @@ main {
     }
     
     .doing h3 {
-        font-size: 1.2rem;
         margin-bottom: var(--space-normal);
     }
     
@@ -399,13 +327,7 @@ main {
     }
     
     .fund-overlay h4 {
-        font-size: 1rem;
         margin-bottom: var(--space-x-small);
-    }
-    
-    .fund-overlay p {
-        font-size: 0.75rem;
-        line-height: 1.5;
     }
     
     .fund-caption {
@@ -417,13 +339,10 @@ main {
     }
     
     .vv-program h3 {
-        font-size: 1.2rem;
         margin-bottom: var(--space-normal);
     }
     
     .vv-program p {
-        font-size: 0.85rem;
-        line-height: 1.5;
         margin-bottom: var(--space-x-small);
     }
 }
