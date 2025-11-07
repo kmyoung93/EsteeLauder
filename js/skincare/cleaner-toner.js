@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             : '';
         
         li.innerHTML = `
-            <a href="#">
+            <a href="/detail_page/cleaner-toner_detail.html?cid=${product.code}">
                 <figure class="product-img">
                     <img src="../resource/skincare/cleaner-toner/${product.thmb}" alt="${product.name}">
                 </figure>
