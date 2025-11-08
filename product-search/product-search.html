@@ -28,39 +28,9 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/header_smart.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/serch-modal.css">
 
     <link rel="stylesheet" href="/css/product-search/product-search.css">
-
-    <script>
-// 에러 무시 (제품 페이지가 아닐 때)
-    window.addEventListener('error', function(e) {
-        // addEventListener 관련 에러는 무시
-        if (e.message.includes('addEventListener')) {
-            e.preventDefault();
-            return true;
-        }
-    });
-    
-    // 전역 배열 초기화
-    window.allProducts = [];
-    
-    let _products;
-    Object.defineProperty(window, 'products', {
-        get: function() {
-            return _products;
-        },
-        set: function(value) {
-            _products = value;
-            if (Array.isArray(value)) {
-                window.allProducts = window.allProducts.concat(value);
-                console.log('제품 추가됨, 총:', window.allProducts.length);
-            }
-        },
-        configurable: true
-    });
-    </script>
-
-    <script src="/js/product-search/product-search.js"></script>
 </head>
 <body>
     <div class="header_wrap"></div>     
