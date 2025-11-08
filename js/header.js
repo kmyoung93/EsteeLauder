@@ -18,6 +18,48 @@ document.addEventListener("DOMContentLoaded",()=>{
         lastScrollTop = scrollTop
     })
 
-    
+    // 1460이하면 모달 안뜨고 바로 검색 페이지로 가게 메뉴스크립트에다가 넣어줘야함
 
+    // const headerSearchBtn = document.querySelector(".serach-btn");
+
+    // headerSearchBtn.addEventListener("click", (e) => {
+    // e.preventDefault();
+    
+    // const modal = document.querySelector(".serch-modal");
+    
+    // if (!modal) {
+    //     // 모달이 없으면 페이지 이동
+    //     window.location.href = "/product-search/product-search.html";
+    //     return;
+    // }
+
+    // if (window.innerWidth > 1460) {
+    //     modal.hidden = false;
+    //     document.body.style.overflow = "hidden";
+    // } else {
+    //     window.location.href = "/product-search/product-search.html";
+    // }
+    // });
+    const headerSearchBtn = document.querySelector(".serach-btn");
+
+headerSearchBtn.addEventListener("click", (e) => {
+  e.preventDefault();
+  const modal = document.querySelector(".serch-modal");
+
+  if (!modal) {
+    // 모달이 아직 삽입되지 않았거나 fetch 실패 → 검색 페이지로 이동
+    window.location.href = "/product-search/product-search.html";
+    return;
+  }
+
+  if (window.innerWidth > 1460) {
+    modal.hidden = false;
+    document.body.style.overflow = "hidden";
+  } else {
+    window.location.href = "/product-search/product-search.html";
+  }
+});
+
+
+  
 })
