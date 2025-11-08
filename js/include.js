@@ -69,5 +69,37 @@
     })
     .catch(error => console.log("에러 : ",error))
 
+    // 2️⃣ 모달 fetch & 초기화
+    fetch("/serch-modal.html")
+    .then(res => res.text())
+  .then(html => {
+    const modalContainer = document.createElement("div")
+    modalContainer.className = "modal-container"
+    modalContainer.innerHTML = html
+    document.body.appendChild(modalContainer)
+
+    const searchModal = modalContainer.querySelector(".serch-modal")
+    const modalClose = searchModal.querySelector(".serch-modal-close")
+
+    // 닫기 버튼
+    modalClose.addEventListener("click", () => {
+      searchModal.classList.remove("show")
+      document.body.style.overflow = ""
+    })
+
+    // 헤더 검색 버튼 클릭
+    const headerSearchBtn = document.querySelector(".serach-btn")
+    headerSearchBtn.addEventListener("click", (e) => {
+      e.preventDefault()
+      if (window.innerWidth > 1460) {
+        searchModal.classList.add("show") // 클릭 시만 모달 보이게
+        document.body.style.overflow = "hidden"
+      } else {
+        window.location.href = "/product-search/product-search.html"
+      }
+    })
+  })
+
+
            
 
