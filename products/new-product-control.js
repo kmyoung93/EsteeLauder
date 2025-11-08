@@ -4,11 +4,11 @@ document.addEventListener("DOMContentLoaded",()=>{
     let result = newProArray.find(item=>item.code === Number(paramId))
     console.log(result)
 
-    let detailImg = result.thmbArray.map(thumbimg => `<figure>
+    let detailImg = result.thumbArray.map(thumbimg => `<figure>
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
-    let detailImgMo = result.thmbArray.map(thumbimg => `<figure class="swiper-slide">
+    let detailImgMo = result.thumbArray.map(thumbimg => `<figure class="swiper-slide">
                     <img src="${result.folderName}${thumbimg}" alt="">
                 </figure>`).join('')
 
