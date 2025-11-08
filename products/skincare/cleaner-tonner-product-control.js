@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     let paramId = getQueryParam("cid")
     let result = newProArray.find(item=>item.code === Number(paramId))
+    console.log(result)
 
     let detailImg = result.thumbArray.map(thumbimg => `<figure>
                     <img src="${result.folderName}${thumbimg}" alt="">

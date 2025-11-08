@@ -6,7 +6,7 @@ let newProArray = [
             name: "더블웨어 리-뉴트리브 에이지 리버설 아이크림",
             ename: "Ultimate Diamond",
             price: 250000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            thumbArray:["skincare1.jpg","skincare2.png","skincare3.jpg","skincare4.png"],
             color:[],
             colorOptions:[]
         },
@@ -30,7 +30,9 @@ let newProArray = [
             name: "리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림",
             ename: "Revitalizing Supreme+",
             price: 192000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -40,7 +42,9 @@ let newProArray = [
             name: "리비탈라이징 수프림 플러스 브라이트 래디언스 파워 소프트 밀키 로션",
             ename: "Revitalizing Supreme+",
             price: 177000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -50,7 +54,9 @@ let newProArray = [
             name: "마이크로 에센스 트리트먼트 로션 200ml ",
             ename: "Micro Essence",
             price: 248000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -60,7 +66,9 @@ let newProArray = [
             name: "퍼펙셔니스트 프로 래피드 브라이트닝 트리트먼트 퍼멘트3 + 비타민 C",
             ename: "Perfectionist Pro",
             price: 232000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -70,7 +78,9 @@ let newProArray = [
             name: "리바이탈라이징 수프림+ 옵티마이징 파워 트리트먼트 로션 200ml",
             ename: "Revitalizing Supreme+",
             price: 95000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -80,7 +90,9 @@ let newProArray = [
             name: "리비탈라이징 수프림 플러스 브라이트 래디언스 파워 소프트 크림",
             ename: "Revitalizing Supreme+",
             price: 200000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -90,7 +102,9 @@ let newProArray = [
             name: "리-뉴트리브 래디언스 UV 플루이드",
             ename: "Re-Nutriv",
             price: 170000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -100,7 +114,9 @@ let newProArray = [
             name: "퍼펙셔니스트 프로 래피드 펌+리프트 트리트먼트 세럼 50ml",
             ename: "Perfectionist Pro",
             price: 232000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -110,7 +126,9 @@ let newProArray = [
             name: "리-뉴트리브 다이아몬드 에너지 아이 크림",
             ename: "Re-Nutriv",
             price: 520000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -120,7 +138,9 @@ let newProArray = [
             name: "어드밴스드 나이트 리페어 레스큐 솔루션",
             ename: "Advanced Night Repair",
             price: 150000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -130,7 +150,9 @@ let newProArray = [
             name: "어드밴스드 나이트 리페어 갈색병 아이 젤 크림15ml + 어드밴스드 나이트 리페어 싱크로나이즈드 멀티 리커버리 컴플렉스 30ml",
             ename: "Online Exclusive Value Set Save 30% for a Limited Time",
             price: 257000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -140,7 +162,9 @@ let newProArray = [
             name: "어드밴스드 나이트 리페어 아이 리프트+ 스컬프팅 세럼",
             ename: "Advanced Night Repair",
             price: 158000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -150,7 +174,9 @@ let newProArray = [
             name: "퍼펙틀리 클린 폼 클렌저",
             ename: "Perfectly Clean",
             price: 55000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -160,7 +186,9 @@ let newProArray = [
             name: "리-뉴트리브 얼티미트 다이아몬드 트랜스포머티브 아이 세럼",
             ename: "Re-Nutriv",
             price: 305000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg",]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg",],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -170,7 +198,9 @@ let newProArray = [
             name: "리-뉴트리브 얼티미트 다이아몬드 리바이탈라이징 마스크 50ml",
             ename: "Re-Nutriv",
             price: 690000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.png","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -180,6 +210,8 @@ let newProArray = [
             name: "어드밴스드 나이트 리페어 오버나이트 트리트먼트",
             ename: "Advanced Night Repair",
             price: 229000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 ]
