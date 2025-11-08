@@ -14,14 +14,14 @@
     align-items: center;
     height: 800px;
 }
-li{
+.menu li{
     text-align: center;
     color: #fff;
 }
-li div{
+.menu li div{
     padding: 0 1rem;
 }
-li h4{
+.menu li h4{
     margin-top: 315px;
     margin-bottom: var(--space-normal);
 }

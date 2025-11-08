@@ -96,6 +96,14 @@ h2 span{
     }
 }
 @media (max-width: 768px) {
+     ol {
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
     .box-txt {
         height: 162px;
     }
@@ -109,12 +117,9 @@ h2 span{
     }
 }
 @media (max-width: 320px){
-    ol{
-        gap: 0.5rem;
-        flex-wrap: nowrap;
-    }
-    ol li{
-        display: flex;
-        flex-direction: column;
-    }
+    ol li {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+}
 }

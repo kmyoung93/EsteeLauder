@@ -1,7 +1,4 @@
-html{
-    font-size: var(--basic-size-pc);
-}
-.common_frame>ul{
+.common_frame .menu{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -60,6 +57,9 @@ h3{
     margin-bottom: 1rem;
 }
 @media (max-width:1024px) {
+    .search{
+        margin-top: 6rem;
+    }
     .search form{
         max-width: 547px;
     }
