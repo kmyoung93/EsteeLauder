@@ -432,7 +432,15 @@ tbody td:last-child figure img {
     }
 }
 @media (max-width: 768px) {
-        #order-name {
+    ol {
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    #order-name {
         max-width: 300px;
     }
     .email-input input[type="text"] {
@@ -604,7 +612,7 @@ tbody td:last-child figure img {
     }
     .product-details .quantity-info, .product-details .price {
     display: inline-block;
-}
+    }
     
     /* 상품 레이아웃 - 이미지 + 텍스트 가로 배치 */
     tbody td:nth-child(2) .product {
@@ -692,14 +700,11 @@ tbody td:last-child figure img {
         font-size: 1.2rem; /* 추가 */
         padding: 0.7rem 0; /* 추가 */
     }
-    ol{
-        gap: 0.5rem;
-        flex-wrap: nowrap;
-    }
-    ol li{
-        display: flex;
-        flex-direction: column;
-    }
+    ol li {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+}
     /* 라벨 */
     .form-grop .text h4 {
         font-size: 0.9rem; /* 추가 */

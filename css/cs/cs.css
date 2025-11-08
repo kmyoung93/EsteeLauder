@@ -1,10 +1,3 @@
-html{
-    font-size: var(--basic-size-pc);
-}
-.common_frame{
-    margin: 0 5rem;
-    margin-top: 6rem;
-}
 .common_frame>.title{
     display: flex;
     flex-direction: column;
@@ -182,25 +175,16 @@ html{
     }
 }
 @media (max-width:1024px) {
-    html{
-        font-size: var(--basic-size-tap);
-    }
-    .common_frame{
-        margin: 0 auto; 
-        padding: 0 3rem;
-    }
     .tab-content-wrap {
         padding: 0 50px;
     }
 }
 @media (max-width:768px) {
-    html {
-        font-size: var(--basic-size-mobile);
+    .tab div{
+        border: none;
+        padding: 0.5rem;
+        height: auto;
     }
-    .common_frame{
-        margin: 0 auto;
-        padding: 0 1rem;
-    } 
     .tab em{
         border: none;
         padding-bottom: var(--space-2x-small);

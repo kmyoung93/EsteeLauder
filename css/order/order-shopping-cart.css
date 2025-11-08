@@ -1,16 +1,3 @@
-@media (min-width:1920px) {
-    body{
-        max-width: 1920px;
-        margin: 0 auto;
-    }
-}
-html{
-    font-size: var(--basic-size-pc);
-}
-main {
-    min-height: calc(100vh - 200px);
-    padding: 2rem 0;
-}
 .common_frame > h1 {
     text-align: center;
     text-transform: uppercase;
@@ -202,12 +189,6 @@ tbody td:last-child figure img {
     border: 2px solid #000;
 }
 @media (max-width: 1460px){
-    html{
-        font-size: var(--basic-size-tap);
-    }
-    .common_frame {
-        margin: 0 3rem;
-    }
     .order-content-wrapper {
         flex-direction: column;
     }
@@ -239,12 +220,14 @@ tbody td:last-child figure img {
 @media (max-width: 1024px) {
 }
 @media (max-width: 768px) {
-    html {
-        font-size: var(--basic-size-mobile);
-    }
-    .common_frame {
-        margin: 0 1rem;
-    }
+    ol {
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
     thead {
         display: none;
     }
@@ -381,4 +364,11 @@ tbody td:last-child figure img {
     .btn > div {
         padding: 0.9rem;
     }
+}
+@media (max-width: 320px){
+    ol li {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+}
 }
