@@ -59,7 +59,6 @@ let newProArray = [
 
         {
             folderName:"/resource/detail_thumb_img/bestseller/best4/",
-            folderName:"/resource/detail_thumb_img/skincare_All/skincare14",
             code: 4,
             thmb: "bestseller_4.png",
             name: "어드밴스드 나이트 리페어 아이 리프트+ 스컬프팅 세럼",
@@ -107,7 +106,7 @@ let newProArray = [
             name: "퍼펙셔니스트 프로 래피드 펌+리프트 트리트먼트 세럼 50ml",
             ename: "Perfectionist Pro",
             price: 232000,
-            thumbArray:["best9(1).jpg","best9(2).jpg"],
+            thumbArray:["best9(1).jpg","bext9(2).jpg"],
             color:[],
             colorOptions:[]
         },

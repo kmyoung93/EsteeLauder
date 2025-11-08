@@ -6,7 +6,9 @@ let newProArray = [
             name: "더블웨어 리-뉴트리브 에이지 리버설 아이크림",
             ename: "Ultimate Diamond",
             price: 250000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -16,7 +18,9 @@ let newProArray = [
             name: "퍼펙셔니스트 프로 다이나믹 디펜스 UV 밀크 SPF50+ / PA++++",
             ename: "Perfectionist Pro",
             price: 93000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"],
+            color:[],
+            colorOptions:[]
         },
         
         {

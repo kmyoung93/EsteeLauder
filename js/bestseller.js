@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
         {
             code: 2,
-            thmb: "bestseller_2.png",
+            thmb: "best2(1).jpg",
             name: "마이크로 에센스 트리트먼트 로션 200ml",
             ename: "Micro Essence",
             price: 220000

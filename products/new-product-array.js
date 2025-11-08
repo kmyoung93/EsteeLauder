@@ -27,7 +27,9 @@ let newProArray = [
             name: "리-뉴트리브 래디언스 UV 플루이드",
             ename: "Re-Nutriv",
             price: 170000,
-            thumbArray:["new2.jpg","new3(2).jpg","new2(3).jpg","new2(4).jpg"]
+            thumbArray:["new2.jpg","new3(2).jpg","new2(3).jpg","new2(4).jpg"],
+            color:[],
+            colorOptions:[]
             
         },
         
@@ -38,7 +40,9 @@ let newProArray = [
             name: "리-뉴트리브 에이지 리버설 아이크림",
             ename: "Ultimate Diamond",
             price: 250000,
-            thumbArray:["new3-1.jpg","new3-2.jpg","new3-3.jpg","new3-4.jpg"]
+            thumbArray:["new3-1.jpg","new3-2.jpg","new3-3.jpg","new3-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -48,7 +52,9 @@ let newProArray = [
             name: "퍼펙셔니스트 프로 래피드 브라이트닝 트리트먼트 퍼멘트3 + 비타민 C",
             ename: "Perfectionist Pro",
             price: 232000,
-            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"]
+            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -58,7 +64,9 @@ let newProArray = [
             name: "어드밴스드 나이트 리페어 오버나이트 트리트먼트",
             ename: "Advanced Night Repair",
             price: 229000,
-            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"]
+            thumbArray:["new1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -79,7 +87,7 @@ let newProArray = [
             ename: "Pure Color",
             price: 56000,
             colorOptions:["112 하이 프리퀀시","110 롱 플레이스 라이트 타임","201 얼티리어 모티브","212 일렉트릭 나이트","120 템퍼러춰 라이징","303 하트비트","302 라스트 임프레션","106 더블 오일 낫띵","101 스테틱"],
-            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"]
+            thumbArray:["new1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"]
         },
 
         {
@@ -89,7 +97,9 @@ let newProArray = [
             name: "리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림",
             ename: "Revitalizing Supreme+",
             price: 234000,
-            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"]
+            thumbArray:["new1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -99,7 +109,9 @@ let newProArray = [
             name: "리비탈라이징 수프림 플러스 브라이트 래디언스 파워 소프트 크림",
             ename: "Revitalizing Supreme+",
             price: 200000,
-            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg"]
+            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -109,7 +121,9 @@ let newProArray = [
             name: "퍼펙셔니스트 프로 다이나믹 디펜스 UV 밀크 SPF50+ / PA++++",
             ename: "Perfectionist Pro",
             price: 93000,
-            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg"]
+            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -119,7 +133,9 @@ let newProArray = [
             name: "퍼펙셔니스트 프로 래피드 브라이트닝 트리트먼트 퍼멘트3 + 비타민 C",
             ename: "Perfectionist Pro",
             price: 232000,
-            thumbArray:["new1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"]
+            thumbArray:["new1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -192,7 +208,9 @@ let newProArray = [
             name: "리비탈라이징 수프림 플러스 브라이트 래디언스 파워 소프트 밀키 로션",
             ename: "Revitalizing Supreme+",
             price: 177000,
-            thumbArray:["new1.jpg","new2.jpg","new3.jpg","new4.jpg"]
+            thumbArray:["new-1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
 
         {
@@ -216,6 +234,8 @@ let newProArray = [
             name: "리바이탈라이징 수프림+ 옵티마이징 파워 트리트먼트 로션 200ml",
             ename: "Revitalizing Supreme+",
             price: 95000,
-            thumbArray:["new1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"]
+            thumbArray:["new1.jpg","new1-2.jpg","new1-3.jpg","new1-4.jpg"],
+            color:[],
+            colorOptions:[]
         },
     ]
