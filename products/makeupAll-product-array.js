@@ -78,6 +78,7 @@ let newProArray = [
             folderName:"/resource/detail_thumb_img/makeup_All/makeup4/",
             code: 4,
             thmb: "makeup_4.jpg",
+            color:[],
             groupColor: [
                 [
                     "#916B60",
