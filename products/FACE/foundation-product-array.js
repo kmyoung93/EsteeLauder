@@ -1,6 +1,6 @@
 let newProArray = [
      {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face1/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face1/",
             code: 1,
             thmb: "foundation_1.jpg",
             color: [
@@ -34,7 +34,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face2/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face2/",
             code: 2,
             thmb: "foundation_2.jpg",
             color: [
@@ -52,7 +52,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face3/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face3/",
             code: 3,
             thmb: "foundation_3.jpg",
             color: [
@@ -77,7 +77,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face5/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face5/",
             code: 4,
             thmb: "foundation_4.jpg",
             color: [
@@ -95,7 +95,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face6/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face6/",
             code: 5,
             thmb: "foundation_5.jpg",
             color: [
@@ -113,7 +113,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face11/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face11/",
             code: 6,
             thmb: "foundation_6.jpg",
             color: [
@@ -129,7 +129,7 @@ let newProArray = [
             thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face8/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face8/",
             code: 7,
             thmb: "foundation_7.jpg",
             color: [

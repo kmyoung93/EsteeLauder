@@ -129,7 +129,7 @@ let newProArray = [
             ename: "Double Wear",
             price: 91000,
             colorOptions:["1C0 쉘","1W2 샌드","1N0 포슬린","3W1 토니","2N1 데저트 베이지","1W0 웜 포세린"],
-            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thumbArray:["makeup1.jpg","makeup2.jpg"]
         },
         {
             folderName:"/resource/detail_thumb_img/makeup_Face/face8/",
@@ -156,7 +156,9 @@ let newProArray = [
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
             ename: "Double Wear",
             price: 87000,
-            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            color:[],
+            colorOptions:[]
         },
         {
             folderName:"/resource/detail_thumb_img/makeup_Face/face10/",
@@ -165,7 +167,9 @@ let newProArray = [
             name: "더블웨어 플로리스 하이드레이팅 프라이머 – 피치",
             ename: "Double Wear",
             price: 78000,
-            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            color:[],
+            colorOptions:[]
         },
         {
             folderName:"/resource/detail_thumb_img/makeup_Face/face11/",

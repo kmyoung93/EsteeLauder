@@ -14,6 +14,6 @@ let newProArray = [
             ename: "Pure Color",
             price: 38000,
             colorOptions:["01 언어폴로제티컬리 미","02 벨 마카롱", "03 남산 선셋", "04 누드 센세이션","05 퓨어 로즈"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
 ]

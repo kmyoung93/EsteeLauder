@@ -4,7 +4,7 @@ let newProArray = [
             code: 1,
             thmb: "sun_1.jpg",
             name: "리-뉴트리브 래디언스 UV 플루이드",
-            ename: "Re-Nutriv",
+            ename: "Re-Nutriv",  
             price: 170000,
             thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
         },

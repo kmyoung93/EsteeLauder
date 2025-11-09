@@ -3,6 +3,15 @@ document.addEventListener("DOMContentLoaded",()=>{
         {
             code: 1,
             thmb: "brow_1.png",
+            color:[
+                "#4b403c",
+                "#443c3a",
+                "#746455",
+                "#604f4c",
+                "#423735",
+                "#937e6b",
+                "#7e6c58",
+            ],
             name: "브로우 퍼펙트 3D 스타일러",
             ename: "Brow Perfect",
             price: 45000

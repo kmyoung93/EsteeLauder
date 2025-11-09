@@ -42,6 +42,6 @@ let newProArray = [
             name: "리-뉴트리브 얼티미트 다이아몬드 리바이탈라이징 마스크 50ml",
             ename: "Re-Nutriv",
             price: 690000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.png","skincare3.jpg"]
         },
 ]

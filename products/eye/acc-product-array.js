@@ -6,6 +6,8 @@ let newProArray = [
             name: "펜슬 샤프너",
             ename: "Pencil Sharpener",
             price: 13000,
-            thumbArray:["makeup1.jpg"]
+            thumbArray:["makeup1.jpg"],
+            color:[],
+            colorOptions:[]
         },
 ]

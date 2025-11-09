@@ -2,6 +2,15 @@ let newProArray = [
 {           folderName:"/resource/detail_thumb_img/makeup_Eye/eye5/",
             code: 1,
             thmb: "eye_1.png",
+            color:[
+                "#4b403c",
+                "#443c3a",
+                "#746455",
+                "#604f4c",
+                "#423735",
+                "#937e6b",
+                "#7e6c58",
+            ],
             name: "브로우 퍼펙트 3D 스타일러",
             ename: "Brow Perfect",
             price: 45000,
@@ -82,6 +91,8 @@ let newProArray = [
             name: "펜슬 샤프너",
             ename: "Pencil Sharpener",
             price: 13000,
-            thumbArray:["makeup1.jpg"]
+            thumbArray:["makeup1.jpg"],
+            color:[],
+            colorOptions:[]
         },
 ]

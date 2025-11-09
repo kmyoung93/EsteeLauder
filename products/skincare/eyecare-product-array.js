@@ -6,7 +6,7 @@ let newProArray = [
             name: "리-뉴트리브 에이지 리버설 아이크림",
             ename: "Ultimate Diamond",
             price: 250000,
-            thumbArray:["skincare1.jpg","skincare2.jpg","skincare3.jpg","skincare4.jpg"]
+            thumbArray:["skincare1.jpg","skincare2.png","skincare3.jpg","skincare4.png"]
         },
         {
             folderName:"/resource/detail_thumb_img/skincare_All/skincare11/",

@@ -1,6 +1,6 @@
 let newProArray = [
      {
-            folderName:"/resource/detail_thumb_img/makeup_Face_All/face7/",
+            folderName:"/resource/detail_thumb_img/makeup_Face/face7/",
             code: 1,
             thmb: "powder_1.jpg",
             color: [
@@ -15,6 +15,6 @@ let newProArray = [
             ename: "Double Wear",
             price: 91000,
             colorOptions:["1C0 쉘","1W2 샌드","1N0 포슬린","3W1 토니","2N1 데저트 베이지","1W0 웜 포세린"],
-            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thumbArray:["makeup1.jpg","makeup2.jpg"]
         },
 ]
