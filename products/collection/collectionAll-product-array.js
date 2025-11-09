@@ -40,7 +40,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection5",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection5/",
             code: 5,
             thmb: "collection_5.jpg",
             name: "텐더 라이트",
@@ -49,7 +49,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection6",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection6/",
             code: 6,
             thmb: "collection_6.jpg",
             name: "드림 더스크",
@@ -58,7 +58,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection7",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection7/",
             code: 7,
             thmb: "collection_7.jpg",
             name: "래디언트 미라지",
@@ -67,7 +67,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection8",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection8/",
             code: 8,
             thmb: "collection_8.jpg",
             name: "뷰티풀 매그놀리아 핸드 크림",
@@ -76,7 +76,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection9",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection9/",
             code: 9,
             thmb: "collection_9.jpg",
             name: "모던 뮤즈 EDP",
@@ -85,7 +85,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection10",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection10/",
             code: 10,
             thmb: "collection_10.jpg",
             name: "플레져 오 드 퍼퓸 스프레이 30ml",
@@ -94,7 +94,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection11",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection11/",
             code: 11,
             thmb: "collection_11.jpg",
             name: "플레져 바디로션",
@@ -103,7 +103,7 @@ let newProArray = [
             thumbArray:["perfume1.jpg","perfume2.jpg"]
         },
         {
-            folderName:"/resource/detail_thumb_img/perfume_collection/collection12",
+            folderName:"/resource/detail_thumb_img/perfume_collection/collection12/",
             code: 12,
             thmb: "collection_12.jpg",
             name: "뷰티풀 퍼퓸드 바디 로션",

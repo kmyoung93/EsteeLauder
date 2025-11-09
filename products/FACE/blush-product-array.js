@@ -1,5 +1,5 @@
 let newProArray = [
-{           folderName:"/resource/detail_thumb_img/makeup_Face_All/face4/",
+{           folderName:"/resource/detail_thumb_img/makeup_Face/face4/",
             code: 1,
             thmb: "blush_1.jpg",
             color: [

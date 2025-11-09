@@ -27,7 +27,7 @@ let newProArray = [
             name: "리-뉴트리브 래디언스 UV 플루이드",
             ename: "Re-Nutriv",
             price: 170000,
-            thumbArray:["new2.jpg","new3(2).jpg","new2(3).jpg","new2(4).jpg"],
+            thumbArray:["new2.jpg","new2(1).jpg","new2(3)-.jpg","new2(4).jpg"],
             color:[],
             colorOptions:[]
             
@@ -40,7 +40,7 @@ let newProArray = [
             name: "리-뉴트리브 에이지 리버설 아이크림",
             ename: "Ultimate Diamond",
             price: 250000,
-            thumbArray:["new3-1.jpg","new3-2.jpg","new3-3.jpg","new3-4.jpg"],
+            thumbArray:["new3-1.jpg","new3-2.png","new3-3.jpg","new3-4.png"],
             color:[],
             colorOptions:[]
         },

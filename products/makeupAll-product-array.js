@@ -15,7 +15,8 @@ let newProArray = [
             ename: "Pure Color",
             price: 38000,
             colorOptions:["01 언어폴로제티컬리 미","02 벨 마카롱", "03 남산 선셋", "04 누드 센세이션","05 퓨어 로즈"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"],
+            groupColor: []
 
         },
 
@@ -50,7 +51,8 @@ let newProArray = [
             colorOptions:["1W1 본","1N0 포슬린","1C1 쿨 본","1W0 웜 포슬린 (NEW)","1W2 샌드","3W1 토니","1N1 아이보리 누드 (NEW)",
             "2W0 웜 바닐라","1C0 쉘 (NEW)","2C0 쿨 바닐라","2C1 퓨어 베이지 (NEW)","3C0 쿨 크림","3W0 웜 크림","2W1 던 (NEW)",
             "1N2 에크루 (NEW)","2W2 라탄","2N2 버프","2W1.5 내추럴 스웨이드 (NEW)"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"],
+            groupColor: []
         },
         
         {
@@ -68,7 +70,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 103000,
             colorOptions:["1W2샌드","2W0 웜바닐라","2C0 쿨바닐라","1C0 쉘","1W1 본"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 
         {
@@ -130,7 +133,8 @@ let newProArray = [
             price: 110000,
             colorOptions:["2N1 데저트 베이지","3W0 웜 크림","2W0 웜 바닐라","1C1 쿨 본","1W0 웜 포슬린","1N0 포슬린","1W1 본","1N1 아이보리 누드",
             "1C0 쿨 포슬린","2C0 쿨 바닐라","3C0 쿨 크림"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
 
         },
 
@@ -147,7 +151,8 @@ let newProArray = [
             ename: "The Sculpting",
             price: 73000,
             colorOptions:["센슈어스 로즈","피치 패션","레벨리어스 로즈"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 
         {
@@ -161,7 +166,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 50000,
             colorOptions:["블랙"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 
         {
@@ -175,7 +181,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 52000,
             colorOptions:["블랙"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 
         {
@@ -196,7 +203,8 @@ let newProArray = [
             price: 55000,
             colorOptions:["390 멜티드 멜론","890 멜티드 탠저린", "128 멜티드 블러쉬","156 멜티드 로즈","513 멜티드 모브","655 멜티드 가넷",
             "185 멜티드 메이플"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"],
+            groupColor: []
         },
 
         {
@@ -222,7 +230,8 @@ let newProArray = [
             ename: "Pure Color",
             price: 55000,
             colorOptions:["390 멜티드 멜론","890 멜티드 탠저린","128 멜티드 블러쉬","156 멜티드 로즈","513 멜티드 모브","655 멜티드 가넷","185 멜티드 메이플"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"],
+            groupColor: []
         },
 
         {
@@ -240,7 +249,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 63000,
             colorOptions:["1W2샌드","2W0 웜바닐라","2C0 쿨바닐라","1C0 쉘","1W1 본"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 
         {
@@ -262,7 +272,8 @@ let newProArray = [
             ename: "Pure Color",
             price: 56000,
             colorOptions:["112 하이 프리퀀시","110 롱 플레이스 라이트 타임","201 얼티리어 모티브","212 일렉트릭 나이트","120 템퍼러춰 라이징","303 하트비트","302 라스트 임프레션","106 더블 오일 낫띵","101 스테틱"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"],
+            groupColor: []
 
         },
 
@@ -282,7 +293,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 103000,
             colorOptions:["1W1 본","3W1 토니","1C0 쉘","2W0 웜바닐라","1W2 샌드","2C0 쿨 바닐라"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"],
+            groupColor: []
         },
 
         {
@@ -301,7 +313,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 91000,
             colorOptions:["1C0 쉘","1W2 샌드","1N0 포슬린","3W1 토니","2N1 데저트 베이지","1W0 웜 포세린"],
-            thmbArray:["makeup1.jpg","makeup2.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg"],
+            groupColor: []
         },
 
         {
@@ -320,7 +333,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 63000,
             colorOptions:["1W1 본","3W1 토니","1C0 쉘","2W0 웜바닐라","1W2 샌드","2C0 쿨 바닐라"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"],
+            groupColor: []
 
         },
 
@@ -331,7 +345,10 @@ let newProArray = [
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
             ename: "Double Wear",
             price: 87000,
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            color:[],
+            colorOptions:[],
+            groupColor: []
         },
 
         {
@@ -341,7 +358,10 @@ let newProArray = [
             name: "더블웨어 플로리스 하이드레이팅 프라이머 – 피치",
             ename: "Double Wear",
             price: 78000,
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            color:[],
+            colorOptions:[],
+            groupColor: []
         },
 
         {
@@ -358,7 +378,8 @@ let newProArray = [
             ename: "Re-Nutriv",
             price: 215000,
             colorOptions:["쿨 포슬린","웜 바닐라","쿨 바닐라","웜 포슬린"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 
         {
@@ -368,18 +389,24 @@ let newProArray = [
             name: "펜슬 샤프너",
             ename: "Pencil Sharpener",
             price: 13000,
-            thmbArray:["makeup1.jpg"]
+            thmbArray:["makeup1.jpg"],
+            color:[],
+            colorOptions:[],
+            groupColor: []
         },
 
         {
             folderName:"/resource/detail_thumb_img/makeup_All/makeup20/",
             code: 20,
             thmb: "makeup_20.png",
+            color:[],
             name: "브로우 퍼펙트 3D 스타일러",
             ename: "Brow Perfect",
             price: 45000,
             colorOptions:["07 쿨 브라운","10 블랙큰 브라운","06 라이트 브루넷","08 브루넷","09 다크 브루넷","02 쿨 블론드","04 토프"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
+            
         },
 
         {
@@ -398,7 +425,8 @@ let newProArray = [
             ename: "Double Wear",
             price: 52000,
             colorOptions:["2C 라이트 미디엄","3W 미디엄","1C 라이트","1W 라이트","2W 라이트미디엄","3C 미디엄"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 
         {
@@ -419,6 +447,7 @@ let newProArray = [
             ename: "Pure Color",
             price: 54000,
             colorOptions:["930 바누아","935 쇼크미","927 핫퓨즈","925 소설월","931 핫샷","924 소프트하티드","926 클라우드나인","932 러브피버"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"]
+            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg"],
+            groupColor: []
         },
 ]

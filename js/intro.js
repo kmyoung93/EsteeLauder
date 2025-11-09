@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded",()=>{
     })
     setTimeout(()=>{
         intro.classList.add("on")
-    },2000)
+    },1700)
 })

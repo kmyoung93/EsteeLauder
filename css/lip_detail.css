@@ -11,6 +11,10 @@
     object-fit: cover;
 }
 
+.product_title>h1{
+    line-height: 1.4;
+}
+
 .review_wrap{
     position: fixed;
     left: 0;
@@ -298,6 +302,25 @@
     align-items: center;
     font-weight: var(--font-strong);
 
+}
+
+/* .product-group-color{
+    display: flex;
+    gap:.5rem;
+} */
+.group-circle-color{
+    font-size:0;
+    width:1.2rem; 
+    height:1.2rem;
+    border-radius: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 50% 50%;
+    overflow: hidden;
+
+}
+.group-circle-color > span{
+    aspect-ratio: 1/1;
 }
 
 .drop-desc{
