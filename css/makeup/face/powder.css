@@ -131,3 +131,13 @@
 .group-circle-color > span{
     aspect-ratio: 1/1;
 }
+
+
+@media (max-width: 768px){
+    .btn-like-heart{
+        height: 20px;
+    }
+    .btn-like-heart img{
+        height: 100%;
+    }
+}

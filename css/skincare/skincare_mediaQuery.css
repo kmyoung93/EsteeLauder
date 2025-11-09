@@ -65,6 +65,13 @@
     .price{
         font-size: 1.2rem;
     }
+
+    .btn-like-heart{
+        height: 20px;
+    }
+    .btn-like-heart img{
+        height: 100%;
+    }
 }
 
 /* 393px 이하 - 1개씩 보이기 */

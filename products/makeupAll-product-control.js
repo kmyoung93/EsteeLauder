@@ -20,16 +20,16 @@ document.addEventListener("DOMContentLoaded",()=>{
                                 <span class="text">${option}</span>
                             </li>`).join(''):""
     
-    // let colorGroupSection = product.groupColor && product.groupColor.length > 0 ? `<div class="product-group-color">
-    //             ${product.groupColor.map(color => 
-    //                 `<span class="group-circle-color">
-    //                     <span style="background-color:${color[0]}">${color[0]}</span>
-    //                     <span style="background-color:${color[1]}">${color[1]}</span>
-    //                     <span style="background-color:${color[2]}">${color[2]}</span>
-    //                     <span style="background-color:${color[3]}">${color[3]}</span>
-    //                 </span>`
-    //             ).join('')}
-    //            </div>`:'';
+    let colorGroupSection = result.groupColor && result.groupColor.length > 0 ? `<div class="product-group-color">
+                ${result.groupColor.map(color => 
+                    `<span class="group-circle-color">
+                        <span style="background-color:${color[0]}">${color[0]}</span>
+                        <span style="background-color:${color[1]}">${color[1]}</span>
+                        <span style="background-color:${color[2]}">${color[2]}</span>
+                        <span style="background-color:${color[3]}">${color[3]}</span>
+                    </span>`
+                ).join('')}
+               </div>`:'';
    
 
 
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                 <div class="slider-track">
                     <section class="color">
                         ${detailColor}
-                       
+                        ${colorGroupSection}
                     </section>
                 </div>
                 <div class="select-color">

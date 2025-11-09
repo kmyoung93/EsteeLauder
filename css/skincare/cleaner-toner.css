@@ -109,3 +109,12 @@
     font-weight: 700;
 }
 
+@media (max-width: 768px){
+    .btn-like-heart{
+        height: 20px;
+    }
+    .btn-like-heart img{
+        height: 100%;
+    }
+}
+
