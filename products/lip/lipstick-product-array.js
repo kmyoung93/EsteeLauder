@@ -22,7 +22,7 @@ let newProArray = [
             ename: "Pure Color",
             price: 55000,
             colorOptions:["608 언컨트롤러블", "520 카날", "333 퍼수에이시브", "441 로즈티", "260 익센트릭", "882 길티플레져","420 레벨리어스 로즈","535 프리티 베인","410 다이나믹","320 디파이언트 코랄","131 보아 드 로즈","330 임패션드","686 컨피던트"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
 
         {
@@ -44,6 +44,6 @@ let newProArray = [
             ename: "Pure Color",
             price: 56000,
             colorOptions:["112 하이 프리퀀시","110 롱 플레이스 라이트 타임","201 얼티리어 모티브","212 일렉트릭 나이트","120 템퍼러춰 라이징","303 하트비트","302 라스트 임프레션","106 더블 오일 낫띵","101 스테틱"],
-            thmbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
+            thumbArray:["makeup1.jpg","makeup2.jpg","makeup3.jpg","makeup4.jpg"]
         },
 ]
