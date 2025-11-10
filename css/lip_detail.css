@@ -327,6 +327,10 @@
     padding: 10px 0;
 }
 
+.footer-common-frame{
+    margin-top: 0;
+}
+
 @media (max-width:1460px){
     .product_detail {
         margin-right: 2rem;
