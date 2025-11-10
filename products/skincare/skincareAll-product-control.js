@@ -57,8 +57,8 @@ document.addEventListener("DOMContentLoaded",()=>{
 
                 </div>
                 <div class="btn_shop">
-                    <a href="#" class="pay">결제</a>
-                    <a href="#" class="cart">장바구니</a>
+                    <a href="/order/order-form.html" class="pay">결제</a>
+                    <a href="/order/order-shopping-cart.html" class="cart">장바구니</a>
                 </div>
                 <div class="product_info"> <!--padding-bottom을 주고 기준영역 설정해서 view_more 앱솔루트해서 배치-->
                     <h4>입술에 닿는 순간 부드럽게 녹아드는 텍스처의 반짝이는 플럼핑 효과로 시선을 사로잡는 NEW 멜트-온 글로스틱</h4>
