@@ -29,14 +29,15 @@ fieldset{
     width: 850px;
     height: 40px;
     padding: 0.5rem 1rem;
+    font-size: 1.25rem;
 }
 fieldset a{
     position: absolute;
-    top: 30%;
+    top: 20%;
     right: 2%;
     cursor: pointer;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 .recom{
     margin-top: 2rem;
