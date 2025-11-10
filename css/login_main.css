@@ -40,6 +40,7 @@ h1{
     display: flex;
     gap: 0.5rem;
     cursor: pointer;
+    font-size: .8rem;
 }
 
 .btn{
