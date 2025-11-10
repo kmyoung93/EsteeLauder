@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded",()=>{
             const img = btn.children[0];
             
             if (img.getAttribute("src").includes("act") == false) {
-                img.setAttribute("src", "../../resource/new/like-act.svg");
+                img.setAttribute("src", "/resource/new/like-act.svg");
             } else {
-                img.setAttribute("src", "../../resource/new/like.svg");
+                img.setAttribute("src", "/resource/new/like.svg");
             }
         }
     });
@@ -61,13 +61,13 @@ document.addEventListener("DOMContentLoaded",()=>{
         li.innerHTML = `
             <a href="/detail_page/liner_detail.html?cid=${product.code}">
                 <figure class="product-img">
-                    <img src="../../resource/makeup/eye/liner/${product.thmb}" alt="${product.name}">
+                    <img src="/resource/makeup/eye/liner/${product.thmb}" alt="${product.name}">
                 </figure>
                 <div class="title">
                     <section>
                         <h3>${product.name}</h3>
                         <span class="btn-like-heart">
-                            <img src="../../resource/new/like.svg" alt="좋아요">
+                            <img src="/resource/new/like.svg" alt="좋아요">
                         </span>
                     </section>
                     <p class="ename">${product.ename}</p>
