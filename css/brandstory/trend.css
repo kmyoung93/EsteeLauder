@@ -39,6 +39,7 @@ img {
     left: 50%;
     top: 50%;
     color: #fff;
+    line-height: 1.4;
 }
 .banner.video h1{
     font-size: 2rem;

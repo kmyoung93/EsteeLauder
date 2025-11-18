@@ -16,10 +16,10 @@
     filter: brightness(0.7);
 }
 
-.hero-text{
+.hero-text {
     position: absolute;
     left: 5%;
-    top: 83%;
+    bottom: 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;

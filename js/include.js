@@ -19,7 +19,8 @@
                 header.classList.add("on")
             }
             lastScrollTop = scrollTop 
-            
+        })
+
         const btnAllMenu = document.querySelector(".btn_all_menu")
         const bntClosed = document.querySelector(".btn_closed")
         const hiddenGnb = document.querySelector(".hidden_gnb")
@@ -54,9 +55,8 @@
                 })
             }
         })   
+        
 
-
-    })
     })
     .catch(error => console.log("에러 : ",error))
 
@@ -88,7 +88,7 @@
     })
 
     // 헤더 검색 버튼 클릭
-    const headerSearchBtn = document.querySelector(".serach-btn")
+    const headerSearchBtn = document.querySelector(".serch-modal-icon")
     headerSearchBtn.addEventListener("click", (e) => {
       e.preventDefault()
       if (window.innerWidth > 1460) {
@@ -98,6 +98,7 @@
         window.location.href = "/product-search/product-search.html"
       }
     })
+
   })
 
 
