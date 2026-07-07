@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
         
-        window.location.href = "../order/order-confirmation.html";
+        window.location.href = "/EsteeLauder/order/order-confirmation.html";
     });
 });

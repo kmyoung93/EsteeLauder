@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <tr>
                     <td colspan="5" style="text-align: center; padding: 50px; color: #666;">
                         <p style="font-size: 18px; margin-bottom: 20px;">주문 정보를 불러올 수 없습니다.</p>
-                        <a href="../index.html" style="display: inline-block; padding: 10px 30px; background-color: #000; color: #fff; text-decoration: none; border-radius: 3px;">메인으로 이동</a>
+                        <a href="/EsteeLauder/index.html" style="display: inline-block; padding: 10px 30px; background-color: #000; color: #fff; text-decoration: none; border-radius: 3px;">메인으로 이동</a>
                     </td>
                 </tr>
             `;
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
         continueShoppingBtn.addEventListener('click', function(e) {
             e.preventDefault();
             localStorage.removeItem('cartItems');
-            window.location.href = '../../index.html';
+            window.location.href = '/EsteeLauder/index.html';
         });
     }
     function initDeliveryTracking() {

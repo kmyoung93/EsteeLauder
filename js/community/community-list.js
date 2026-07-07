@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <tr>
                 <td>${post.no}</td>
                 <td class="title_date">
-                    <a href="./community-detail.html?no=${post.no}">${post.title}</a>
+                    <a href="/EsteeLauder/community/community-detail.html?no=${post.no}">${post.title}</a>
                     <p class="hidden-date">${post.date}</p>
                 </td>
                 <td class="date">${post.date}</td>

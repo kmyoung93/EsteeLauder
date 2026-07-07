@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     
                     // 이미지
                     const imageElement = row.querySelector('figure img');
-                    const image = imageElement ? imageElement.src : '../resource/order/order-finsh/Revitalizing Supreme.jpg';
+                    const image = imageElement ? imageElement.src : '/EsteeLauder/resource/order/order-finsh/Revitalizing Supreme.jpg';
                     
                     selectedProducts.push({
                         name: productName,
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 취소 버튼 클릭
     cancelBtn.addEventListener('click', function() {
         if (confirm('장바구니를 취소하고 쇼핑을 계속하시겠습니까?')) {
-            window.location.href = '../index.html';
+            window.location.href = '/EsteeLauder/index.html';
         }
     });
 
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <tr>
                 <td colspan="5" style="text-align: center; padding: 50px; color: #666;">
                     <p style="font-size: 18px; margin-bottom: 20px;">장바구니가 비어있습니다.</p>
-                    <a href="../index.html" style="display: inline-block; padding: 10px 30px; background-color: #000; color: #fff; text-decoration: none; border-radius: 3px;">쇼핑 계속하기</a>
+                    <a href="/EsteeLauder/index.html" style="display: inline-block; padding: 10px 30px; background-color: #000; color: #fff; text-decoration: none; border-radius: 3px;">쇼핑 계속하기</a>
                 </td>
             </tr>
         `;

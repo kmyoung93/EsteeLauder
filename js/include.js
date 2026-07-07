@@ -1,4 +1,4 @@
-    fetch('/header.html')
+    fetch('/EsteeLauder/header.html')
     .then(response => response.text())
     .then(data => {
         document.querySelector(".header_wrap").innerHTML += data
@@ -62,7 +62,7 @@
 
     
 
-    fetch('/footer.html')
+    fetch('/EsteeLauder/footer.html')
     .then(response => response.text())
     .then(data => {
         document.querySelector(".footer_wrap").innerHTML += data
@@ -70,7 +70,7 @@
     .catch(error => console.log("에러 : ",error))
 
     // 2️⃣ 모달 fetch & 초기화
-    fetch("/serch-modal.html")
+    fetch("/EsteeLauder/serch-modal.html")
     .then(res => res.text())
   .then(html => {
     const modalContainer = document.createElement("div")
@@ -95,7 +95,7 @@
         searchModal.classList.add("show") // 클릭 시만 모달 보이게
         document.body.style.overflow = "hidden"
       } else {
-        window.location.href = "/product-search/product-search.html"
+        window.location.href = "/EsteeLauder/product-search/product-search.html"
       }
     })
   })

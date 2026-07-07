@@ -2,23 +2,23 @@
 const serviceInfo = {
     '딥 리페어 나이트 페이셜': {
         time: 15,
-        image: './resource/service/service1.jpg'
+        image: '/EsteeLauder/resource/service/service1.jpg'
     },
     '인스턴트 메이크업 트랜스포메이션': {
         time: 20,
-        image: './resource/service/service2.jpg'
+        image: '/EsteeLauder/resource/service/service2.jpg'
     },
     '럭셔리 넥 & 숄더 마사지': {
         time: 20,
-        image: './resource/service/service3.jpg'
+        image: '/EsteeLauder/resource/service/service3.jpg'
     },
     '아이 스컬프팅 리추얼': {
         time: 20,
-        image: './resource/service/service4.jpg'
+        image: '/EsteeLauder/resource/service/service4.jpg'
     },
     '럭셔리 핸드 마사지': {
         time: 20,
-        image: './resource/service/service5.jpg'
+        image: '/EsteeLauder/resource/service/service5.jpg'
     }
 };
 

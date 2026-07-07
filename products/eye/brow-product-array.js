@@ -1,6 +1,6 @@
 let newProArray = [
     {
-            folderName:"/resource/detail_thumb_img/makeup_Eye/eye5/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Eye/eye5/",
             code: 1,
             thmb: "brow_1.png",
             color:[

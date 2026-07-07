@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                         <li>
                             <div class="ingre-drop">성분
                                 <span class="drop-btn">
-                                    <img src="/resource/svg/ic_outline-plus.svg" alt="성분 더보기">
+                                    <img src="/EsteeLauder/resource/svg/ic_outline-plus.svg" alt="성분 더보기">
                                 </span>
                             </div>
                             <div class="drop-desc">
@@ -109,14 +109,14 @@ document.addEventListener("DOMContentLoaded",()=>{
                         <li>
                             <div class="ingre-popup">후기
                                 <span class="popup-btn">
-                                    <img src="/resource/svg/mingcute_down-fill.svg" alt="후기 더보기">
+                                    <img src="/EsteeLauder/resource/svg/mingcute_down-fill.svg" alt="후기 더보기">
                                 </span>
                             </div>
                         </li>
                         <li>
                             <div class="ingre-drop">사용방법
                                 <span class="drop-btn">
-                                    <img src="/resource/svg/ic_outline-plus.svg" alt="사용방법 더보기">
+                                    <img src="/EsteeLauder/resource/svg/ic_outline-plus.svg" alt="사용방법 더보기">
                                 </span>
                             </div>
                             <div class="drop-desc">
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                         <li>
                             <div class="ingre-drop">사용시 주의사항
                                 <span class="drop-btn">
-                                    <img src="/resource/svg/ic_outline-plus.svg" alt="사용방법 더보기">
+                                    <img src="/EsteeLauder/resource/svg/ic_outline-plus.svg" alt="사용방법 더보기">
                                 </span>
                             </div>
                             <div class="drop-desc">

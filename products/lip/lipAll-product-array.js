@@ -1,6 +1,6 @@
 let newProArray = [
         {
-            folderName:"/resource/detail_thumb_img/makeup_Lip/lip1/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Lip/lip1/",
             code: 1,
             thmb: "lip_1.jpg",
             color: [
@@ -19,7 +19,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Lip/lip2/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Lip/lip2/",
             code: 2,
             thmb: "lip_2.jpg",
             color: [
@@ -39,7 +39,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/makeup_Lip/lip3/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Lip/lip3/",
             code: 3,
             thmb: "lip_3.jpg",
             color: [
@@ -65,7 +65,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Lip/lip4/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Lip/lip4/",
             code: 4,
             thmb: "lip_4.jpg",
             color: [
@@ -87,7 +87,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Lip/lip5/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Lip/lip5/",
             code: 5,
             thmb: "lip_5.png",
             color: [

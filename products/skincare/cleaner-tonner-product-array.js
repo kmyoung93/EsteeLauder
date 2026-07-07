@@ -1,6 +1,6 @@
 let newProArray = [
      {
-            folderName:"/resource/detail_thumb_img/skincare_All/skincare15/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/skincare_All/skincare15/",
             code: 1,
             thmb: "cleaner-toner-1.png",
             name: "퍼펙틀리 클린 폼 클렌저",
@@ -11,7 +11,7 @@ let newProArray = [
             colorOptions:[]
         },
         {
-            folderName:"/resource/detail_thumb_img/skincare_All/skincare5/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/skincare_All/skincare5/",
             code: 2,
             thmb: "cleaner-toner-2.jpg",
             name: "마이크로 에센스 트리트먼트 로션 200ml",

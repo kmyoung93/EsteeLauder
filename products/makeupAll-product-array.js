@@ -1,7 +1,7 @@
 let newProArray = [
      {
             
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup1/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup1/",
             code: 1,
             thmb: "makeup_1.jpg",
             color: [
@@ -21,7 +21,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup2/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup2/",
             code: 2,
             thmb: "makeup_2.jpg",
             color: [
@@ -56,7 +56,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup3/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup3/",
             code: 3,
             thmb: "makeup_3.jpg",
             color: [
@@ -75,7 +75,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup4/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup4/",
             code: 4,
             thmb: "makeup_4.jpg",
             color:[],
@@ -113,7 +113,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup5/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup5/",
             code: 5,
             thmb: "makeup_5.jpg",
             color: [
@@ -140,7 +140,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup6/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup6/",
             code: 6,
             thmb: "makeup_6.jpg",
              color: [
@@ -157,7 +157,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup7/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup7/",
             code: 7,
             thmb: "makeup_7.jpg",
             color: [
@@ -172,7 +172,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup8/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup8/",
             code: 8,
             thmb: "makeup_8.jpg",
             color: [
@@ -187,7 +187,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup9/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup9/",
             code: 9,
             thmb: "makeup_9.jpg",
             color: [
@@ -209,7 +209,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup10/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup10/",
             code: 10,
             thmb: "makeup_10.jpg",
             color: [
@@ -236,7 +236,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup11/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup11/",
             code: 11,
             thmb: "makeup_11.jpg",
             color: [
@@ -255,7 +255,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup12/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup12/",
             code: 12,
             thmb: "makeup_12.jpg",
             color: [
@@ -279,7 +279,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup13/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup13/",
             code: 13,
             thmb: "makeup_13.jpg",
             color: [
@@ -299,7 +299,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup14/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup14/",
             code: 14,
             thmb: "makeup_14.jpg",
             color: [
@@ -319,7 +319,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup15/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup15/",
             code: 15,
             thmb: "makeup_15.jpg",
             color: [
@@ -340,7 +340,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup16/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup16/",
             code: 16,
             thmb: "makeup_16.jpg",
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
@@ -353,7 +353,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup17/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup17/",
             code: 17,
             thmb: "makeup_17.jpg",
             name: "더블웨어 플로리스 하이드레이팅 프라이머 – 피치",
@@ -366,7 +366,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup18/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup18/",
             code: 18,
             thmb: "makeup_18.jpg",
             color: [
@@ -384,7 +384,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup19/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup19/",
             code: 19,
             thmb: "makeup_19.png",
             name: "펜슬 샤프너",
@@ -397,7 +397,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup20/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup20/",
             code: 20,
             thmb: "makeup_20.png",
             color:[],
@@ -411,7 +411,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup21/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup21/",
             code: 21,
             thmb: "makeup_21.PNG",
             color: [
@@ -431,7 +431,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_All/makeup22/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_All/makeup22/",
             code: 22,
             thmb: "makeup_22.png",
              color: [

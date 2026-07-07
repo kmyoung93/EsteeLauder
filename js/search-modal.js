@@ -34,7 +34,7 @@
 //       document.body.style.overflow = "hidden";
 //     } else {
 //       // 모바일/태블릿 → 검색 페이지로 이동
-//       window.location.href = "../product-search/product-search.html";
+//       window.location.href = "/EsteeLauder/product-search/product-search.html";
 //     }
 //   });
 // });

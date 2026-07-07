@@ -1,6 +1,6 @@
 let newProArray = [
             {
-            folderName:"/resource/detail_thumb_img/new/new1/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new1/",
             code: 1,
             thmb: "new_1.png",
             color: [
@@ -21,7 +21,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new2/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new2/",
             code: 2,
             thmb: "new_2.png",
             name: "리-뉴트리브 래디언스 UV 플루이드",
@@ -34,7 +34,7 @@ let newProArray = [
         },
         
         {
-            folderName:"/resource/detail_thumb_img/new/new3/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new3/",
             code: 3,
             thmb: "new_3.png",
             name: "리-뉴트리브 에이지 리버설 아이크림",
@@ -46,7 +46,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new4/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new4/",
             code: 4,
             thmb: "new_4.png",
             name: "퍼펙셔니스트 프로 래피드 브라이트닝 트리트먼트 퍼멘트3 + 비타민 C",
@@ -58,7 +58,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new5/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new5/",
             code: 5,
             thmb: "new_5.png",
             name: "어드밴스드 나이트 리페어 오버나이트 트리트먼트",
@@ -70,7 +70,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new6/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new6/",
             code: 6,
             thmb: "new_6.png",
             color: [
@@ -91,7 +91,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new7/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new7/",
             code: 7,
             thmb: "new_7.png",
             name: "리바이탈라이징 수프림 플러스 나이트 파워 바운스 크림",
@@ -103,7 +103,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new8/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new8/",
             code: 8,
             thmb: "new_8.png",
             name: "리비탈라이징 수프림 플러스 브라이트 래디언스 파워 소프트 크림",
@@ -115,7 +115,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new9/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new9/",
             code: 9,
             thmb: "new_9.png",
             name: "퍼펙셔니스트 프로 다이나믹 디펜스 UV 밀크 SPF50+ / PA++++",
@@ -127,7 +127,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new10/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new10/",
             code: 10,
             thmb: "new_10.png",
             name: "퍼펙셔니스트 프로 래피드 브라이트닝 트리트먼트 퍼멘트3 + 비타민 C",
@@ -139,7 +139,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new11/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new11/",
             code: 11,
             thmb: "new_11.png",
             color: [
@@ -159,7 +159,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new12/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new12/",
             code: 12,
             thmb: "new_12.png",
             color: [
@@ -173,7 +173,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new13/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new13/",
             code: 13,
             thmb: "new_13.png",
             color: [
@@ -188,7 +188,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new14/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new14/",
             code: 14,
             thmb: "new_14.png",
             color: [
@@ -202,7 +202,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new15/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new15/",
             code: 15,
             thmb: "new_15.png",
             name: "리비탈라이징 수프림 플러스 브라이트 래디언스 파워 소프트 밀키 로션",
@@ -214,7 +214,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new16/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new16/",
             code: 16,
             thmb: "new_16.png",
             color: [
@@ -228,7 +228,7 @@ let newProArray = [
         },
 
         {
-            folderName:"/resource/detail_thumb_img/new/new17/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/new/new17/",
             code: 17,
             thmb: "new_17.png",
             name: "리바이탈라이징 수프림+ 옵티마이징 파워 트리트먼트 로션 200ml",

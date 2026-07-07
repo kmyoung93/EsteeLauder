@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
             <div class="post-txt">
                 <figure class="post-img">
-                    <img src="../resource/community/${currentPost.img[0]}" alt="${currentPost.title}">
+                    <img src="/EsteeLauder/resource/community/${currentPost.img[0]}" alt="${currentPost.title}">
                 </figure>
                 <div class="post-content">${currentPost.content}</div>
             </div>

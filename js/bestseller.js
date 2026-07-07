@@ -254,9 +254,9 @@ document.addEventListener("DOMContentLoaded",()=>{
             const img = btn.children[0];
             
             if (img.getAttribute("src").includes("act") == false) {
-                img.setAttribute("src", "./resource/new/like-act.svg");
+                img.setAttribute("src", "../resource/new/like-act.svg");
             } else {
-                img.setAttribute("src", "./resource/new/like.svg");
+                img.setAttribute("src", "../resource/new/like.svg");
             }
         }
     });
@@ -288,7 +288,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                </div>`:'';
         
         li.innerHTML = `
-            <a href="/detail_page/bestseller_detail.html?cid=${product.code}">
+            <a href="/EsteeLauder/detail_page/bestseller_detail.html?cid=${product.code}">
                 <figure class="product-img">
                     <img src="./resource/bestseller/${product.thmb}" alt="${product.name}">
                 </figure>

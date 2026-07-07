@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 color: '1W2 샌드',
                 quantity: 1,
                 price: 103000,
-                image: '../resource/order/order-finsh/Revitalizing Supreme.jpg'
+                image: '/EsteeLauder/resource/order/order-finsh/Revitalizing Supreme.jpg'
             }
         ];
     }

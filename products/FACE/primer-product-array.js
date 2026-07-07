@@ -1,7 +1,7 @@
 let newProArray = [
 
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face/face9/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Face/face9/",
             code: 1,
             thmb: "primer_1.jpg",
             name: "더블웨어 세컨 스킨 크림 프라이머 SPF20 / PA++",
@@ -12,7 +12,7 @@ let newProArray = [
             colorOptions:[]
         },
         {
-            folderName:"/resource/detail_thumb_img/makeup_Face/face10/",
+            folderName:"/EsteeLauder/resource/detail_thumb_img/makeup_Face/face10/",
             code: 2,
             thmb: "primer_2.jpg",
             name: "더블웨어 플로리스 하이드레이팅 프라이머 – 피치",

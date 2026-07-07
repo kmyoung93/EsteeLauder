@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     if (!modal) {
         // 모달이 아직 삽입되지 않았거나 fetch 실패 → 검색 페이지로 이동
-        window.location.href = "/product-search/product-search.html";
+        window.location.href = "/EsteeLauder/product-search/product-search.html";
         return;
     }
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         modal.hidden = false;
         document.body.style.overflow = "hidden";
     } else {
-        window.location.href = "/product-search/product-search.html";
+        window.location.href = "/EsteeLauder/product-search/product-search.html";
     }
     });
 
